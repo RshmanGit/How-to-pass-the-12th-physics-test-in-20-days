@@ -1,0 +1,22 @@
+# Paths Claude Code skips when searching the repo.
+# Keep generated files, dependencies, and third-party code out so search stays fast and relevant.
+
+# Dependencies & build artifacts
+node_modules/
+dist/
+build/
+out/
+target/
+.next/
+.venv/
+venv/
+__pycache__/
+
+# Logs & local state
+*.log
+.DS_Store
+
+# Secrets (also denied in .claude/settings.json)
+.env
+.env.*
+secrets/
