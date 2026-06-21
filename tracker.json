@@ -70,7 +70,16 @@
       "exam_marks": 7
     }
   },
-  "current_selection": null,
+  "current_selection": {
+    "date": "2026-06-22",
+    "day_index": 1,
+    "mode": "mini",
+    "target_marks": 15,
+    "new": ["ch01-deriv-q8", "ch01-deriv-q1", "ch01-sa-q7", "ch01-sa-q14", "ch01-num-q1", "ch01-num-q7"],
+    "due": [],
+    "spot_check": [],
+    "reteach": []
+  },
   "questions": {
     "ch01-deriv-q7": {
       "display": "chapters/01-electric-charges-and-fields/question-bank/03-derivations.md#q7-gausss-law--field-due-to-a-uniformly-charged-thin-spherical-shell-5m",

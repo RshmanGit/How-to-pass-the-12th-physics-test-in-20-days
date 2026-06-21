@@ -81,10 +81,26 @@ chapters: ["Ch 1", "Ch 3"]
 ```
 **Don't repeat "Day N" in `title` or in the body's H1** — the site renders the day number and date as
 page chrome, so a "Day 1 —" prefix would show twice. Keep the body H1 a short encouraging line.
-Then, for each **new** item: teach the material (derive/explain it as *learning*, not as the test question),
-state the formula(s) and what diagram to draw, and add **1–2 reliable external links** (Khan Academy / a
-reputable YouTube explainer). Include the re-teach block for any `reteach[]` item. Keep due/spot-check items
-to a one-line "revise: …" pointer (she already learned them). Math in `$…$`/`$$…$$` (KaTeX renders it on the site).
+
+Then, for each **new** item, **do NOT author lessons or derivations yourself** — external explainers do
+the teaching. Give, **in this order**, five things:
+1. **The question** — **always show the actual exam question first**, as a callout (e.g. `> **Q (Xm).** …`),
+   pulled faithfully from the question bank (with its marks). She needs to *see what she's answering* — it
+   builds confidence and mirrors the test. Never replace it with just a topic label.
+2. **Answer to memorise (muggable)** — the CBSE marking-scheme model answer **copied from the question bank**
+   (`chapters/NN-*/question-bank*`), paired right under the question so she reads Q → A together. Format it as
+   **clearly numbered, scannable steps** — one bold-labelled step per short block (`**Step N — <name>** *(½m)*`),
+   keep the bank's step names, show the marks on each step, and put each key formula on its **own line** as
+   display math (`$$…$$`). No dense prose paragraphs — every step should be muggable on its own. The bank stays
+   the source of truth; `learning.md` is a daily read-from snapshot.
+3. **Formula(s) to remember.**
+4. **What to draw** — the label checklist that scores marks.
+5. **Learn it** — **1–2 reliable external references** for the concept (Khan Academy / Learnohub / a
+   reputable one-shot). Prefer a specific chapter/topic page over a channel homepage; verify the link resolves.
+
+For any `reteach[]` item, repeat its muggable answer + a one-line note on the mistake that lost marks + one
+targeted reference (still no authored lesson). Keep due/spot-check items to a one-line "revise: …" pointer
+(she already learned them). Math in `$…$`/`$$…$$` (KaTeX renders it on the site).
 
 ## Self-check before finishing
 - mode + new-Tier-1 rule match the calendar; derivation cap respected; every selected ID exists.
