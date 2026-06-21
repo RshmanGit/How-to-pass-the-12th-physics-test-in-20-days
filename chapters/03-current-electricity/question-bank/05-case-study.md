@@ -27,6 +27,7 @@
 ---
 
 ### Q2. Cell, terminal voltage and internal resistance (Case 2 — 2 + 1 + 1m)
+<!-- id: ch03-cs-q2 -->
 
 **Passage.** A cell of EMF ε maintains a potential difference across its terminals only when no current is drawn. When it drives a current I through an external resistance R, some energy is lost across its internal resistance r, so the terminal voltage drops to V = ε − Ir. A student connects a cell of EMF 1.5 V to a 4 Ω resistor and measures the terminal voltage as 1.2 V.
 

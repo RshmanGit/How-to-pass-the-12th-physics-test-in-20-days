@@ -5,6 +5,7 @@
 ---
 
 ### Q1. V-I characteristics of a p-n junction diode (5m)
+<!-- id: ch14-deriv-q1 -->
 
 **Type:** Long Answer · **Section C/D**
 
@@ -26,6 +27,7 @@ With a labelled circuit and graph, explain how the V-I characteristics of a junc
 ---
 
 ### Q2. Half-wave rectifier (3m)
+<!-- id: ch14-deriv-q2 -->
 
 **Type:** Long Answer · **Section C**
 
@@ -46,6 +48,7 @@ Explain, with circuit and waveforms, how a single junction diode acts as a half-
 ---
 
 ### Q3. Full-wave rectifier (centre-tapped) (5m)
+<!-- id: ch14-deriv-q3 -->
 
 **Type:** Long Answer · **Section C/D**
 

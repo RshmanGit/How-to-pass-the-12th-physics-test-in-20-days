@@ -5,6 +5,7 @@
 ---
 
 ### Q1. Electric field on the axial line of a dipole (3m)
+<!-- id: ch01-deriv-q1 -->
 
 **Setup (½m):** Dipole = charges −q at A and +q at B, separation 2a, centre O, dipole moment p = q·2a directed −q → +q. Take a point P on the axis at distance r from O, on the side of +q.
 
@@ -29,6 +30,7 @@ E_axial = (1/4πε₀)·(2pr)/(r²−a²)²
 ---
 
 ### Q2. Electric field on the equatorial line of a dipole (3m)
+<!-- id: ch01-deriv-q2 -->
 
 **Setup (½m):** Point P on the perpendicular bisector at distance r from centre O; each charge is at distance √(r²+a²) from P.
 
@@ -54,6 +56,7 @@ Note: E_axial = 2 × E_equatorial at equal r. (Useful 1-mark comparison.)
 ---
 
 ### Q3. Torque on a dipole in a uniform field; expression for τ (3m)
+<!-- id: ch01-deriv-q3 -->
 
 **Forces (1m):** In a uniform field E, charge +q feels +qE and −q feels −qE — equal, opposite, parallel forces forming a couple. Net force = 0.
 
@@ -71,6 +74,7 @@ Note: E_axial = 2 × E_equatorial at equal r. (Useful 1-mark comparison.)
 ---
 
 ### Q4. Potential energy of a dipole in a uniform field; work to rotate it (3m)
+<!-- id: ch01-deriv-q4 -->
 
 **Work to rotate (1m):** Work done by external agent in rotating the dipole through dθ against the torque = τ dθ = pE sinθ dθ.
 
@@ -88,6 +92,7 @@ W = ∫_{θ₁}^{θ₂} pE sinθ dθ = pE(cosθ₁ − cosθ₂)
 ---
 
 ### Q5. Gauss's law — field due to an infinitely long straight line charge (5m)
+<!-- id: ch01-deriv-q5 -->
 
 **State Gauss's law (½m):** ∮ E·dS = q_enclosed/ε₀.
 
@@ -111,6 +116,7 @@ E·(2πr l) = λl/ε₀
 ---
 
 ### Q6. Gauss's law — field due to an infinite charged plane sheet (5m)
+<!-- id: ch01-deriv-q6 -->
 
 **State Gauss's law (½m):** ∮ E·dS = q_enclosed/ε₀.
 
@@ -134,6 +140,7 @@ Direction: away from the sheet for +σ, toward it for −σ. (For a charged cond
 ---
 
 ### Q7. Gauss's law — field due to a uniformly charged thin spherical shell (5m)
+<!-- id: ch01-deriv-q7 -->
 
 **Setup (½m):** Shell of radius R, total charge Q, uniformly distributed. By symmetry, E is radial and depends only on distance r from the centre. Use a concentric spherical Gaussian surface of radius r.
 
@@ -161,6 +168,7 @@ Direction: away from the sheet for +σ, toward it for −σ. (For a charged cond
 ---
 
 ### Q8. Coulomb's law in vector form and the superposition principle (3m)
+<!-- id: ch01-deriv-q8 -->
 
 **Coulomb's law, vector form (1½m):** For charges q₁ (at r₁) and q₂ (at r₂),
 **F**₁₂ = (1/4πε₀)·(q₁q₂/r₁₂²)·r̂₁₂

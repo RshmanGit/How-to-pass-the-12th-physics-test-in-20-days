@@ -149,6 +149,7 @@ diffraction is negligible. R is the correct explanation.
 ---
 
 ### Q10. Coherent sources — definition and conditions (2m)
+<!-- id: ch10-q10 -->
 
 **Question (own words):** What are coherent sources? State the conditions two sources must satisfy
 to produce a stable interference pattern.
@@ -212,6 +213,7 @@ to detect plane-polarised light?
 ---
 
 ### Q14. Brewster's law and the polarising angle (2m)
+<!-- id: ch10-q14 -->
 
 **Question (own words):** State Brewster's law. Show that at the polarising angle the reflected and
 refracted rays are perpendicular.
@@ -246,6 +248,7 @@ produces a broad central bright band with dark fringes on either side.
 ## Derivations & Long Answer
 
 ### Q16. Huygens' principle: laws of reflection (3m)
+<!-- id: ch10-q16 -->
 
 **Question (own words):** Using Huygens' wave theory, prove the laws of reflection (angle of
 incidence = angle of reflection, and incident ray, reflected ray, normal are coplanar).
@@ -272,6 +275,7 @@ incidence = angle of reflection, and incident ray, reflected ray, normal are cop
 ---
 
 ### Q17. Huygens' principle: laws of refraction (Snell's law) (3m)
+<!-- id: ch10-q17 -->
 
 **Question (own words):** Using Huygens' principle, derive Snell's law of refraction
 (μ = sin i/sin r) and hence relate the refractive index to the speeds of light in the two media.
@@ -298,6 +302,7 @@ incidence = angle of reflection, and incident ray, reflected ray, normal are cop
 ---
 
 ### Q18. Young's double-slit experiment: fringe width derivation (5m)
+<!-- id: ch10-q18 -->
 
 **Question (own words):** Describe Young's double-slit experiment. Derive the expression for fringe
 width β = λD/d, and state the conditions for bright and dark fringes.
@@ -328,6 +333,7 @@ width β = λD/d, and state the conditions for bright and dark fringes.
 ---
 
 ### Q19. Single-slit diffraction and width of central maximum (5m)
+<!-- id: ch10-q19 -->
 
 **Question (own words):** Explain diffraction at a single slit. Obtain the condition for minima and
 derive the width of the central maximum. Sketch the intensity distribution.
@@ -357,6 +363,7 @@ derive the width of the central maximum. Sketch the intensity distribution.
 ---
 
 ### Q20. Polarisation by reflection; Brewster's angle (long) (5m)
+<!-- id: ch10-q20 -->
 
 **Question (own words):** What is plane-polarised light? Explain polarisation by reflection, state
 Brewster's law, and show the reflected and refracted rays are perpendicular at the polarising
@@ -413,6 +420,7 @@ fringe width is 0.03 cm. Find the wavelength of the light used.
 ---
 
 ### Q23. YDSE — two wavelengths overlapping (NCERT) (3m)
+<!-- id: ch10-q23 -->
 
 **Question (own words):** A YDSE uses light containing two wavelengths, 650 nm and 520 nm.
 (a) Find the distance of the 3rd bright fringe of 650 nm from the centre.
@@ -443,6 +451,7 @@ fringe width is 0.03 cm. Find the wavelength of the light used.
 ---
 
 ### Q25. Single-slit diffraction — width of central maximum (3m)
+<!-- id: ch10-q25 -->
 
 **Question (own words):** Monochromatic light of wavelength 600 nm falls on a single slit of width
 1 mm. The diffraction pattern is observed on a screen 2 m away. Find (a) the distance of the first
@@ -457,6 +466,7 @@ dark fringe from the centre and (b) the width of the central maximum.
 ---
 
 ### Q26. Brewster's angle for glass (2m)
+<!-- id: ch10-q26 -->
 
 **Question (own words):** Find the Brewster (polarising) angle for light passing from air into
 glass of refractive index 1.5. Also find the angle of refraction at that incidence.
@@ -469,6 +479,7 @@ glass of refractive index 1.5. Also find the angle of refraction at that inciden
 ---
 
 ### Q27. Malus's law — intensity through two polaroids (2m)
+<!-- id: ch10-q27 -->
 
 **Question (own words):** Unpolarised light of intensity I₀ is incident on a pair of polaroids
 whose transmission axes make 30° with each other. Find the intensity of the emerging light.

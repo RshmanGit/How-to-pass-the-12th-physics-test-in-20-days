@@ -116,6 +116,7 @@ conservation — so R correctly explains A. (1m)
 ---
 
 ### Q8. Lenz's law and conservation of energy (2-3m)
+<!-- id: ch06-q8 -->
 
 **Restated:** State Lenz's law and explain how it follows from energy conservation.
 
@@ -146,6 +147,7 @@ conservation — so R correctly explains A. (1m)
 ---
 
 ### Q10. Eddy currents and four applications (2-3m)
+<!-- id: ch06-q10 -->
 
 **Restated:** What are eddy currents? State how they are minimised, and list applications.
 
@@ -192,6 +194,7 @@ the induced EMF in each interval.
 ## Derivations & Long Answer
 
 ### Q13. Motional EMF of a rod moving in a magnetic field (3m)
+<!-- id: ch06-q13 -->
 
 **Restated:** Derive the EMF induced across a straight conductor of length *l* moving with
 velocity *v* perpendicular to a uniform field *B*. Derive it both by the flux method and the
@@ -223,6 +226,7 @@ needed to keep it moving is F = BIl = B²l²v/R.
 ---
 
 ### Q14. EMF of a rod rotating about one end (3m)
+<!-- id: ch06-q14 -->
 
 **Restated:** A conducting rod of length *l* rotates with angular speed *ω* about one end, in a
 uniform field *B* perpendicular to the plane of rotation. Derive the induced EMF.
@@ -238,6 +242,7 @@ uniform field *B* perpendicular to the plane of rotation. Derive the induced EMF
 ---
 
 ### Q15. Self-inductance of a long solenoid (3m)
+<!-- id: ch06-q15 -->
 
 **Restated:** Derive the self-inductance of a long air-cored solenoid of length *l*, area of
 cross-section *A*, and total turns *N* (n = N/l turns per unit length).
@@ -254,6 +259,7 @@ cross-section *A*, and total turns *N* (n = N/l turns per unit length).
 ---
 
 ### Q16. Mutual inductance of two coaxial solenoids (3-5m)
+<!-- id: ch06-q16 -->
 
 **Restated:** Derive the mutual inductance of two long coaxial solenoids, the inner one (S₁) of
 N₁ turns and the outer (S₂) of N₂ turns, both of length *l* and the inner area *A*.
@@ -269,6 +275,7 @@ N₁ turns and the outer (S₂) of N₂ turns, both of length *l* and the inner 
 ---
 
 ### Q17. Energy stored in an inductor, U = ½LI² (3m)
+<!-- id: ch06-q17 -->
 
 **Restated:** Show that the energy stored in an inductor carrying steady current I is ½LI², and
 write the magnetic energy density.
@@ -283,6 +290,7 @@ write the magnetic energy density.
 ---
 
 ### Q18. AC generator — principle and EMF expression (5m)
+<!-- id: ch06-q18 -->
 
 **Restated:** With a labelled diagram, explain the principle of an AC generator and derive the
 expression for the instantaneous EMF.
@@ -311,6 +319,7 @@ expression for the instantaneous EMF.
 ## Numericals
 
 ### Q19. Rectangular loop leaving a magnetic field (3m) — NCERT
+<!-- id: ch06-q19 -->
 
 **Restated:** A rectangular loop 8 cm × 2 cm is pulled out of a uniform field B = 0.3 T at
 v = 1 cm·s⁻¹. Find the induced EMF and the time for which it lasts when motion is (a) along the
@@ -325,6 +334,7 @@ long side, (b) along the short side.
 ---
 
 ### Q20. EMF of a rod rotating at 400 rad/s (2m) — NCERT
+<!-- id: ch06-q20 -->
 
 **Restated:** A 1 m long metallic rod rotates at ω = 400 rad·s⁻¹ about one end, normal to a field
 B = 0.5 T. Find the induced EMF between the centre and the ring.
@@ -348,6 +358,7 @@ induced EMF in the loop.
 ---
 
 ### Q22. Jet plane wing EMF (2-3m) — NCERT
+<!-- id: ch06-q22 -->
 
 **Restated:** A jet flies at 1800 km·h⁻¹; wingspan 25 m. Earth's field = 5 × 10⁻⁴ T, dip 30°.
 Find the EMF developed between the wing tips.
@@ -359,6 +370,7 @@ Find the EMF developed between the wing tips.
 ---
 
 ### Q23. Rotating circular coil — peak EMF, current, power (3m) — NCERT
+<!-- id: ch06-q23 -->
 
 **Restated:** A circular coil of radius 8 cm, N = 20 turns, rotates at ω = 50 rad·s⁻¹ about a
 vertical diameter in a horizontal field B = 3.0 × 10⁻² T. Coil resistance R = 10 Ω. Find the peak
@@ -396,6 +408,7 @@ in the secondary.
 ## Case-Study
 
 ### Q26. Case study — eddy-current electromagnetic braking (4m)
+<!-- id: ch06-q26 -->
 
 **Passage:** Modern electric trains and some roller-coasters use **electromagnetic braking**
 instead of (or with) friction brakes. A metal disc/rail attached to the moving system passes

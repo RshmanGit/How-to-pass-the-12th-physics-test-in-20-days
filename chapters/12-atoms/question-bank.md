@@ -104,6 +104,7 @@ the model fails — R correctly explains A. ...1m
 ## Short Answer (2-3m)
 
 ### Q9. State Bohr's postulates (3m)
+<!-- id: ch12-q9 -->
 
 **Q (own words):** State the three postulates Bohr used to build his model of the hydrogen atom.
 
@@ -141,6 +142,7 @@ model predicts an unstable atom.
   treat the electron's wave nature. ...(alt)
 
 ### Q12. Ground-state KE and PE of hydrogen (2m)
+<!-- id: ch12-q12 -->
 
 **Q (own words):** In the ground state of hydrogen the total energy is `-13.6 eV`. Find the
 kinetic energy and potential energy of the electron.
@@ -151,6 +153,7 @@ kinetic energy and potential energy of the electron.
 - Check: `KE + PE = 13.6 - 27.2 = -13.6 eV = E`. ✓
 
 ### Q13. Identify the series and the region (2-3m)
+<!-- id: ch12-q13 -->
 
 **Q (own words):** An electron in hydrogen makes a transition from `n = 4` to `n = 2`, and another
 from `n = 3` to `n = 1`. Name the series each line belongs to and the spectral region.
@@ -183,6 +186,7 @@ its expression for a head-on collision.
   `r0 = (1/(4 pi e0)) (2 Z e^2 / K)`. ...1m
 
 ### Q16. Effect of doubling K on closest approach (2m)
+<!-- id: ch12-q16 -->
 
 **Q (own words):** An alpha-particle of kinetic energy `K` has distance of closest approach `r`
 to a gold nucleus. What is the closest approach if its kinetic energy is doubled to `2K`?
@@ -207,6 +211,7 @@ to a gold nucleus. What is the closest approach if its kinetic energy is doubled
 ## Derivations & Long Answer
 
 ### Q18. Radius of nth orbit (r proportional to n^2) (3m)
+<!-- id: ch12-q18 -->
 
 **Q (own words):** Using Bohr's postulates, derive the expression for the radius of the nth orbit
 of the hydrogen atom and show that `r_n proportional to n^2`.
@@ -223,6 +228,7 @@ of the hydrogen atom and show that `r_n proportional to n^2`.
 **Boxed result:** `r_n = (e0 h^2 / pi m e^2) n^2 = 0.53 n^2 angstrom`.
 
 ### Q19. Total energy of electron (E_n = -13.6/n^2 eV) (5m)
+<!-- id: ch12-q19 -->
 
 **Q (own words):** Derive the expression for the total energy of the electron in the nth orbit of
 hydrogen and show that `E_n = -13.6/n^2 eV`. Explain the significance of the negative sign.
@@ -241,6 +247,7 @@ hydrogen and show that `E_n = -13.6/n^2 eV`. Explain the significance of the neg
 **Boxed result:** `E_n = - (m e^4 / 8 e0^2 h^2) (1/n^2) = -13.6/n^2 eV`.
 
 ### Q20. Bohr quantisation from de Broglie (3m)
+<!-- id: ch12-q20 -->
 
 **Q (own words):** Using de Broglie's hypothesis, show that the angular momentum of the electron
 in a Bohr orbit is quantised, `L = n h/(2 pi)`.
@@ -260,6 +267,7 @@ in a Bohr orbit is quantised, `L = n h/(2 pi)`.
 - Earns: ~1m for a correct closed standing-wave sketch.
 
 ### Q21. Rydberg formula for the spectral series (3m)
+<!-- id: ch12-q21 -->
 
 **Q (own words):** Using `E_n = -13.6/n^2 eV`, obtain the formula for the wavelength of a hydrogen
 spectral line and write the Rydberg relation. Name the series for `n1 = 1, 2, 3`.
@@ -272,6 +280,7 @@ spectral line and write the Rydberg relation. Name the series for `n1 = 1, 2, 3`
   `n1 = 4` Brackett; `n1 = 5` Pfund (all IR). ...1m
 
 ### Q22. Rutherford alpha-scattering experiment (5m)
+<!-- id: ch12-q22 -->
 
 **Q (own words):** Describe the Geiger-Marsden (Rutherford) alpha-particle scattering experiment.
 State the main observations and the conclusions Rutherford drew about atomic structure.
@@ -299,6 +308,7 @@ State the main observations and the conclusions Rutherford drew about atomic str
 - Earns: ~1m apparatus + ~1m trajectory/impact-parameter labels.
 
 ### Q23. Energy-level diagram and series of hydrogen (3m)
+<!-- id: ch12-q23 -->
 
 **Q (own words):** Draw the energy-level diagram of the hydrogen atom and mark the transitions
 giving the Lyman and Balmer series.
@@ -330,6 +340,7 @@ eV`. Find the radius and total energy of the `n = 2` orbit.
 - `E_n = E1/n^2`  =>  `E2 = -13.6/4 = -3.4 eV`. ...1m
 
 ### Q25. Distance of closest approach — 5.5 MeV alpha on gold (3m)
+<!-- id: ch12-q25 -->
 
 **Q (own words):** A 5.5 MeV alpha-particle is fired head-on at a gold nucleus (`Z = 79`).
 Estimate the distance of closest approach.
@@ -405,6 +416,7 @@ orbit equals the circumference of that orbit, and find its value (`r1 = 0.53 x 1
 - `lambda = 2 pi x 0.53 x 10^-10 = 3.33 x 10^-10 m ≈ 3.3 angstrom`. ...1m
 
 ### Q32. Energy and frequency to excite n = 1 -> n = 4 (2-3m)
+<!-- id: ch12-q32 -->
 
 **Q (own words):** A photon excites a hydrogen atom from the ground state to `n = 4`. Find the
 photon's energy, wavelength, and frequency.
@@ -419,6 +431,7 @@ photon's energy, wavelength, and frequency.
 ## Case-Study
 
 ### Q33. Energy-level transitions of hydrogen (4m)
+<!-- id: ch12-q33 -->
 
 **Case:** The energy levels of the hydrogen atom are `E_n = -13.6/n^2 eV`, giving
 `E1 = -13.6, E2 = -3.4, E3 = -1.51, E4 = -0.85 eV`, and `0 eV` at `n = infinity`. Atoms de-excite

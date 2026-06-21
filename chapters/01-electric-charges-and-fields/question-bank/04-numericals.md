@@ -5,6 +5,7 @@
 ---
 
 ### Q1. Force between two point charges (2m)
+<!-- id: ch01-num-q1 -->
 
 Two small spheres carry charges 2×10⁻⁷ C and 3×10⁻⁷ C and are 30 cm apart in air. Find the force between them.
 
@@ -54,6 +55,7 @@ E = 2 × 2.7×10⁶ = **5.4×10⁶ N C⁻¹**, directed from + to − charge.
 ---
 
 ### Q5. Torque on a dipole in a uniform field (2m)
+<!-- id: ch01-num-q5 -->
 
 A dipole of moment 4×10⁻⁹ C m is held at 30° to a uniform field of 5×10⁴ N C⁻¹. Find the torque.
 
@@ -73,6 +75,7 @@ Charges +2.5×10⁻⁷ C and −2.5×10⁻⁷ C are located at (0, 0, +15 cm) an
 ---
 
 ### Q7. Flux through a square — field parallel and at an angle (3m)
+<!-- id: ch01-num-q7 -->
 
 A uniform field E = 3×10³ î N C⁻¹ passes through a square of side 10 cm.
 (a) Plane of the square is parallel to the y-z plane.
@@ -117,6 +120,7 @@ The electric field 20 cm from the centre of a 10 cm radius conducting sphere is 
 ---
 
 ### Q11. Charge and flux from surface charge density (3m)
+<!-- id: ch01-num-q11 -->
 
 A conducting sphere of diameter 2.4 m carries a uniform surface charge density of 80 µC m⁻². Find (a) the total charge, (b) the total flux leaving the surface.
 
@@ -127,6 +131,7 @@ A conducting sphere of diameter 2.4 m carries a uniform surface charge density o
 ---
 
 ### Q12. Null point between two like charges (3m)
+<!-- id: ch01-num-q12 -->
 
 Charges +q and +9q are 10a apart. Find the point on the line joining them where the net field is zero.
 

@@ -1,0 +1,54 @@
+---
+import '@fontsource-variable/space-grotesk';
+import 'katex/dist/katex.min.css';
+import '../styles/global.css';
+
+interface Props { title: string; description?: string; }
+const { title, description = 'Daily physics study plan & progress.' } = Astro.props;
+
+const path = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === '/' ? path === '/' : path.startsWith(href);
+const nav = [
+  { href: '/', label: 'Today' },
+  { href: '/progress', label: 'Progress' },
+  { href: '/daily', label: 'Days' },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Private study data on a public URL — keep it out of search engines. -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#0f131c" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f5f7fb" media="(prefers-color-scheme: light)" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='88'>%E2%9A%9B%EF%B8%8F</text></svg>" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/">Physics<span class="dot">.</span>Daily</a>
+        <nav class="site-nav" aria-label="Primary">
+          {nav.map((n) => (
+            <a href={n.href} aria-current={isActive(n.href) ? 'page' : undefined}>{n.label}</a>
+          ))}
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        Made for Dhruvi · CBSE Class 12 Physics (042) · pass line 23 / 70
+      </div>
+    </footer>
+  </body>
+</html>

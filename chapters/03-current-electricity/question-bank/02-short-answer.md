@@ -37,6 +37,7 @@ Explain the two terms with their roles in conduction.
 ---
 
 ### Q4. Distinguish EMF and terminal voltage (2m)
+<!-- id: ch03-sa-q4 -->
 
 - **EMF (ε):** the potential difference across the cell terminals when **no current** is drawn (open circuit); it is the energy supplied per unit charge by the cell. …1m
 - **Terminal voltage (V):** the potential difference across the terminals when the cell **drives a current** I; V = ε − Ir (discharge). …1m

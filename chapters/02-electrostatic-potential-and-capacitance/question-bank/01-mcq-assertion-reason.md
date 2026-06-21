@@ -54,6 +54,7 @@ For capacitors connected in series across a battery, the quantity that is the sa
 Reason: In series the same charge is induced through every capacitor; the voltage divides in inverse ratio of C.
 
 ### Q8. Energy stored in a capacitor (1m)
+<!-- id: ch02-mcq-q8 -->
 A capacitor of capacitance C charged to potential V stores energy:
 - (a) CV  (b) ½CV  (c) ½CV²  (d) C²V
 

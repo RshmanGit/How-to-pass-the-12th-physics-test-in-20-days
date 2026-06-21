@@ -3,6 +3,7 @@
 > Worked numerical problems (mostly 2–3m). Each: formula → substitution → answer with units. Constants: k = 1/4πε₀ = 9×10⁹ N·m²/C², ε₀ = 8.85×10⁻¹² C²/N·m².
 
 ### Q1. Energy stored in a 12 pF capacitor (2m)
+<!-- id: ch02-num-q1 -->
 A 12 pF capacitor is connected to a 50 V battery. Find the electrostatic energy stored.
 
 **Solution:**
@@ -12,6 +13,7 @@ A 12 pF capacitor is connected to a 50 V battery. Find the electrostatic energy 
 - **U = 1.5×10⁻⁸ J.** …½m
 
 ### Q2. Three 9 pF capacitors in series across 120 V (3m)
+<!-- id: ch02-num-q2 -->
 Three capacitors each 9 pF are connected in series to a 120 V supply. Find (a) the equivalent capacitance and (b) the p.d. across each.
 
 **Solution:**
@@ -28,6 +30,7 @@ A parallel-plate capacitor of 8 pF (air) has its plate separation halved and the
 - **C = 96 pF.** …½m
 
 ### Q4. Point of zero potential between two charges (3m)
+<!-- id: ch02-num-q4 -->
 Charges 5×10⁻⁸ C and −3×10⁻⁸ C are 16 cm apart. Find the point(s) on the line joining them where the potential is zero (take infinity as zero).
 
 **Solution:**

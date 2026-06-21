@@ -1,0 +1,85 @@
+---
+// Signature element: the "climb to the pass line". A vertical 0→70 track with the
+// projection band (worst→best) rising toward the amber pass-line at 23.
+interface Props { worst: number; best: number; passMark: number; total: number; days: number; }
+const { worst, best, passMark, total, days } = Astro.props;
+const pct = (v: number) => `${Math.max(0, Math.min(100, (v / total) * 100))}%`;
+const reaches = best >= passMark;
+const bandH = `${Math.max(2, ((best - worst) / total) * 100)}%`;
+---
+
+<section class="gauge card">
+  <div
+    class="track"
+    role="img"
+    aria-label={`Projected ${worst} to ${best} out of ${total}. Pass line is ${passMark}.`}
+  >
+    <div class="band" style={`bottom:${pct(worst)}; height:${bandH}`}>
+      <span class="cap cap-best num">{best}</span>
+      {best - worst >= 6 && <span class="cap cap-worst num">{worst}</span>}
+    </div>
+    <div class={`passline ${reaches ? 'reached' : ''}`} style={`bottom:${pct(passMark)}`}>
+      <span class="flag num">pass {passMark}</span>
+    </div>
+    <span class="tick tick-top num">{total}</span>
+    <span class="tick tick-zero num">0</span>
+  </div>
+
+  <div class="readout">
+    <p class="eyebrow">Projected at current pace</p>
+    <p class="big num">{best}<span class="den">/{total}</span></p>
+    <p class="range">Best case <b class="num">{best}</b> · floor <b class="num">{worst}</b></p>
+    <p class={`verdict ${reaches ? 'ok' : 'soon'}`}>
+      {reaches ? '✓ on track to cross the pass line' : `climbing toward ${passMark}`}
+    </p>
+    <p class="days"><b class="num">{days}</b> days to the exam</p>
+  </div>
+</section>
+
+<style>
+  .gauge { display: flex; gap: 1.4rem; align-items: stretch; padding-left: 3.4rem; }
+
+  .track {
+    position: relative;
+    flex: 0 0 56px;
+    border-radius: 10px;
+    background:
+      repeating-linear-gradient(to top, var(--line) 0 1px, transparent 1px 20%);
+    border: 1px solid var(--line);
+    min-height: 260px;
+  }
+  .band {
+    position: absolute; left: 8px; right: 8px;
+    border-radius: 7px;
+    background: linear-gradient(to top, var(--teal), var(--amber));
+    box-shadow: 0 0 18px -2px var(--amber-glow);
+    transform-origin: bottom;
+    animation: rise .9s cubic-bezier(.2, .8, .2, 1) both;
+  }
+  @keyframes rise { from { transform: scaleY(0); opacity: .4; } to { transform: scaleY(1); opacity: 1; } }
+  .cap { position: absolute; left: 50%; transform: translateX(-50%); font-size: .72rem; font-weight: 700; }
+  .cap-best { top: -1.25rem; color: var(--amber); }
+  .cap-worst { bottom: -1.25rem; color: var(--teal); }
+
+  .passline { position: absolute; left: -1px; right: -1px; border-top: 2px dashed var(--amber); }
+  .passline .flag {
+    position: absolute; right: calc(100% + 8px); top: -.7rem; white-space: nowrap;
+    font-size: .66rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+    color: var(--amber);
+  }
+  .passline.reached { border-top-style: solid; }
+
+  .tick { position: absolute; right: calc(100% + 8px); font-size: .68rem; color: var(--muted); }
+  .tick-top { top: -.55rem; }
+  .tick-zero { bottom: -.55rem; }
+
+  .readout { display: flex; flex-direction: column; justify-content: center; }
+  .big { font-size: 3.2rem; font-weight: 700; color: var(--ink); line-height: 1; margin: .1rem 0 .3rem; }
+  .big .den { font-size: 1.1rem; color: var(--muted); font-weight: 500; }
+  .range { margin: 0 0 .5rem; color: var(--text-soft); font-size: .95rem; }
+  .verdict { margin: 0 0 1rem; font-family: var(--font-display); font-weight: 600; font-size: .92rem; }
+  .verdict.ok { color: var(--good); }
+  .verdict.soon { color: var(--amber); }
+  .days { margin: 0; color: var(--text-soft); font-size: .95rem; }
+  .days b { color: var(--ink); font-size: 1.15rem; }
+</style>

@@ -5,6 +5,7 @@
 ---
 
 ### Q1. Case study — Gauss's law and the spherical shell (4m)
+<!-- id: ch01-cs-q1 -->
 
 **Passage:** Gauss's law states that the net electric flux through a closed surface is q_enclosed/ε₀ and is independent of the size or shape of the surface. It is most powerful for charge distributions with symmetry. A uniformly charged thin spherical shell of radius R carries total charge Q. The field it produces is the same as that of a point charge at the centre for all external points, while inside the shell the field is zero.
 
@@ -27,6 +28,7 @@
 ---
 
 ### Q2. Case study — Electric dipole in a uniform field (4m)
+<!-- id: ch01-cs-q2 -->
 
 **Passage:** An electric dipole consists of two equal and opposite charges +q and −q separated by a small distance 2a, with dipole moment p = q(2a) directed from −q to +q. When placed in a uniform external field E at an angle θ to the field, the dipole experiences no net force but a torque τ = pE sinθ tends to align it with the field. The potential energy is U = −pE cosθ.
 

@@ -89,6 +89,7 @@ State the principle and working of a moving-coil galvanometer.
 ---
 
 ### Q9. Current sensitivity vs voltage sensitivity (3m)
+<!-- id: ch04-sa-q9 -->
 
 Define current and voltage sensitivity of a galvanometer. Show that increasing the number of turns does not necessarily increase voltage sensitivity.
 
@@ -100,6 +101,7 @@ Define current and voltage sensitivity of a galvanometer. Show that increasing t
 ---
 
 ### Q10. Conversion of galvanometer to ammeter (3m)
+<!-- id: ch04-sa-q10 -->
 
 How is a galvanometer (resistance `G`, full-scale current `I_g`) converted into an ammeter of range `I`? Find the shunt and the net resistance.
 
@@ -112,6 +114,7 @@ How is a galvanometer (resistance `G`, full-scale current `I_g`) converted into 
 ---
 
 ### Q11. Conversion of galvanometer to voltmeter (3m)
+<!-- id: ch04-sa-q11 -->
 
 How is a galvanometer converted into a voltmeter of range `V`? Find the series resistance.
 

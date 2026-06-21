@@ -5,6 +5,7 @@
 ---
 
 ### Q1. Intrinsic vs extrinsic semiconductor (2m)
+<!-- id: ch14-sa-q1 -->
 
 **Type:** Short Answer · **Section B**
 
@@ -17,6 +18,7 @@ Distinguish a pure (intrinsic) semiconductor from a doped (extrinsic) one on two
 ---
 
 ### Q2. n-type vs p-type semiconductor (2m)
+<!-- id: ch14-sa-q2 -->
 
 **Type:** Short Answer · **Section B**
 
@@ -48,6 +50,7 @@ Explain why the electrical conductivity of an intrinsic semiconductor increases 
 ---
 
 ### Q4. Formation of the depletion region (3m)
+<!-- id: ch14-sa-q4 -->
 
 **Type:** Short Answer · **Section C**
 
@@ -67,6 +70,7 @@ Describe how the depletion region and barrier potential form when a p-n junction
 ---
 
 ### Q5. Effect of biasing on depletion width (2m)
+<!-- id: ch14-sa-q5 -->
 
 **Type:** Short Answer · **Section B**
 
@@ -79,6 +83,7 @@ State how the depletion-region width and barrier height change under (i) forward
 ---
 
 ### Q6. Forward bias vs reverse bias (3m)
+<!-- id: ch14-sa-q6 -->
 
 **Type:** Short Answer · **Section C**
 
@@ -116,6 +121,7 @@ Explain why the reverse current of a diode is almost independent of the reverse 
 ---
 
 ### Q8. Zener diode as a voltage regulator (3m)
+<!-- id: ch14-sa-q8 -->
 
 **Type:** Short Answer · **Section C**
 
@@ -135,6 +141,7 @@ Explain how a Zener diode keeps the output voltage constant against changes in t
 ---
 
 ### Q9. Photodiode — working and why reverse-biased (3m)
+<!-- id: ch14-sa-q9 -->
 
 **Type:** Short Answer · **Section C**
 
@@ -148,6 +155,7 @@ What is a photodiode? Explain its working and state why it is operated in revers
 ---
 
 ### Q10. LED — working and advantages (3m)
+<!-- id: ch14-sa-q10 -->
 
 **Type:** Short Answer · **Section C**
 
@@ -161,6 +169,7 @@ Explain the working of a light-emitting diode and state two advantages over a fi
 ---
 
 ### Q11. Solar cell — principle and material criteria (3m)
+<!-- id: ch14-sa-q11 -->
 
 **Type:** Short Answer · **Section C**
 

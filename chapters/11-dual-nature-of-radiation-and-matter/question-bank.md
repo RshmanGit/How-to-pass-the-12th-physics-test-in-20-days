@@ -102,6 +102,7 @@ spacing, so diffraction is observable. R correctly explains A. (1m)
 ## Short Answer (2-3m)
 
 ### Q7. Define work function, threshold frequency and stopping potential (3m)
+<!-- id: ch11-q7 -->
 
 **Restated:** Define the three key quantities of the photoelectric effect.
 
@@ -116,6 +117,7 @@ spacing, so diffraction is observable. R correctly explains A. (1m)
 ---
 
 ### Q8. Three experimental laws of the photoelectric effect (2-3m)
+<!-- id: ch11-q8 -->
 
 **Restated:** State the main experimental observations (laws) of the photoelectric effect.
 
@@ -130,6 +132,7 @@ spacing, so diffraction is observable. R correctly explains A. (1m)
 ---
 
 ### Q9. Why wave theory fails to explain the photoelectric effect (2m)
+<!-- id: ch11-q9 -->
 
 **Restated:** Give two features of the photoelectric effect that the classical wave theory of
 light cannot explain.
@@ -176,6 +179,7 @@ light affect the photoelectric current and the maximum KE of emitted electrons?
 ## Derivations & Long Answer
 
 ### Q12. Einstein's photoelectric equation (3m)
+<!-- id: ch11-q12 -->
 
 **Restated:** State Einstein's photoelectric equation and explain each term; show how it accounts
 for the experimental laws.
@@ -196,6 +200,7 @@ for the experimental laws.
 ---
 
 ### Q13. Stopping potential vs frequency graph; find h, φ₀, ν₀ (3-4m)
+<!-- id: ch11-q13 -->
 
 **Restated:** Starting from Einstein's equation, obtain the relation between stopping potential
 and frequency, sketch the V₀–ν graph, and state how h, ν₀ and φ₀ are read from it.
@@ -217,6 +222,7 @@ and frequency, sketch the V₀–ν graph, and state how h, ν₀ and φ₀ are 
 ---
 
 ### Q14. Photocurrent vs collector voltage and vs intensity graphs (3m)
+<!-- id: ch11-q14 -->
 
 **Restated:** Draw and explain (i) photocurrent vs collector plate potential for two intensities,
 and (ii) saturation photocurrent vs intensity.
@@ -237,6 +243,7 @@ and (ii) saturation photocurrent vs intensity.
 ---
 
 ### Q15. de Broglie wavelength of an accelerated charged particle (3m)
+<!-- id: ch11-q15 -->
 
 **Restated:** Derive the expression for the de Broglie wavelength of a particle of charge q and
 mass m accelerated from rest through a potential difference V.
@@ -252,6 +259,7 @@ mass m accelerated from rest through a potential difference V.
 ---
 
 ### Q16. Davisson–Germer experiment (3-4m)
+<!-- id: ch11-q16 -->
 
 **Restated:** Describe the Davisson–Germer experiment and explain how it confirms the wave nature
 of electrons.
@@ -294,6 +302,7 @@ maximum KE (in eV) of photoelectrons when light of frequency 6.0 × 10¹⁴ Hz f
 ---
 
 ### Q18. Energy and momentum of a He–Ne laser photon (2-3m)
+<!-- id: ch11-q18 -->
 
 **Restated:** Monochromatic light of wavelength 632.8 nm is produced by a He–Ne laser. Find the
 energy and momentum of each photon. (NCERT-type.)
@@ -317,6 +326,7 @@ function 2.14 eV. Find (i) the maximum KE of photoelectrons and (ii) the stoppin
 ---
 
 ### Q20. de Broglie wavelength of an electron through 56 V (2m)
+<!-- id: ch11-q20 -->
 
 **Restated:** An electron is accelerated from rest through 56 V. Find its de Broglie wavelength.
 (NCERT-type.)
@@ -353,6 +363,7 @@ wavelengths (which is larger?).
 ---
 
 ### Q23. Maximum frequency and minimum wavelength of X-rays (2-3m)
+<!-- id: ch11-q23 -->
 
 **Restated:** Electrons are accelerated through 30 kV in an X-ray tube. Find the maximum frequency
 and the minimum wavelength of the X-rays produced. (NCERT-type.)
@@ -366,6 +377,7 @@ and the minimum wavelength of the X-rays produced. (NCERT-type.)
 ---
 
 ### Q24. Threshold frequency from incident frequency and electron speed (3m)
+<!-- id: ch11-q24 -->
 
 **Restated:** Light of frequency 7.21 × 10¹⁴ Hz falls on a metal and ejects electrons of maximum
 speed 6.0 × 10⁵ m·s⁻¹. Find the threshold frequency. (NCERT-type.)
@@ -392,6 +404,7 @@ photons does it emit per second?
 ## Case-Study
 
 ### Q26. Photoelectric effect — frequency vs intensity (4m)
+<!-- id: ch11-q26 -->
 
 **Passage:** A clean metal plate of work function φ₀ = 2.0 eV is illuminated. Light A has photon
 energy 2.5 eV at intensity I; light B has photon energy 3.5 eV at intensity 2I. The plate is part
