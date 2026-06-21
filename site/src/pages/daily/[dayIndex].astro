@@ -1,0 +1,47 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const learnings = await getCollection('learnings');
+  return learnings.map((entry) => ({
+    params: { dayIndex: String(entry.data.dayIndex) },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const results = await getCollection('results');
+const result = results.find((r) => r.data.dayIndex === entry.data.dayIndex);
+const ResultContent = result ? (await render(result)).Content : null;
+
+const dd = entry.data.date.toLocaleDateString('en', {
+  weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC',
+});
+const num = String(entry.data.dayIndex).padStart(2, '0');
+---
+
+<Base title={`Day ${entry.data.dayIndex} — ${entry.data.title}`}>
+  <div class="wrap">
+    <p class="eyebrow"><a href="/daily">← All days</a></p>
+    <p class="day-meta num">Day {num} · {dd}</p>
+
+    <article class="prose"><Content /></article>
+
+    {ResultContent && (
+      <section class="prose result-block">
+        <hr />
+        <ResultContent />
+      </section>
+    )}
+  </div>
+</Base>
+
+<style>
+  .day-meta { font-family: var(--font-display); font-size: .82rem; color: var(--amber); font-weight: 600; letter-spacing: .04em; margin: 0 0 1rem; }
+  .eyebrow a { color: var(--muted); text-decoration: none; }
+  .eyebrow a:hover { color: var(--teal); }
+  .result-block { margin-top: 1rem; }
+</style>

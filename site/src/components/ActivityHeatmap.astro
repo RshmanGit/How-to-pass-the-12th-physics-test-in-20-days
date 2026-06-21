@@ -1,0 +1,47 @@
+---
+import { activity, activityLevel } from '../data/tracker';
+
+// Study window: 22 Jun → 14 Jul 2026 (one cell per day). UTC math avoids tz drift.
+const START = Date.UTC(2026, 5, 22);
+const DAYS = 23;
+const byDate = new Map(activity.map((a) => [a.date, a]));
+const cells = Array.from({ length: DAYS }, (_, i) => {
+  const d = new Date(START + i * 86_400_000);
+  const iso = d.toISOString().slice(0, 10);
+  const score = byDate.get(iso)?.weighted_activity_score ?? 0;
+  const label = `${d.getUTCDate()} ${d.toLocaleString('en', { month: 'short', timeZone: 'UTC' })}`;
+  return { iso, score, level: activityLevel(score), label };
+});
+---
+
+<div class="heat">
+  <div class="grid" role="img" aria-label="Daily study activity">
+    {cells.map((c) => (
+      <span
+        class={`cell lvl-${c.level}`}
+        title={`${c.label} — ${c.score > 0 ? `activity ${c.score}` : 'no activity yet'}`}
+      ></span>
+    ))}
+  </div>
+  <div class="key">
+    <span>Less</span>
+    <i class="cell lvl-0"></i><i class="cell lvl-1"></i><i class="cell lvl-2"></i>
+    <i class="cell lvl-3"></i><i class="cell lvl-4"></i>
+    <span>More</span>
+  </div>
+</div>
+
+<style>
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, 22px); gap: 5px; }
+  .cell { width: 22px; height: 22px; border-radius: 5px; background: var(--line); display: inline-block; }
+  .lvl-1 { background: color-mix(in srgb, var(--teal) 28%, var(--card)); }
+  .lvl-2 { background: color-mix(in srgb, var(--teal) 52%, var(--card)); }
+  .lvl-3 { background: color-mix(in srgb, var(--teal) 76%, var(--card)); }
+  .lvl-4 { background: var(--teal); }
+  .key {
+    display: flex; align-items: center; gap: 5px; margin-top: .8rem;
+    font-family: var(--font-display); font-size: .74rem; color: var(--muted);
+  }
+  .key .cell { width: 14px; height: 14px; border-radius: 3px; }
+  .key span { margin-inline: .2rem; }
+</style>

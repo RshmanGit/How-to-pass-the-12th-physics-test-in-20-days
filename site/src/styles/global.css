@@ -1,0 +1,125 @@
+/* ===== "Ink & Dawn" — calm study site, mobile-first ===================== *
+ * Ink (deep indigo) on cool exam-paper; amber reserved for the pass line /
+ * achievement; teal for data. Body reads in a warm serif; UI/numbers in
+ * Space Grotesk. Designed at 375px first, enhanced up.                      */
+
+:root {
+  --paper: #f5f7fb;
+  --card: #ffffff;
+  --ink: #1a2238;
+  --text: #232b45;
+  --text-soft: #586087;
+  --muted: #8b93ac;
+  --line: #e3e7f1;
+  --amber: #d9852b;        /* the goal: pass line / achievement */
+  --amber-glow: #f0b15e;
+  --teal: #2f9c95;         /* data */
+  --teal-soft: #d7ecea;
+  --good: #2f9c95;
+  --shadow: 0 1px 2px rgba(26, 34, 56, .06), 0 6px 20px rgba(26, 34, 56, .06);
+
+  --font-display: 'Space Grotesk Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-body: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  --measure: 38rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #0f131c;
+    --card: #161c28;
+    --ink: #e9ecf6;
+    --text: #dde2f0;
+    --text-soft: #aab2cb;
+    --muted: #717a96;
+    --line: #232b3c;
+    --amber: #f0a948;
+    --amber-glow: #f7c479;
+    --teal: #46b6ad;
+    --teal-soft: #18302e;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .35);
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 1.125rem;          /* ~18px */
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;            /* page never scrolls sideways */
+}
+
+.wrap { width: 100%; max-width: var(--measure); margin-inline: auto; padding: 0 1.15rem; }
+
+h1, h2, h3, nav, .ui, .num, .eyebrow, button, th {
+  font-family: var(--font-display);
+}
+h1, h2, h3 { color: var(--ink); line-height: 1.2; font-weight: 600; letter-spacing: -0.01em; }
+h1 { font-size: 1.85rem; margin: 0 0 .4rem; }
+h2 { font-size: 1.3rem; margin: 2.2rem 0 .8rem; }
+h3 { font-size: 1.08rem; margin: 1.6rem 0 .5rem; }
+p { margin: 0 0 1rem; }
+a { color: var(--teal); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--ink); }
+
+.eyebrow {
+  font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--muted);
+}
+.num { font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
+
+/* focus + motion floors */
+:focus-visible { outline: 2.5px solid var(--teal); outline-offset: 2px; border-radius: 3px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+
+/* ---- site chrome ---- */
+.site-header {
+  position: sticky; top: 0; z-index: 10;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 3.4rem; }
+.brand { font-family: var(--font-display); font-weight: 700; color: var(--ink); text-decoration: none; font-size: 1.02rem; letter-spacing: -0.01em; }
+.brand .dot { color: var(--amber); }
+.site-nav { display: flex; gap: 1.1rem; }
+.site-nav a { font-size: .82rem; font-weight: 600; color: var(--text-soft); text-decoration: none; text-transform: uppercase; letter-spacing: .06em; }
+.site-nav a[aria-current="page"] { color: var(--amber); }
+
+main { padding: 1.6rem 0 4rem; }
+.site-footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem; }
+.site-footer .wrap { padding-block: 1.4rem; }
+
+/* ---- generic card ---- */
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+  padding: 1.15rem 1.2rem; box-shadow: var(--shadow);
+}
+
+/* ---- long-form study content (rendered markdown) ---- */
+.prose { color: var(--text); }
+.prose :where(h1,h2,h3) { font-family: var(--font-display); }
+.prose img, .prose svg { max-width: 100%; height: auto; }
+.prose pre { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: .8rem; font-size: .9rem; }
+.prose code { font-size: .92em; }
+.prose blockquote {
+  margin: 1.2rem 0; padding: .2rem 0 .2rem 1rem; border-left: 3px solid var(--amber);
+  color: var(--text-soft); font-style: italic;
+}
+.prose ul, .prose ol { padding-left: 1.3rem; }
+.prose hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
+.prose table { width: 100%; border-collapse: collapse; display: block; overflow-x: auto; font-size: .96rem; }
+.prose th, .prose td { border: 1px solid var(--line); padding: .5rem .6rem; text-align: left; }
+
+/* wide display equations scroll inside their own box, never the page */
+.katex-display { overflow-x: auto; overflow-y: hidden; padding: .35rem 0; }
+
+@media (min-width: 720px) {
+  h1 { font-size: 2.3rem; }
+  h2 { font-size: 1.5rem; }
+}

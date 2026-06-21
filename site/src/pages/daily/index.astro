@@ -1,0 +1,36 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import DayCard from '../../components/DayCard.astro';
+
+const learnings = (await getCollection('learnings')).sort((a, b) => b.data.dayIndex - a.data.dayIndex);
+const results = await getCollection('results');
+const marksByDay = new Map(results.map((r) => [r.data.dayIndex, r.data.totalMarks]));
+---
+
+<Base title="Physics.Daily — Days">
+  <div class="wrap">
+    <p class="eyebrow">Study log</p>
+    <h1>All study days</h1>
+    {learnings.length === 0 ? (
+      <p class="muted">No study days yet — the first plan lands on day 1.</p>
+    ) : (
+      <div class="stack">
+        {learnings.map((e) => (
+          <DayCard
+            dayIndex={e.data.dayIndex}
+            date={e.data.date}
+            title={e.data.title}
+            chapters={e.data.chapters}
+            totalMarks={marksByDay.get(e.data.dayIndex) ?? null}
+          />
+        ))}
+      </div>
+    )}
+  </div>
+</Base>
+
+<style>
+  .stack { display: flex; flex-direction: column; gap: .9rem; }
+  .muted { color: var(--muted); }
+</style>

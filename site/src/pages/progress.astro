@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import TrendChart from '../components/TrendChart.astro';
+import ActivityHeatmap from '../components/ActivityHeatmap.astro';
+import { meta, trend, coverage, chapterCoverage } from '../data/tracker';
+
+const cov = coverage();
+const chapters = chapterCoverage().filter((c) => c.total > 0).sort((a, b) => b.examMarks - a.examMarks);
+---
+
+<Base title="Physics.Daily — Progress">
+  <div class="wrap">
+    <p class="eyebrow">Progress</p>
+    <h1>The climb so far</h1>
+
+    <div class="card"><TrendChart trend={trend} passMark={meta.pass_mark} total={meta.total_marks} /></div>
+
+    <h2>Activity</h2>
+    <div class="card"><ActivityHeatmap /></div>
+
+    <h2>Coverage</h2>
+    <p class="muted">{cov.seen} of {cov.total} must-cover questions touched · {cov.pct}%</p>
+    <div class="card cov">
+      {chapters.map((c) => (
+        <div class="row">
+          <span class="name">{c.name}</span>
+          <span class="bar"><span class="fill" style={`width:${c.total ? (c.seen / c.total) * 100 : 0}%`}></span></span>
+          <span class="frac num">{c.seen}/{c.total}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .cov { display: flex; flex-direction: column; gap: .7rem; }
+  .row { display: grid; grid-template-columns: 1fr 4.5rem auto; align-items: center; gap: .6rem; }
+  .name { font-size: .9rem; color: var(--text-soft); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bar { height: 7px; border-radius: 999px; background: var(--line); overflow: hidden; }
+  .fill { display: block; height: 100%; background: var(--teal); border-radius: 999px; }
+  .frac { font-size: .78rem; color: var(--muted); }
+  .muted { color: var(--muted); }
+</style>

@@ -1,0 +1,70 @@
+---
+import type { TrendPoint } from '../data/tracker';
+interface Props { trend: TrendPoint[]; passMark: number; total: number; }
+const { trend, passMark, total } = Astro.props;
+
+const W = 320, H = 180, padL = 12, padR = 12, padT = 14, padB = 24;
+const plotW = W - padL - padR, plotH = H - padT - padB;
+const n = trend.length;
+const x = (i: number) => (n <= 1 ? W / 2 : padL + (i / (n - 1)) * plotW);
+const y = (v: number) => padT + (1 - v / total) * plotH;
+const path = (key: 'best' | 'worst') =>
+  trend.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p[key]).toFixed(1)}`).join(' ');
+const area = n >= 2 ? `${path('best')} L${x(n - 1).toFixed(1)},${y(0)} L${x(0).toFixed(1)},${y(0)} Z` : '';
+const passY = y(passMark).toFixed(1);
+
+const short = (iso: string) => {
+  const d = new Date(iso + 'T00:00:00');
+  return `${d.getDate()} ${d.toLocaleString('en', { month: 'short' })}`;
+};
+---
+
+<figure class="trend">
+  <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Projected best and worst score over time" preserveAspectRatio="xMidYMid meet">
+    {area && <path d={area} class="area" />}
+    <!-- pass line -->
+    <line x1={padL} x2={W - padR} y1={passY} y2={passY} class="pass" />
+    <text x={W - padR} y={Number(passY) - 4} class="pass-label" text-anchor="end">pass {passMark}</text>
+
+    {n >= 2 && <path d={path('worst')} class="worst" />}
+    {n >= 2 && <path d={path('best')} class="best" />}
+
+    {trend.map((p, i) => (
+      <g>
+        <circle cx={x(i)} cy={y(p.best)} r="3" class="dot-best" />
+        <circle cx={x(i)} cy={y(p.worst)} r="3" class="dot-worst" />
+      </g>
+    ))}
+
+    {n >= 1 && <text x={x(0)} y={H - 7} class="xlabel" text-anchor="start">{short(trend[0].date)}</text>}
+    {n >= 2 && <text x={x(n - 1)} y={H - 7} class="xlabel" text-anchor="end">{short(trend[n - 1].date)}</text>}
+  </svg>
+  <figcaption class="legend">
+    <span><i class="sw best"></i>best case</span>
+    <span><i class="sw worst"></i>worst case</span>
+    <span><i class="sw pass"></i>pass line</span>
+    {n <= 1 && <em>the trend fills in as each day is graded</em>}
+  </figcaption>
+</figure>
+
+<style>
+  .trend svg { width: 100%; height: auto; display: block; }
+  .area { fill: var(--amber); opacity: .08; }
+  .best { fill: none; stroke: var(--amber); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+  .worst { fill: none; stroke: var(--teal); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+  .pass { stroke: var(--amber); stroke-width: 1; stroke-dasharray: 4 3; opacity: .7; }
+  .pass-label { fill: var(--amber); font-family: var(--font-display); font-size: 9px; font-weight: 700; }
+  .dot-best { fill: var(--amber); }
+  .dot-worst { fill: var(--teal); }
+  .xlabel { fill: var(--muted); font-family: var(--font-display); font-size: 9px; }
+  .legend {
+    display: flex; flex-wrap: wrap; gap: .35rem 1rem; margin-top: .7rem;
+    font-family: var(--font-display); font-size: .76rem; color: var(--text-soft);
+  }
+  .legend span { display: inline-flex; align-items: center; gap: .35rem; }
+  .legend em { color: var(--muted); }
+  .sw { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+  .sw.best { background: var(--amber); }
+  .sw.worst { background: var(--teal); }
+  .sw.pass { background: repeating-linear-gradient(to right, var(--amber) 0 4px, transparent 4px 7px); }
+</style>
