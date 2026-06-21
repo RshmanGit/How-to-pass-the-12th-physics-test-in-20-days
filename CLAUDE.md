@@ -25,6 +25,7 @@ questions. Generalised content (not tuned to a specific student); no tooling yet
 | `tracker.json` | **Daily-loop machine state** (single source of truth): per-question history, mastery labels, projections, activity. Git-diffable JSON — **no SQLite**. Built by `seed-tracker`; read/written by the daily skills. |
 | `daily/NN-YYYY-MM-DD/` | One folder per study day. `learning.md` + `results.md` are **published** to the site; `test.md` + `rubric.md` + `submission/` are **private** (publish boundary is a filename glob). |
 | `.claude/skills/{seed-tracker,daily-prep,daily-test,daily-eval}` | The daily loop. Commands `/prep` → `/test` → `/grade` wrap them. **Daily order: `/grade` (yesterday) → `/prep` → `/test`**, one day at a time. |
+| `astro.config.mjs`, `src/`, `package.json` | The **mobile-first study site** (Astro 5, static) — lives at the **repo root** (so Vercel deploys zero-config). Reads `daily/*/learning.md`+`results.md` and `tracker.json` at build time; KaTeX renders math. Build `npm run build` → `dist/`. |
 
 - **Answer style:** CBSE marking-scheme (law → formula → substitution → result with units; derivations as mark-carrying steps).
 - **Diagrams:** "what to draw" checklists (which labels score marks) — no images.
