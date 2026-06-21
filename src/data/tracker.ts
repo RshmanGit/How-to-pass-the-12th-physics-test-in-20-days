@@ -1,7 +1,7 @@
-// Single source of truth for the dashboard. The agent writes ../../../tracker.json after
+// Single source of truth for the dashboard. The agent writes ../../tracker.json after
 // each /grade; this module reads it at build time and derives the display values. No
 // duplicated state (e.g. no hand-maintained trend array) — everything comes from here.
-import trackerJson from '../../../tracker.json';
+import trackerJson from '../../tracker.json';
 
 export interface TrendPoint { date: string; worst: number; best: number; }
 export interface ActivityRow {

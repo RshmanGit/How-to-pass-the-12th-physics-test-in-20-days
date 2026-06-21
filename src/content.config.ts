@@ -6,7 +6,7 @@ import { glob } from 'astro/loaders';
 // no route — they cannot reach the built site. Do not add globs for them.
 
 const learnings = defineCollection({
-  loader: glob({ pattern: '*/learning.md', base: '../daily' }),
+  loader: glob({ pattern: '*/learning.md', base: 'daily' }),
   schema: z.object({
     date: z.coerce.date(),
     dayIndex: z.number(),
@@ -16,7 +16,7 @@ const learnings = defineCollection({
 });
 
 const results = defineCollection({
-  loader: glob({ pattern: '*/results.md', base: '../daily' }),
+  loader: glob({ pattern: '*/results.md', base: 'daily' }),
   schema: z.object({
     date: z.coerce.date(),
     dayIndex: z.number(),
