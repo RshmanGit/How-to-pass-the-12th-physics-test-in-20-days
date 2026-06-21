@@ -5,6 +5,7 @@
 ---
 
 ### Q1. Field on the axis of a circular current loop (5m)
+<!-- id: ch04-deriv-q1 -->
 
 Using the Biot–Savart law, derive the expression for the magnetic field at a point on the axis of a circular loop of radius `R` carrying current `I`, at distance `x` from the centre. Hence find the field at the centre.
 
@@ -42,6 +43,7 @@ For `N` turns:
 ---
 
 ### Q2. Ampere's circuital law and field of a long straight wire (5m)
+<!-- id: ch04-deriv-q2 -->
 
 State Ampere's circuital law and use it to derive the magnetic field at distance `r` from a long straight wire carrying current `I`.
 
@@ -69,6 +71,7 @@ By symmetry, `B` is constant in magnitude on a circle of radius `r` centred on t
 ---
 
 ### Q3. Magnetic field of a long solenoid using Ampere's law (3m)
+<!-- id: ch04-deriv-q3 -->
 
 Derive the expression for the field inside a long solenoid (`n` turns per unit length, current `I`).
 
@@ -94,6 +97,7 @@ So `B·L = μ₀ (nL) I`.
 ---
 
 ### Q4. Radius of circular motion of a charge in a magnetic field (3m)
+<!-- id: ch04-deriv-q4 -->
 
 A charged particle `q`, mass `m` enters a uniform field `B` perpendicular to `v`. Derive the radius and time period of its circular path.
 
@@ -111,6 +115,7 @@ Magnetic force `F = qvB` acts perpendicular to `v`, providing the centripetal fo
 ---
 
 ### Q5. Force per unit length between two parallel currents (3m)
+<!-- id: ch04-deriv-q5 -->
 
 Derive the force per unit length between two long parallel wires separated by `d`, carrying currents `I₁` and `I₂`. Hence define the ampere.
 
@@ -135,6 +140,7 @@ Same-direction currents attract, opposite repel. For `I₁ = I₂ = 1 A`, `d = 1
 ---
 
 ### Q6. Torque on a current loop in a uniform field (5m)
+<!-- id: ch04-deriv-q6 -->
 
 Derive the expression for the torque on a rectangular current loop placed in a uniform magnetic field. Define magnetic dipole moment.
 
@@ -164,6 +170,7 @@ Define magnetic dipole moment `m = NIA` (along the normal). Then
 ---
 
 ### Q7. Moving-coil galvanometer — full derivation with diagram (5m)
+<!-- id: ch04-deriv-q7 -->
 
 With a labelled diagram, describe the construction, principle, and theory of a moving-coil galvanometer. Why is a radial field used and why a soft-iron core?
 

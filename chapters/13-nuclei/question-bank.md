@@ -113,6 +113,7 @@ a larger decay constant.
 ## Short Answer (2-3m)
 
 ### Q9. Mass defect and binding energy (2m)
+<!-- id: ch13-q9 -->
 
 **Q (own words):** Define mass defect and binding energy of a nucleus. Write the relation between them.
 
@@ -135,6 +136,7 @@ a larger decay constant.
   have smaller `E_bn` and are less stable. ...1m
 
 ### Q11. Why fission and fusion both release energy (2-3m)
+<!-- id: ch13-q11 -->
 
 **Q (own words):** Using the binding-energy-per-nucleon curve, explain why energy is released in
 both nuclear fission of heavy nuclei and nuclear fusion of light nuclei.
@@ -169,6 +171,7 @@ both nuclear fission of heavy nuclei and nuclear fusion of light nuclei.
   nearly constant (~8 MeV) over a wide range of `A`.
 
 ### Q13. Three types of radioactive decay (3m)
+<!-- id: ch13-q13 -->
 
 **Q (own words):** Write the general nuclear equations for alpha, beta-minus and gamma decay, and
 state how `Z` and `A` change in each.
@@ -181,6 +184,7 @@ state how `Z` and `A` change in each.
   unchanged. ...1m
 
 ### Q14. Half-life and mean life (2m)
+<!-- id: ch13-q14 -->
 
 **Q (own words):** Define half-life and mean (average) life of a radioactive sample and relate both
 to the decay constant `lambda`.
@@ -218,6 +222,7 @@ is equivalent to 931.5 MeV.
 ## Derivations & Long Answer
 
 ### Q17. Nuclear density is independent of mass number (3m)
+<!-- id: ch13-q17 -->
 
 **Q (own words):** Using `R = R0 A^(1/3)`, prove that the density of nuclear matter is the same for
 all nuclei (independent of `A`), and estimate its value.
@@ -233,6 +238,7 @@ all nuclei (independent of `A`), and estimate its value.
 - **Boxed:** `rho ≈ 2.3 x 10^17 kg/m^3` (same for every nucleus).
 
 ### Q18. Radioactive decay law (3-5m)
+<!-- id: ch13-q18 -->
 
 **Q (own words):** State the law of radioactive decay and derive `N = N0 e^(-lambda t)`. Hence
 obtain the relation between half-life and decay constant.
@@ -273,6 +279,7 @@ obtain the relation between half-life and decay constant.
 ## Numericals
 
 ### Q20. Binding energy of nitrogen-14 (3m)
+<!-- id: ch13-q20 -->
 
 **Q (own words):** Find the binding energy of ¹⁴₇N. Given atomic mass `M(¹⁴N) = 14.00307 u`,
 `m_H = 1.007825 u`, `m_n = 1.008665 u`.
@@ -286,6 +293,7 @@ obtain the relation between half-life and decay constant.
 - **`E_b ≈ 104.7 MeV`** (≈ 7.48 MeV/nucleon). ...0.5m
 
 ### Q21. Binding energy per nucleon of iron-56 (3m)
+<!-- id: ch13-q21 -->
 
 **Q (own words):** Calculate the binding energy and binding energy per nucleon of ⁵⁶₂₆Fe.
 Given `M(⁵⁶Fe) = 55.934939 u`, `m_H = 1.007825 u`, `m_n = 1.008665 u`.
@@ -299,6 +307,7 @@ Given `M(⁵⁶Fe) = 55.934939 u`, `m_H = 1.007825 u`, `m_n = 1.008665 u`.
 - **Answer:** `E_b ≈ 492.3 MeV`, `E_bn ≈ 8.79 MeV/nucleon` (one of the most stable nuclei).
 
 ### Q22. Energy released per fission of U-235; energy from 1 kg (3m)
+<!-- id: ch13-q22 -->
 
 **Q (own words):** Each fission of ²³⁵U releases about 200 MeV. How much energy (in joules) is
 released by the complete fission of 1 kg of ²³⁵U?
@@ -321,6 +330,7 @@ fraction and find how many half-lives have elapsed; hence the time in terms of `
 - **Time `= 5 T_(1/2)`.** ...0.5m
 
 ### Q24. Activity / disintegration rate of strontium-90 (3m)
+<!-- id: ch13-q24 -->
 
 **Q (own words):** Find the disintegration rate (activity) of `15 mg` of ⁹⁰₃₈Sr. Half-life
 `T_(1/2) = 28 years`. (`1 year = 3.15 x 10^7 s`.)
@@ -333,6 +343,7 @@ fraction and find how many half-lives have elapsed; hence the time in terms of `
 - **Answer:** `R ≈ 7.9 x 10^10 Bq`.
 
 ### Q25. Ratio of nuclear radii (2m)
+<!-- id: ch13-q25 -->
 
 **Q (own words):** Find the ratio of the nuclear radii of gold ¹⁹⁷₇₉Au to silver ¹⁰⁷₄₇Ag.
 
@@ -342,6 +353,7 @@ fraction and find how many half-lives have elapsed; hence the time in terms of `
 - **Answer:** `R_Au : R_Ag ≈ 1.23 : 1`. ...0.5m
 
 ### Q26. Q-value of alpha decay of radium-226 (3m)
+<!-- id: ch13-q26 -->
 
 **Q (own words):** Find the Q-value (energy released) in the alpha decay
 `²²⁶₈₈Ra -> ²²²₈₆Rn + ⁴₂He`. Atomic masses: `M(Ra) = 226.02540 u`, `M(Rn) = 222.01758 u`,
@@ -354,6 +366,7 @@ fraction and find how many half-lives have elapsed; hence the time in terms of `
 - Decay is exothermic (`Q > 0`), so it occurs spontaneously. ...0.5m
 
 ### Q27. Energy released in D-T fusion (2m)
+<!-- id: ch13-q27 -->
 
 **Q (own words):** In the fusion reaction `²₁H + ³₁H -> ⁴₂He + ¹₀n`, find the energy released.
 Masses: `M(²H) = 2.014102 u`, `M(³H) = 3.016049 u`, `M(⁴He) = 4.002603 u`, `m_n = 1.008665 u`.
@@ -365,6 +378,7 @@ Masses: `M(²H) = 2.014102 u`, `M(³H) = 3.016049 u`, `M(⁴He) = 4.002603 u`, `
 - **Answer:** `≈ 17.6 MeV` released per fusion.
 
 ### Q28. Carbon-14 radioactive dating (3m)
+<!-- id: ch13-q28 -->
 
 **Q (own words):** A specimen from an old site gives `9` ¹⁴C decays per minute per gram, while a
 living sample gives `15` per minute per gram. Half-life of ¹⁴C is `5730 years`. Estimate the age of
@@ -381,6 +395,7 @@ the specimen.
 ## Case-Study
 
 ### Q29. Case study — nuclear fission and the reactor (4m)
+<!-- id: ch13-q29 -->
 
 **Passage (own words):** When a slow neutron is absorbed by a ²³⁵U nucleus it becomes unstable and
 splits into two medium-mass fragments, releasing ~200 MeV and 2-3 fast neutrons. These neutrons can

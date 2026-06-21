@@ -60,6 +60,7 @@ The refractive index of a medium is 1.5. Find (i) the speed of light in it and (
 ---
 
 ### Q5. Lens-maker's formula: find R (3m)
+<!-- id: ch09-num-q5 -->
 
 **Type:** Numerical · **Section C**
 
@@ -73,6 +74,7 @@ A double-convex lens is made of glass of refractive index 1.55, with both surfac
 ---
 
 ### Q6. Lenses in contact (2m)
+<!-- id: ch09-num-q6 -->
 
 **Type:** Numerical · **Section B**
 
@@ -97,6 +99,7 @@ Two thin lenses of powers +4 D and −2 D are placed in contact. Find the focal 
 ---
 
 ### Q8. Prism: refractive index from minimum deviation (3m)
+<!-- id: ch09-num-q8 -->
 
 **Type:** Numerical · **Section C**
 
@@ -122,6 +125,7 @@ A thin prism of refracting angle 4° is made of glass of refractive index 1.5. F
 ---
 
 ### Q10. Compound microscope magnifying power (3m)
+<!-- id: ch09-num-q10 -->
 
 **Type:** Numerical · **Section C**
 
@@ -138,6 +142,7 @@ A compound microscope has an objective of focal length 2.0 cm and an eyepiece of
 ---
 
 ### Q11. Astronomical telescope: magnifying power and length (3m)
+<!-- id: ch09-num-q11 -->
 
 **Type:** Numerical · **Section C**
 

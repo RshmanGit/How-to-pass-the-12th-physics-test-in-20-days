@@ -53,6 +53,7 @@
 ---
 
 ### Q7. State Gauss's law in electrostatics (2m)
+<!-- id: ch01-sa-q7 -->
 
 **Statement (1½m):** The net electric flux through any closed surface equals 1/ε₀ times the total charge enclosed by that surface.
 **Formula (½m):** ∮ **E**·d**S** = q_enclosed/ε₀.
@@ -111,6 +112,7 @@ Note: only the enclosed charge contributes to the net flux; external charges con
 ---
 
 ### Q14. What is the net flux through a surface enclosing a dipole? Explain. (2m)
+<!-- id: ch01-sa-q14 -->
 
 - A dipole consists of +q and −q, so the total charge enclosed = +q + (−q) = 0. (1m)
 - By Gauss's law φ = q_enclosed/ε₀ = 0. (½m)
@@ -127,6 +129,7 @@ Note: only the enclosed charge contributes to the net flux; external charges con
 ---
 
 ### Q16. Two large parallel plates with charges +σ and −σ: find the field in the three regions (3m)
+<!-- id: ch01-sa-q16 -->
 
 - Each sheet alone produces E = σ/2ε₀. (½m)
 - **Outside the plates (left of + / right of −):** the two fields are equal and opposite → **E = 0**. (1m)

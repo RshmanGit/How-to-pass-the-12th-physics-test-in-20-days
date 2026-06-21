@@ -77,6 +77,7 @@ Correct ranking by magnitude: ferromagnetic ≫ paramagnetic ≈ diamagnetic (sm
 ## Short Answer (2-3m)
 
 ### Q7. Distinguish dia-, para- and ferromagnetism (3m)
+<!-- id: ch05-q7 -->
 
 **Question (own words):** Compare diamagnetic, paramagnetic and ferromagnetic substances on (a) behaviour in a non-uniform field, (b) sign/size of susceptibility, (c) temperature dependence, with one example each.
 
@@ -94,6 +95,7 @@ Correct ranking by magnitude: ferromagnetic ≫ paramagnetic ≈ diamagnetic (sm
 ---
 
 ### Q8. Curie's law statement and graph (2m)
+<!-- id: ch05-q8 -->
 
 **Question (own words):** State Curie's law for a paramagnetic material and sketch the χ–T behaviour.
 
@@ -110,6 +112,7 @@ Correct ranking by magnitude: ferromagnetic ≫ paramagnetic ≈ diamagnetic (sm
 ---
 
 ### Q9. Permanent magnet vs electromagnet material (3m)
+<!-- id: ch05-q9 -->
 
 **Question (own words):** What magnetic properties (retentivity, coercivity) should the material of (a) a permanent magnet and (b) the core of an electromagnet/transformer have? Name a suitable material for each.
 
@@ -130,6 +133,7 @@ Correct ranking by magnitude: ferromagnetic ≫ paramagnetic ≈ diamagnetic (sm
 ---
 
 ### Q11. Three elements of Earth's magnetism (3m)
+<!-- id: ch05-q11 -->
 
 **Question (own words):** Define the three quantities used to completely specify Earth's magnetic field at a place: declination, dip (inclination), and horizontal component.
 
@@ -170,6 +174,7 @@ Correct ranking by magnitude: ferromagnetic ≫ paramagnetic ≈ diamagnetic (sm
 ## Derivations & Long Answer
 
 ### Q14. Bar magnet as an equivalent solenoid — axial field (5m)
+<!-- id: ch05-q14 -->
 
 **Question (own words):** Show that a uniformly magnetised bar magnet is equivalent to a solenoid, and derive the magnetic field on the axis of a solenoid at a far point, identifying its magnetic moment.
 
@@ -193,6 +198,7 @@ Correct ranking by magnitude: ferromagnetic ≫ paramagnetic ≈ diamagnetic (sm
 ---
 
 ### Q15. Torque on a magnetic dipole in a uniform field (3m)
+<!-- id: ch05-q15 -->
 
 **Question (own words):** Derive the expression for the torque on a magnetic dipole (bar magnet) of moment m placed at angle θ to a uniform magnetic field B.
 
@@ -210,6 +216,7 @@ Correct ranking by magnitude: ferromagnetic ≫ paramagnetic ≈ diamagnetic (sm
 ---
 
 ### Q16. Potential energy of a dipole in a magnetic field (3m)
+<!-- id: ch05-q16 -->
 
 **Question (own words):** Derive the potential energy of a magnetic dipole of moment m in a uniform field B, and give the values for stable and unstable equilibrium.
 
@@ -238,6 +245,7 @@ Correct ranking by magnitude: ferromagnetic ≫ paramagnetic ≈ diamagnetic (sm
 ## Numericals
 
 ### Q18. Magnetic moment of a solenoid (2m)
+<!-- id: ch05-q18 -->
 
 **Question (own words):** A closely wound solenoid of 800 turns has cross-sectional area 2.5 × 10⁻⁴ m² and carries a current of 3.0 A. Find its magnetic moment.
 
@@ -249,6 +257,7 @@ Correct ranking by magnitude: ferromagnetic ≫ paramagnetic ≈ diamagnetic (sm
 ---
 
 ### Q19. Magnetic moment from torque (2m)
+<!-- id: ch05-q19 -->
 
 **Question (own words):** A bar magnet placed at 30° to a uniform field B = 0.25 T experiences a torque of 4.5 × 10⁻² N m. Find its magnetic moment.
 
@@ -271,6 +280,7 @@ Correct ranking by magnitude: ferromagnetic ≫ paramagnetic ≈ diamagnetic (sm
 ---
 
 ### Q21. Earth's total field from Bₕ and dip (2m)
+<!-- id: ch05-q21 -->
 
 **Question (own words):** At a place the horizontal component of Earth's field is 0.35 G and the angle of dip is 22°. Find the magnitude of Earth's total magnetic field.
 
@@ -292,6 +302,7 @@ Correct ranking by magnitude: ferromagnetic ≫ paramagnetic ≈ diamagnetic (sm
 ---
 
 ### Q23. Curie's law — magnetisation at a new B and T (3m)
+<!-- id: ch05-q23 -->
 
 **Question (own words):** A paramagnetic sample shows magnetisation M₁ = 6.0 J T⁻¹ when placed in a field B₁ = 0.50 T at temperature T₁ = 300 K. What is its magnetisation M₂ in a field B₂ = 0.20 T at T₂ = 200 K? (Curie-law regime.)
 
@@ -330,6 +341,7 @@ Correct ranking by magnitude: ferromagnetic ≫ paramagnetic ≈ diamagnetic (sm
 ## Case-Study
 
 ### Q26. Case study — Earth's magnetism (4m)
+<!-- id: ch05-q26 -->
 
 **Passage (own words):** Earth behaves like a giant bar magnet tilted ~11.3° to its rotation axis, with the magnetic south pole near the geographic north. The field at any place is fixed by three elements: declination D, dip δ, and horizontal component Bₕ. A typical place has Bₕ = 0.26 G and δ = 60°.
 

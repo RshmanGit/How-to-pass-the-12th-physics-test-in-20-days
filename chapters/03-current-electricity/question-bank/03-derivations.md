@@ -5,6 +5,7 @@
 ---
 
 ### Q1. Relation between current and drift velocity I = neAv_d (3m)
+<!-- id: ch03-deriv-q1 -->
 
 Derive the expression connecting current to drift velocity.
 
@@ -32,6 +33,7 @@ $$\boxed{v_d = \frac{eE}{m}\tau}$$  …½m
 ---
 
 ### Q3. Ohm's law from electron theory; expression for resistivity (5m)
+<!-- id: ch03-deriv-q3 -->
 
 Starting from drift velocity, derive V = IR and obtain ρ = m/(ne²τ).
 
@@ -51,6 +53,7 @@ This is Ohm's law and shows resistivity depends only on material constants (n, �
 ---
 
 ### Q4. Temperature dependence of resistance (3m)
+<!-- id: ch03-deriv-q4 -->
 
 Explain, using ρ = m/(ne²τ), why metallic resistance rises with temperature, and write R_T = R₀[1 + αΔT].
 
@@ -68,6 +71,7 @@ Explain, using ρ = m/(ne²τ), why metallic resistance rises with temperature, 
 ---
 
 ### Q5. Cells in series — equivalent EMF and internal resistance (3m)
+<!-- id: ch03-deriv-q5 -->
 
 Derive the equivalent of n cells in series.
 
@@ -93,6 +97,7 @@ Derive the equivalent of two cells in parallel.
 ---
 
 ### Q7. Wheatstone bridge balance condition (P/Q = R/S) (5m)
+<!-- id: ch03-deriv-q7 -->
 
 Derive the balance condition using Kirchhoff's laws.
 
@@ -114,6 +119,7 @@ $$\boxed{\frac{P}{Q} = \frac{R}{S}}$$  …1m
 ---
 
 ### Q8. Potentiometer — comparison of EMFs of two cells (3m)
+<!-- id: ch03-deriv-q8 -->
 
 Derive the working relation E₁/E₂ = l₁/l₂.
 
@@ -133,6 +139,7 @@ $$\boxed{\frac{E_1}{E_2} = \frac{l_1}{l_2}}$$  …½m
 ---
 
 ### Q9. Potentiometer — internal resistance of a cell (5m)
+<!-- id: ch03-deriv-q9 -->
 
 Derive r = R(l₁ − l₂)/l₂.
 

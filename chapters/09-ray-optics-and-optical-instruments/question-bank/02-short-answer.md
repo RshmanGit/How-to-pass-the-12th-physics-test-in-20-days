@@ -17,6 +17,7 @@ State the law that governs the bending of light at a surface and define the refr
 ---
 
 ### Q2. Conditions for total internal reflection (2m)
+<!-- id: ch09-sa-q2 -->
 
 **Type:** Short Answer · **Section B**
 
@@ -31,6 +32,7 @@ When both hold, no light is refracted; all of it is reflected back into the dens
 ---
 
 ### Q3. Optical fibre and its working (3m)
+<!-- id: ch09-sa-q3 -->
 
 **Type:** Short Answer · **Section C**
 
@@ -68,6 +70,7 @@ Give two applications in which a totally reflecting prism is used and state the 
 ---
 
 ### Q6. Lens immersed in a liquid (2m)
+<!-- id: ch09-sa-q6 -->
 
 **Type:** Short Answer · **Section B**
 

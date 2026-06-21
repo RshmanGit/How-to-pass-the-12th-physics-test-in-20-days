@@ -5,6 +5,7 @@
 ---
 
 ### Q1. Case study — Moving-coil galvanometer and its conversion (4m)
+<!-- id: ch04-cs-q1 -->
 
 **Passage.** A moving-coil galvanometer has a coil of `N` turns and area `A` suspended in a *radial* magnetic field `B`. When current `I` passes, the deflecting torque is balanced by the restoring torque `kφ` of the suspension, giving `φ = (NAB/k)I`. A particular galvanometer has `G = 20 Ω` and gives full-scale deflection at `I_g = 5.0 mA`. It is to be used as both an ammeter and a voltmeter.
 
@@ -26,6 +27,7 @@
 ---
 
 ### Q2. Case study — Charged particle in a magnetic field (4m)
+<!-- id: ch04-cs-q2 -->
 
 **Passage.** A charged particle entering a uniform magnetic field experiences `F = q(v × B)`, always perpendicular to `v`. If `v ⊥ B`, the particle moves in a circle of radius `r = mv/(qB)` with period `T = 2πm/(qB)`, independent of speed. If `v` makes an angle `θ` with `B`, the path is a helix. A proton (`mₚ = 1.67 × 10⁻²⁷ kg`) enters a field `B = 0.50 T` with speed `2.0 × 10⁶ m/s` perpendicular to `B`.
 

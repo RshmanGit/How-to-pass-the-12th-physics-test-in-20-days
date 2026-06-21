@@ -105,6 +105,7 @@ surface produces a force, hence radiation pressure. R correctly explains A. ...1
 ## Short Answer (2-3m)
 
 ### Q9. Displacement current and its need (2m)
+<!-- id: ch08-q9 -->
 
 **Q (own words):** Define displacement current. Why did Maxwell find it necessary to introduce it?
 
@@ -118,6 +119,7 @@ surface produces a force, hence radiation pressure. R correctly explains A. ...1
 - **Modified law:** `closed integral of B.dl = mu0 (I_c + Id) = mu0 (I_c + e0 d(phiE)/dt)`.
 
 ### Q10. Four properties of EM waves (2-3m)
+<!-- id: ch08-q10 -->
 
 **Q (own words):** State any four key properties of electromagnetic waves.
 
@@ -148,6 +150,7 @@ Draw a sketch of the field orientation.
 - Earns: ~1m for perpendicular E and B; ~1m for showing both perpendicular to propagation
 
 ### Q12. EM spectrum order and one use each (3m)
+<!-- id: ch08-q12 -->
 
 **Q (own words):** Write the electromagnetic spectrum in order of increasing frequency and give
 one use of each band.
@@ -178,6 +181,7 @@ approximate wavelength ranges.
 - (ii) **X-rays** — wavelength `~10^-8 m to 10^-13 m` (often quoted around `10^-10 m`). ...1m
 
 ### Q14. Energy density of an EM wave (2-3m)
+<!-- id: ch08-q14 -->
 
 **Q (own words):** Write the expression for the total energy density of an EM wave and show that
 the electric and magnetic contributions are equal.
@@ -190,6 +194,7 @@ the electric and magnetic contributions are equal.
   `u_avg = (1/2) e0 E0^2 = B0^2/(2 mu0)`. ...1m
 
 ### Q15. Radiation pressure and momentum (2m)
+<!-- id: ch08-q15 -->
 
 **Q (own words):** EM waves carry momentum. Write the momentum delivered for energy `U` and hence
 the radiation pressure on a perfectly absorbing surface.
@@ -205,6 +210,7 @@ the radiation pressure on a perfectly absorbing surface.
 ## Derivations & Long Answer
 
 ### Q16. Modified Ampere's law (Ampere-Maxwell) — derive Id for a capacitor (3m)
+<!-- id: ch08-q16 -->
 
 **Q (own words):** Show that, for a charging parallel-plate capacitor, the displacement current
 between the plates equals the conduction current in the wire, and state the modified Ampere's law.
@@ -219,6 +225,7 @@ between the plates equals the conduction current in the wire, and state the modi
 - **Modified law (boxed):** `closed integral of B.dl = mu0 (I_c + e0 d(phiE)/dt)`. ...0.5m
 
 ### Q17. Show c = 1 / sqrt(mu0 e0) and E0 = c B0 (3m)
+<!-- id: ch08-q17 -->
 
 **Q (own words):** State how Maxwell's equations predict EM waves and obtain the speed of light
 and the relation between field amplitudes.
@@ -268,6 +275,7 @@ frequency `f`, and (c) the wavelength `lambda`.
   (equivalently `lambda = 2 pi c/w`). ...1m
 
 ### Q20. Read off parameters from a given wave equation (3m)
+<!-- id: ch08-q20 -->
 
 **Q (own words):** The magnetic field of an EM wave is
 `By = (8 x 10^-6) sin(2 x 10^11 t + 300 pi x) T`. Find (a) the wavelength, (b) the frequency,
@@ -281,6 +289,7 @@ frequency `f`, and (c) the wavelength `lambda`.
 - The `(wt + kx)` sign means the wave travels along the **-x direction**. ...0.5m
 
 ### Q21. Displacement current from rate of change of voltage (3m)
+<!-- id: ch08-q21 -->
 
 **Q (own words):** A parallel-plate capacitor of capacitance `100 pF` is connected to a source
 whose voltage changes at `dV/dt = 10^6 V/s`. Find the displacement current between the plates.
@@ -312,6 +321,7 @@ Find the peak magnetic field `B0` and the average energy density.
 ## Case-Study
 
 ### Q24. Case study — Maxwell's displacement current and the EM spectrum (4m)
+<!-- id: ch08-q24 -->
 
 **Passage (own words):** Ampere's circuital law in its original form failed for a charging
 capacitor, where no conduction current flows between the plates yet a magnetic field is observed.

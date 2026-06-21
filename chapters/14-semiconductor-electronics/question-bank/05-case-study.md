@@ -5,6 +5,7 @@
 ---
 
 ### Q1. Junction diode and rectification (4m)
+<!-- id: ch14-cs-q1 -->
 
 **Type:** Case-Based · **Section D**
 
@@ -28,6 +29,7 @@
 ---
 
 ### Q2. Special-purpose diodes (4m)
+<!-- id: ch14-cs-q2 -->
 
 **Type:** Case-Based · **Section D**
 

@@ -5,6 +5,7 @@
 ---
 
 ### Q1. Mirror formula for a concave mirror (5m)
+<!-- id: ch09-deriv-q1 -->
 
 **Type:** Derivation · **Section C/D**
 
@@ -37,6 +38,7 @@ Steps:
 ---
 
 ### Q2. Refraction at a single spherical surface (5m)
+<!-- id: ch09-deriv-q2 -->
 
 **Type:** Derivation · **Section D**
 
@@ -66,6 +68,7 @@ Steps:
 ---
 
 ### Q3. Lens-maker's formula (5m)
+<!-- id: ch09-deriv-q3 -->
 
 **Type:** Derivation · **Section D**
 
@@ -95,6 +98,7 @@ Steps:
 ---
 
 ### Q4. Refractive index of a prism, n = sin[(A+Dm)/2] / sin(A/2) (5m)
+<!-- id: ch09-deriv-q4 -->
 
 **Type:** Derivation · **Section D**
 
@@ -122,6 +126,7 @@ Steps:
 ---
 
 ### Q5. Compound microscope — ray diagram and magnifying power (5m)
+<!-- id: ch09-deriv-q5 -->
 
 **Type:** Derivation / Long Answer · **Section D**
 
@@ -146,6 +151,7 @@ Steps:
 ---
 
 ### Q6. Astronomical telescope — ray diagram and magnifying power (5m)
+<!-- id: ch09-deriv-q6 -->
 
 **Type:** Derivation / Long Answer · **Section D**
 
@@ -171,6 +177,7 @@ Steps:
 ---
 
 ### Q7. Total internal reflection and critical angle relation (3m)
+<!-- id: ch09-deriv-q7 -->
 
 **Type:** Derivation · **Section C**
 

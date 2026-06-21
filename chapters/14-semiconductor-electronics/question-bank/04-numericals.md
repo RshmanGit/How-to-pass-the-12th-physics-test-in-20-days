@@ -5,6 +5,7 @@
 ---
 
 ### Q1. Carrier concentration in doped germanium (3m)
+<!-- id: ch14-num-q1 -->
 
 **Type:** Numerical · **Section C** (NCERT 14.2 type)
 
@@ -19,6 +20,7 @@ Pure Ge has intrinsic carrier density n_i = 2.5 × 10¹⁹ m⁻³ at room temper
 ---
 
 ### Q2. Silicon doped with arsenic and indium (3m)
+<!-- id: ch14-num-q2 -->
 
 **Type:** Numerical · **Section C** (NCERT 14.10 type)
 
@@ -33,6 +35,7 @@ Silicon (5 × 10²⁸ atoms m⁻³) is doped with arsenic 5 × 10²² m⁻³ and
 ---
 
 ### Q3. Can a 2.8 eV photodiode detect 6000 nm light? (3m)
+<!-- id: ch14-num-q3 -->
 
 **Type:** Numerical · **Section C** (NCERT 14.7 type)
 
@@ -87,6 +90,7 @@ The forward current of a diode changes from 10 mA to 15 mA when the voltage acro
 ---
 
 ### Q7. Conductivity ratio at two temperatures (3m)
+<!-- id: ch14-num-q7 -->
 
 **Type:** Numerical · **Section C** (NCERT 14.9 type)
 

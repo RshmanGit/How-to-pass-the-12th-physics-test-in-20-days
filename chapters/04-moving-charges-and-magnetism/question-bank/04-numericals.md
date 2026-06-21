@@ -28,6 +28,7 @@ A circular coil of 100 turns and radius 8.0 cm carries a current of 0.40 A. Find
 ---
 
 ### Q3. Field on the axis of a coil (3m)
+<!-- id: ch04-num-q3 -->
 
 A circular coil of radius 10 cm, 200 turns, carries a current of 5.0 A. Find the field (i) at the centre and (ii) at a point 12 cm from the centre on the axis. *(NCERT-style)*
 
@@ -88,6 +89,7 @@ Two long parallel wires 4.0 cm apart carry currents of 10 A and 15 A in the same
 ---
 
 ### Q8. Current-balanced suspended wire (3m)
+<!-- id: ch04-num-q8 -->
 
 A horizontal wire carrying current `I` is held in mid-air by the magnetic force from a parallel wire carrying 30 A located 2.0 mm below it. The upper wire has mass per unit length `5.0 × 10⁻⁴ kg/m`. Find `I`. *(repeated PYQ type)*
 
@@ -135,6 +137,7 @@ A circular coil of 20 turns and radius 10 cm carries a current of 5.0 A. It is i
 ---
 
 ### Q12. Galvanometer → ammeter (shunt) (3m)
+<!-- id: ch04-num-q12 -->
 
 A galvanometer of resistance 15 Ω gives full-scale deflection for a current of 4.0 mA. How is it converted into an ammeter reading up to 6.0 A?
 
@@ -157,6 +160,7 @@ A galvanometer of resistance 12 Ω shows full-scale deflection for 3.0 mA. Conve
 ---
 
 ### Q14. Force on a rectangular loop near a long wire (3m)
+<!-- id: ch04-num-q14 -->
 
 A rectangular loop (sides 2.0 cm and 10 cm) carries 5.0 A. Its long side (10 cm) is parallel to and 1.0 cm from a long wire carrying 20 A in the same direction. Find the net force on the loop.
 

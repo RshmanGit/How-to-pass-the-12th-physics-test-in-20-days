@@ -129,6 +129,7 @@ correctly explains A. (1m)
 ## Short Answer (2-3m)
 
 ### Q9. Define rms and average value of AC (2m)
+<!-- id: ch07-q9 -->
 
 **Restated:** What is meant by the rms value and the average (mean) value of an alternating
 current?
@@ -154,6 +155,7 @@ current?
 ---
 
 ### Q11. Reactance of L and C; behaviour at DC and high frequency (2-3m)
+<!-- id: ch07-q11 -->
 
 **Restated:** Define inductive and capacitive reactance and state how each behaves for DC and for
 very high frequency AC.
@@ -167,6 +169,7 @@ very high frequency AC.
 ---
 
 ### Q12. Power factor and wattless current (2-3m)
+<!-- id: ch07-q12 -->
 
 **Restated:** Define power factor of an AC circuit. What is wattless current and when does it flow?
 
@@ -193,6 +196,7 @@ measures.
 ---
 
 ### Q14. Working principle of a transformer (2-3m)
+<!-- id: ch07-q14 -->
 
 **Restated:** State the principle on which a transformer works and write its turns-ratio relation.
 
@@ -206,6 +210,7 @@ measures.
 ---
 
 ### Q15. Sources of energy loss in a real transformer (2-3m)
+<!-- id: ch07-q15 -->
 
 **Restated:** List the main causes of energy loss in a practical transformer and how each is
 minimised.
@@ -223,6 +228,7 @@ minimised.
 ## Derivations & Long Answer
 
 ### Q16. Average power in an AC circuit; power factor (3m)
+<!-- id: ch07-q16 -->
 
 **Restated:** Derive the expression for the average power consumed in an AC circuit and identify
 the power factor.
@@ -241,6 +247,7 @@ the power factor.
 ---
 
 ### Q17. Series LCR circuit — impedance and phase by phasors (5m)
+<!-- id: ch07-q17 -->
 
 **Restated:** Using a phasor (rotating-vector) diagram, obtain the impedance and phase angle of a
 series LCR circuit connected to V = V₀ sin ωt.
@@ -270,6 +277,7 @@ series LCR circuit connected to V = V₀ sin ωt.
 ---
 
 ### Q18. Resonance in series LCR; resonant frequency and Q-factor (5m)
+<!-- id: ch07-q18 -->
 
 **Restated:** Explain electrical resonance in a series LCR circuit. Derive the resonant frequency
 and the Q-factor, and sketch the current-vs-frequency curve.
@@ -310,6 +318,7 @@ current and show that it lags the voltage by π/2; identify the inductive reacta
 ## Numericals
 
 ### Q20. RMS current and power in a pure resistor (2m) [NCERT 7.1]
+<!-- id: ch07-q20 -->
 
 **Given:** R = 100 Ω, V_rms = 220 V, f = 50 Hz.
 **Find:** rms current and net power.
@@ -340,6 +349,7 @@ current and show that it lags the voltage by π/2; identify the inductive reacta
 ---
 
 ### Q23. Series LCR — resonant frequency and Q-factor (3m) [NCERT 7.6]
+<!-- id: ch07-q23 -->
 
 **Given:** L = 2.0 H, C = 32 µF = 32 × 10⁻⁶ F, R = 10 Ω.
 **Find:** resonant angular frequency and Q-factor.
@@ -350,6 +360,7 @@ current and show that it lags the voltage by π/2; identify the inductive reacta
 ---
 
 ### Q24. Full LCR resonance numerical (3m) [NCERT 7.20]
+<!-- id: ch07-q24 -->
 
 **Given:** L = 0.12 H, C = 480 nF = 480 × 10⁻⁹ F, R = 23 Ω, supply V_rms = 230 V.
 **Find:** resonant frequency ν₀, peak current at resonance, and Q-factor.
@@ -361,6 +372,7 @@ current and show that it lags the voltage by π/2; identify the inductive reacta
 ---
 
 ### Q25. Power factor of a series RL circuit (2-3m)
+<!-- id: ch07-q25 -->
 
 **Given:** R = 30 Ω in series with an inductor of X_L = 40 Ω, across V_rms = 200 V.
 **Find:** impedance, current, power factor and average power.
@@ -373,6 +385,7 @@ current and show that it lags the voltage by π/2; identify the inductive reacta
 ---
 
 ### Q26. Ideal transformer turns ratio (2m) [NCERT 7.23 style]
+<!-- id: ch07-q26 -->
 
 **Given:** Step-down transformer, primary V_p = 2300 V on N_p = 4000 turns, secondary V_s = 230 V.
 **Find:** number of secondary turns N_s.
@@ -395,6 +408,7 @@ current and show that it lags the voltage by π/2; identify the inductive reacta
 ## Case-Study
 
 ### Q28. Case study — transmission of electrical power (4m)
+<!-- id: ch07-q28 -->
 
 **Passage:** Electrical power generated at a plant must travel long distances to consumers. The
 line wires have a fixed resistance R_line. To minimise heat (I²R) loss in the lines, power is

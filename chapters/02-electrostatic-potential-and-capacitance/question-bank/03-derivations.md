@@ -13,6 +13,7 @@ Derive the expression for the electric potential at a point distance r from an i
 - **Result: V = (1/4πε₀) · q/r = kq/r.** Scalar; positive for +q, negative for −q. …½m
 
 ### Q2. Potential due to an electric dipole (5m)
+<!-- id: ch02-deriv-q2 -->
 Derive the potential at a point due to a short dipole at distance r making angle θ with the dipole axis; deduce axial and equatorial cases.
 
 **Answer:**
@@ -27,6 +28,7 @@ Derive the potential at a point due to a short dipole at distance r making angle
 - Note: dipole V ∝ 1/r², which falls faster than the 1/r of a point charge.
 
 ### Q3. Potential energy of a dipole in a uniform external field (3m)
+<!-- id: ch02-deriv-q3 -->
 Derive the expression for the potential energy of an electric dipole placed at angle θ in a uniform field E.
 
 **Answer:**
@@ -37,6 +39,7 @@ Derive the expression for the potential energy of an electric dipole placed at a
 - Cases: minimum (stable) U = −pE at θ = 0; maximum (unstable) U = +pE at θ = 180°; U = 0 at θ = 90°. …½m
 
 ### Q4. Capacitance of a parallel-plate capacitor (with and without dielectric) (5m)
+<!-- id: ch02-deriv-q4 -->
 Derive C = ε₀A/d for a parallel-plate capacitor in vacuum, then extend to a medium of dielectric constant K.
 
 **Answer:**
@@ -54,6 +57,7 @@ Derive C = ε₀A/d for a parallel-plate capacitor in vacuum, then extend to a m
 - Earns: ~1m for labelled geometry feeding the derivation.
 
 ### Q5. Energy stored in a charged capacitor (3m)
+<!-- id: ch02-deriv-q5 -->
 Derive the expression for the energy stored in a capacitor of capacitance C charged to a final charge Q (final voltage V).
 
 > Syllabus note: the formal derivation was rationalised out of NCERT (formula required), but it is still asked in many board papers — included here for completeness.
@@ -74,6 +78,7 @@ Derive the energy stored per unit volume (energy density) in the field of a para
 - For a dielectric medium: u = ½Kε₀E². It depends only on the field, confirming energy is stored *in the field itself*. …½m
 
 ### Q7. Equivalent capacitance — series and parallel combinations (5m)
+<!-- id: ch02-deriv-q7 -->
 Derive the equivalent capacitance for n capacitors connected (a) in series and (b) in parallel.
 
 **Answer:**

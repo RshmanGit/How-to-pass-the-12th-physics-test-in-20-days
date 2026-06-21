@@ -43,6 +43,7 @@ Resistors 2 Ω, 4 Ω, 5 Ω are in parallel across a 20 V supply (negligible inte
 ---
 
 ### Q5. Drift speed and time of travel in a copper wire (3m)
+<!-- id: ch03-num-q5 -->
 
 A copper wire has free-electron density n = 8.5×10²⁸ m⁻³, cross-section A = 2.0×10⁻⁶ m², length 3.0 m, carrying current 3.0 A. Find the drift speed and the time an electron takes to traverse the wire.
 
@@ -63,6 +64,7 @@ A heating element on 230 V draws 3.2 A when first switched on (at 27 °C) and se
 ---
 
 ### Q7. Potentiometer — comparing EMFs (3m)
+<!-- id: ch03-num-q7 -->
 
 In a potentiometer, a cell of EMF 1.25 V balances at 35.0 cm. A second cell balances at 63.0 cm. Find the EMF of the second cell.
 
@@ -73,6 +75,7 @@ In a potentiometer, a cell of EMF 1.25 V balances at 35.0 cm. A second cell bala
 ---
 
 ### Q8. Potentiometer — internal resistance of a cell (3m)
+<!-- id: ch03-num-q8 -->
 
 A cell balances at 76.3 cm on open circuit. With a 9.5 Ω resistor across it, the balance shifts to 64.8 cm. Find the internal resistance.
 
@@ -83,6 +86,7 @@ A cell balances at 76.3 cm on open circuit. With a 9.5 Ω resistor across it, th
 ---
 
 ### Q9. Meter bridge — unknown resistance (3m)
+<!-- id: ch03-num-q9 -->
 
 In a meter bridge, the unknown X is in the left gap and a standard Y = 12.5 Ω is in the right gap. The null point is at 39.5 cm from the left end. Find X.
 
@@ -93,6 +97,7 @@ In a meter bridge, the unknown X is in the left gap and a standard Y = 12.5 Ω i
 ---
 
 ### Q10. Kirchhoff's laws — two-loop network (5m)
+<!-- id: ch03-num-q10 -->
 
 In the circuit, a 2 V cell (negligible internal resistance) and a 4 V cell (negligible internal resistance) drive currents through three resistors. Find the branch currents for: outer branches 1 Ω each carrying I₁ and I₂, middle branch 1 Ω carrying I₁ + I₂, with the 4 V and 2 V sources in the two loops respectively.
 

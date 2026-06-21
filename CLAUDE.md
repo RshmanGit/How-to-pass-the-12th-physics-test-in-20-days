@@ -22,11 +22,17 @@ questions. Generalised content (not tuned to a specific student); no tooling yet
 | `exam-reference/weightage-blueprint.md` | Unit + per-chapter weightage; high-yield "pass set" ranking. |
 | `chapters/NN-slug/CLAUDE.md` | Per-chapter content map: weightage, important Qs, files present, sources, diagram inventory. |
 | `chapters/NN-slug/question-bank.md` or `question-bank/` | Full marking-scheme-style answers. Large chapters (1, 2, 3, 4, 9, 14) split by type; the rest are single-file. |
+| `tracker.json` | **Daily-loop machine state** (single source of truth): per-question history, mastery labels, projections, activity. Git-diffable JSON — **no SQLite**. Built by `seed-tracker`; read/written by the daily skills. |
+| `daily/NN-YYYY-MM-DD/` | One folder per study day. `learning.md` + `results.md` are **published** to the site; `test.md` + `rubric.md` + `submission/` are **private** (publish boundary is a filename glob). |
+| `.claude/skills/{seed-tracker,daily-prep,daily-test,daily-eval}` | The daily loop. Commands `/prep` → `/test` → `/grade` wrap them. **Daily order: `/grade` (yesterday) → `/prep` → `/test`**, one day at a time. |
 
 - **Answer style:** CBSE marking-scheme (law → formula → substitution → result with units; derivations as mark-carrying steps).
 - **Diagrams:** "what to draw" checklists (which labels score marks) — no images.
 - **Originality:** answers authored from physics; web sources used only to identify repeated questions and verify values.
 - **Scale:** 14 chapters · ~580 questions · 195 flagged as important. All content was independently physics-verified.
+- **Tracker join key:** each of the 195 important questions carries a hidden `<!-- id: chNN-…-qN -->` under its
+  heading — that ID, **not** the GitHub anchor slug, is the stable key (anchors break on re-titling). Don't renumber
+  existing questions. Spacing/selection policy lives inside the daily skills, not as a rule.
 
 > Not greenfield anymore — keep this map current as chapters/content change.
 

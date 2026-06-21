@@ -3,6 +3,7 @@
 > Section D case studies (4m each: a short passage + 4 sub-parts of 1m, last part often a choice). Read the passage, then answer each sub-part with formula → substitution → result.
 
 ### Q1. Case study — Parallel-plate capacitor and dielectric (4m)
+<!-- id: ch02-cs-q1 -->
 **Passage:** A parallel-plate capacitor consists of two conducting plates of area A separated by distance d, holding charges +Q and −Q. The capacitance in vacuum is C₀ = ε₀A/d. When a dielectric slab of constant K is fully inserted, the bound charges polarise and reduce the net field between the plates, raising the capacitance to C = Kε₀A/d. Whether the battery stays connected or is removed before insertion changes which quantity is held fixed.
 
 **(i) On what factors does the capacitance of a parallel-plate capacitor depend? (1m)**

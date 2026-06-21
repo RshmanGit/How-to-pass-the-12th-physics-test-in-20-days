@@ -11,6 +11,7 @@ Define electric potential at a point and the potential difference between two po
 - SI unit: volt (V) = joule/coulomb; it is a scalar. …½m
 
 ### Q2. What is an equipotential surface? State its properties (2m)
+<!-- id: ch02-sa-q2 -->
 Define an equipotential surface and list its key properties.
 
 **Answer:**
@@ -62,6 +63,7 @@ Define capacitance and list the factors controlling a parallel-plate capacitor.
 - It does NOT depend on the charge or voltage applied.
 
 ### Q7. Effect of dielectric — battery connected vs disconnected (3m)
+<!-- id: ch02-sa-q7 -->
 A dielectric slab (constant K) is inserted into a charged parallel-plate capacitor. Compare the changes when (i) the battery stays connected and (ii) the battery is disconnected first.
 
 **Answer:** In both cases C → KC. …½m
