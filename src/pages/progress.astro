@@ -2,18 +2,18 @@
 import Base from '../layouts/Base.astro';
 import TrendChart from '../components/TrendChart.astro';
 import ActivityHeatmap from '../components/ActivityHeatmap.astro';
-import { meta, trend, coverage, chapterCoverage } from '../data/tracker';
+import { meta, trend, coverage, systemCoverage } from '../data/tracker';
 
 const cov = coverage();
-const chapters = chapterCoverage().filter((c) => c.total > 0).sort((a, b) => b.examMarks - a.examMarks);
+const systems = systemCoverage().filter((c) => c.total > 0).sort((a, b) => b.examMarks - a.examMarks);
 ---
 
-<Base title="Physics.Daily — Progress">
+<Base title="Medicine.Daily — Progress">
   <div class="wrap">
     <p class="eyebrow">Progress</p>
     <h1>The climb so far</h1>
 
-    <div class="card"><TrendChart trend={trend} passMark={meta.pass_mark} total={meta.total_marks} /></div>
+    <div class="card"><TrendChart trend={trend} floorPct={meta.pass_rule.per_paper_floor_pct} aggregatePct={meta.pass_rule.aggregate_pct} /></div>
 
     <h2>Activity</h2>
     <div class="card"><ActivityHeatmap /></div>
@@ -21,7 +21,7 @@ const chapters = chapterCoverage().filter((c) => c.total > 0).sort((a, b) => b.e
     <h2>Coverage</h2>
     <p class="muted">{cov.seen} of {cov.total} must-cover questions touched · {cov.pct}%</p>
     <div class="card cov">
-      {chapters.map((c) => (
+      {systems.map((c) => (
         <div class="row">
           <span class="name">{c.name}</span>
           <span class="bar"><span class="fill" style={`width:${c.total ? (c.seen / c.total) * 100 : 0}%`}></span></span>

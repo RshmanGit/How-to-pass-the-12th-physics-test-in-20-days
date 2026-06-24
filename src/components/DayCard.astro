@@ -1,6 +1,6 @@
 ---
-interface Props { dayIndex: number; date: Date; title: string; chapters?: string[]; totalMarks?: number | null; }
-const { dayIndex, date, title, chapters = [], totalMarks = null } = Astro.props;
+interface Props { dayIndex: number; date: Date; title: string; systems?: string[]; totalMarks?: number | null; }
+const { dayIndex, date, title, systems = [], totalMarks = null } = Astro.props;
 const dd = date.toLocaleDateString('en', { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' });
 const num = String(dayIndex).padStart(2, '0');
 ---
@@ -12,8 +12,8 @@ const num = String(dayIndex).padStart(2, '0');
     {typeof totalMarks === 'number' && <span class="badge num">{totalMarks} marks</span>}
   </div>
   <h3 class="title">{title}</h3>
-  {chapters.length > 0 && (
-    <p class="chips">{chapters.map((c) => <span class="chip">{c}</span>)}</p>
+  {systems.length > 0 && (
+    <p class="chips">{systems.map((c) => <span class="chip">{c}</span>)}</p>
   )}
 </a>
 

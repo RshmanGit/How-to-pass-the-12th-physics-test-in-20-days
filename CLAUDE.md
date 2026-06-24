@@ -6,36 +6,46 @@
 
 ## Project
 
-**CBSE Class 12 Physics — Pass Kit** — a focused study repo to get a student over the board/compartment
-Physics (Code 042) **pass line (33% = 23/70 theory)** by drilling the most predictable, repeated
-questions. Generalised content (not tuned to a specific student); no tooling yet.
+**MD General Medicine — Theory Pass Kit** — a focused study repo to get a postgraduate student
+(**Mitsu Patel**, Jaipur National University) over the **MD General Medicine theory pass line** by drilling
+high-yield, repeatedly-examined questions. There is **no official "important topics" list** in MD Medicine —
+this is a floor-raiser + confidence engine, not a secret short syllabus.
 
-- Content (not code): Markdown question banks, chapter content maps, a strategy kit, and exam reference docs.
-- Built from the official **2025-26** CBSE pattern + 5-year question trends. Compartment uses the identical blueprint.
+- Content (not code): Markdown question banks (muggable marking-scheme answers), per-system content maps, a
+  strategy kit, and exam-reference docs.
+- Built on the **NMC 4-paper pattern** (4 × 100 = **400 theory marks**; JNU examines its own MD). **Pass gate
+  (no grace marks): ≥40% in EACH paper AND ≥50% aggregate.** A separate ≥50% practical/clinical+viva gate is
+  **out of scope** (theory-only kit). Milestones: **prelim 27 Jul 2026**, **final theory 17 Aug 2026**.
 
 ### Repo map
 
 | Path | What it holds |
 |------|---------------|
-| `pass-kit.md` | The strategy layer. Part 1 = fastest path to 23/70 (Tier 1/2, exam-hall order); Part 2 = chapter-by-chapter important questions, each linked into the question banks. **Start here.** |
-| `exam-reference/question-paper-template.md` | Official paper structure: sections A–E, marks, internal choice, 50/20/30 competency split, the dual (theory + practical) 33% pass gate. |
-| `exam-reference/weightage-blueprint.md` | Unit + per-chapter weightage; high-yield "pass set" ranking. |
-| `chapters/NN-slug/CLAUDE.md` | Per-chapter content map: weightage, important Qs, files present, sources, diagram inventory. |
-| `chapters/NN-slug/question-bank.md` or `question-bank/` | Full marking-scheme-style answers. Large chapters (1, 2, 3, 4, 9, 14) split by type; the rest are single-file. |
-| `tracker.json` | **Daily-loop machine state** (single source of truth): per-question history, mastery labels, projections, activity. Git-diffable JSON — **no SQLite**. Built by `seed-tracker`; read/written by the daily skills. |
+| `pass-kit.md` | The strategy layer. Part 1 = high-yield strategy (Tier 1/2, scoring-systems harvest, per-paper-floor warning, exam-hall order); Part 2 = system-by-system important questions, each linked into the banks. **Start here.** |
+| `exam-reference/paper-blueprint.md` | The 4×100 structure, system→paper map (marks sum 100/paper, 400 total), the 40%/paper + 50%-aggregate pass gate. |
+| `exam-reference/answer-paper-template.md` | LAQ/SAQ block step-marking + exam-hall answer technique. |
+| `systems/NN-slug/CLAUDE.md` | Per-system content map: which paper + weightage, important Qs, files present, sources, diagram/table inventory, and a **`Verification:` sign-off line** (Mitsu flips ☐→☑ before mugging). |
+| `systems/NN-slug/question-bank.md` or `question-bank/` | Muggable marking-scheme answers. Tier-1 systems (01–07) split by type (`01-laq`/`02-saq`/`03-criteria`/`04-numericals`); thin systems (08–13) single-file. |
+| `tracker.json` | **Daily-loop machine state** (schema v2): `papers`/`systems` maps, per-question history, mastery labels, **per-paper projections + two-constraint verdict**, activity. Git-diffable JSON — **no SQLite**. Built by `seed-tracker`; read/written by the daily skills. |
 | `daily/NN-YYYY-MM-DD/` | One folder per study day. `learning.md` + `results.md` are **published** to the site; `test.md` + `rubric.md` + `submission/` are **private** (publish boundary is a filename glob). |
 | `.claude/skills/{seed-tracker,daily-prep,daily-test,daily-eval}` | The daily loop. Commands `/prep` → `/test` → `/grade` wrap them. **Daily order: `/grade` (yesterday) → `/prep` → `/test`**, one day at a time. |
-| `astro.config.mjs`, `src/`, `package.json` | The **mobile-first study site** (Astro 5, static) — lives at the **repo root** (so Vercel deploys zero-config). Reads `daily/*/learning.md`+`results.md` and `tracker.json` at build time; KaTeX renders math. Build `npm run build` → `dist/`. |
+| `astro.config.mjs`, `src/`, `package.json` | The **mobile-first study site** (Astro 5, static) — lives at the **repo root** (so Vercel deploys zero-config). Reads `daily/*/learning.md`+`results.md` and `tracker.json` at build time; renders per-paper gauges + aggregate. KaTeX wired for occasional lab-value/formulae. Build `npm run build` → `dist/`. |
 
-- **Answer style:** CBSE marking-scheme (law → formula → substitution → result with units; derivations as mark-carrying steps).
-- **Diagrams:** "what to draw" checklists (which labels score marks) — no images.
-- **Originality:** answers authored from physics; web sources used only to identify repeated questions and verify values.
-- **Scale:** 14 chapters · ~580 questions · 195 flagged as important. All content was independently physics-verified.
-- **Tracker join key:** each of the 195 important questions carries a hidden `<!-- id: chNN-…-qN -->` under its
-  heading — that ID, **not** the GitHub anchor slug, is the stable key (anchors break on re-titling). Don't renumber
-  existing questions. Spacing/selection policy lives inside the daily skills, not as a rule.
+- **Answer style:** CBSE-style marking-scheme **blocks** — LAQ = Definition → Aetiopathogenesis → Clinical
+  features → Investigations → Management (each block mark-carrying, scored independently); SAQ = short note;
+  `crit` = a scoring-system table; `num` = a verified calculation.
+- **Diagrams:** "what to draw / tabulate" checklists (tables, flowcharts, labelled diagrams) — no images.
+- **Originality & safety:** answers authored from standard texts (Harrison's / Davidson's / API) with per-answer
+  citations and **adversarially fact-checked**; **a wrong dose is dangerous**, so each system also needs
+  **Mitsu's sign-off** (flip its `Verification` line) before it is treated as muggable.
+- **Scale:** **13 systems · 132 questions.** Tier-1 = her 7 systems (Neurology first); Tier-2 = Haem/Onc,
+  Rheumatology, Critical care; floor sets for Papers I & IV; a cross-cutting criteria-scores system.
+- **Tracker join key:** each question carries a hidden `<!-- id: sysNN-…-qN -->` under its heading — that ID,
+  **not** the GitHub anchor slug, is the stable key (anchors break on re-titling). Don't renumber existing
+  questions. Spacing/selection policy lives inside the daily skills, not as a rule.
 
-> Not greenfield anymore — keep this map current as chapters/content change.
+> Refactored in-place from a CBSE Physics kit (git history / `main` retain the physics version) — keep this
+> map current as systems/content change.
 
 ## How to work in this repo
 

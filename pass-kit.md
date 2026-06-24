@@ -1,341 +1,288 @@
-# CBSE Class 12 Physics — The Pass Kit
+# MD General Medicine — The Theory Pass Kit
 
-> A focused route to clearing the board (or compartment) Physics paper: **23 / 70 in theory** with a
-> margin, by drilling the most predictable, repeated questions instead of the whole syllabus. Built
-> from the official **2025-26** pattern and 5-year question trends. **Generalised** — not tuned to any
-> one student.
+> A focused route through the MD General Medicine **theory** papers (Jaipur National University, NMC
+> pattern): clear **each of the four 100-mark papers (≥40%) and the ≥50% aggregate** by drilling
+> high-yield, repeatedly-examined topics with muggable, marking-scheme model answers — instead of trying
+> to read the whole of internal medicine.
 >
-> Full worked answers (CBSE marking-scheme style, with "what to draw" diagram checklists) live in each
-> chapter's question bank — every important question in Part 2 links straight to it.
-> Paper structure → [`exam-reference/question-paper-template.md`](exam-reference/question-paper-template.md) ·
-> Weightage → [`exam-reference/weightage-blueprint.md`](exam-reference/weightage-blueprint.md)
+> **Honest disclaimer.** Unlike a school board exam, MD Medicine has **no official "important topics" list
+> and no short syllabus** — the examinable content is all of internal medicine. This kit is a
+> **floor-raiser and confidence engine**, not a guarantee: it gives structured mark-frames + real source
+> references for the topics that recur most. Keep preparation **general** — do not bet on one university's
+> past questions repeating verbatim.
+>
+> Full model answers (marking-scheme style, with "what to draw / tabulate" checklists) live in each
+> system's question bank — every question in Part 2 links straight to it.
+> Paper structure → [`exam-reference/paper-blueprint.md`](exam-reference/paper-blueprint.md) ·
+> Answer technique → [`exam-reference/answer-paper-template.md`](exam-reference/answer-paper-template.md)
+>
+> ⚠️ **Verify before mugging.** Doses/criteria are authored from standard texts and adversarially
+> fact-checked, but medicine changes and a wrong dose is dangerous. Each system carries a `Verification:`
+> line in its `CLAUDE.md`; mug a system only once Mitsu has signed it off.
 
 ## The goal, stated plainly
 
-- **Pass = 33%.** Theory **23 / 70**, practical/internal **~10 / 30** — you must clear **each
-  separately**. A strong theory score cannot rescue a failed practical.
-- You do **not** need all 14 chapters. The plan below locks ~31 marks of the most accessible, repeated
-  content, then harvests cheap fixed-formula marks from the rest.
-- **No negative marking** — never leave an objective question blank.
+- **Pass = two binding gates, no grace marks.** Theory: **≥40% in EACH of the four papers** AND **≥50%
+  aggregate (≥200/400)**. A separate **≥50% practical/clinical+viva** gate is assessed independently —
+  **out of scope for this kit**, but never forget it.
+- **No paper can be zero.** You can clear the 50% aggregate and still **fail** because one paper (often
+  Paper I Basic Sciences or Paper IV Recent Advances) fell below 40%. So the kit covers all four papers and
+  the dashboard projects **per paper**, not just an average.
+- You cannot mug all of medicine. The plan below front-loads the **high-yield core** (Neurology first),
+  harvests cheap dense marks from **scoring systems**, and guarantees a **minimum floor** for the
+  under-loved papers.
 
-## Part 1 — The fastest path to 23 / 70
+## Part 1 — The strategy
 
-### Tier 1 — Must-do (highest-confidence marks)
+### Tier 1 — High-yield core (build and master these first)
 
-The easiest, most predictable scoring zone — modern physics + semiconductors + current electricity +
-the formula-driven optics chapter. Together they expose **~31 marks**.
+Mitsu's priority systems — the topics that recur most across MD theory papers. Neurology leads (her #1).
 
-| Chapter | ≈Marks | Lock these |
-|---|---|---|
-| 14 · Semiconductors | 7 | diode V–I curve, half/full-wave rectifier (circuit + waveform), Zener regulator, n/p-type & doping |
-| 9 · Ray Optics | 10 | mirror & lens formula, lens-maker's formula, prism minimum deviation, TIR / critical angle, microscope & telescope |
-| 3 · Current Electricity | 6 | drift velocity I = neAv_d, Ohm's law, Kirchhoff's laws, Wheatstone bridge, potentiometer |
-| 12 · Atoms | 4 | Bohr radius / energy / spectra, Rydberg relation, distance of closest approach |
-| 11 · Dual Nature | 4 | photoelectric equation + the three graphs, de Broglie λ = h/√(2mqV) |
+| System | Paper | ≈ Marks | Lock these |
+|---|---|---|---|
+| **Neurology** | II | 45 | Stroke · Epilepsy + status epilepticus · Myasthenia gravis · GBS · Parkinson's · MS · Dementia · CNS TB |
+| Infectious & Tropical | II | 35 | Malaria · Dengue · Leptospirosis · Scrub typhus · TB · fever-with-thrombocytopenia approach |
+| Cardiology | III | 20 | ACS/MI · Heart failure · Infective endocarditis · Pulmonary HTN · Arrhythmia · HTN |
+| Respiratory | III | 16 | COPD · Asthma · ARDS · TB · ILD · Pneumonia |
+| Gastroenterology | III | 16 | ALD–CLD/portal HTN · Pancreatitis · Hepatitis · IBD/IBS · Acute liver failure |
+| Endocrinology | III | 16 | DKA & endocrine emergencies · Thyroid disorders · Adrenal (Cushing/Pheo/Addison) · DM |
+| Nephrology | III | 14 | AKI · CKD & renal replacement therapy · Nephritic vs nephrotic · Dialysis |
 
-> Ray Optics is the single biggest chapter and its formulas are predictable — worth the extra practice.
-> The other four are genuinely low-effort marks.
+> Answer every LAQ in headed sub-sections (Definition → Aetiopathogenesis → Clinical features →
+> Investigations → Management) — the structure itself banks marks.
 
-### Tier 2 — Cheap-mark harvest (memorise, don't master)
+### Tier 1b — Scoring-systems harvest (cheapest, densest marks)
 
-Don't study these chapters whole. Memorise the one or two fixed, repeated items each almost always asks:
+Pure recall, high mark-density — reproduce the criteria table and you bank most of the marks. Each score
+lives in its owning system's `03-criteria.md`; orphan scores collect in `systems/08-criteria-scores/`.
 
-- **Ch 1** — Gauss's law (line charge / plane sheet / spherical shell) + dipole field
-- **Ch 2** — energy stored ½CV²; series/parallel capacitor combinations
-- **Ch 10** — YDSE fringe width β = λD/d (most YDSE numericals are just this one formula)
-- **Ch 13** — binding-energy / energy-released numericals (pure plug-in once you know 1 u = 931.5 MeV)
-- **Ch 5** — dia/para/ferromagnetic materials table + Curie's law χ ∝ 1/T
-- **Ch 7** — transformer relation + LCR resonance formulas
-- **Ch 6** — state Faraday's & Lenz's laws (2-mark recall) + motional EMF
-- **Ch 8** — properties of EM waves + EM spectrum order/uses (quick conceptual marks)
+- Duke (infective endocarditis) · McDonald (MS) · CURB-65 (pneumonia) · Child-Pugh / MELD / Ranson /
+  Glasgow (liver/pancreatitis) · Modified Jones (rheumatic fever) · Glasgow Coma Scale · Wells (PE/DVT) ·
+  CHA₂DS₂-VASc (AF) · qSOFA / SOFA (sepsis).
 
-### Where the marks add up
+### Tier 2 — Secondary layer (memorise the flagship answer, don't master the system)
 
-| Source | Realistic marks |
-|---|---|
-| Tier 1 (partial credit, not perfection) | ~20–24 |
-| Tier 2 harvest (objective + fixed formulas) | ~8–12 |
-| **Margin over the 23 pass-line** | comfortable |
+High-yield systems Mitsu's list initially omitted — added back because they carry confirmed recurring
+questions. Learn the one or two flagship LAQs each, plus the cheap short notes.
+
+- **Haematology/Oncology** — tumour markers · tumour lysis syndrome · paraneoplastic syndromes · anaemia approach.
+- **Rheumatology** — SLE · rheumatoid arthritis (DMARDs/biologics, extra-articular features).
+- **Critical Care/Sepsis** — sepsis & septic shock · shock classification · acid-base/ABG.
+
+### The per-paper floor (the load-bearing honesty)
+
+- **Paper I (Basic Sciences)** and **Paper IV (Recent Advances)** are easy to ignore while over-investing in
+  Neurology — but either falling below 40% sinks the whole theory head. Guarantee a **minimum answerable
+  set** from `systems/12-basic-sciences/` and `systems/13-recent-advances/`.
 
 ## Part 1b — In the exam hall
 
-1. **Do Section A first** (16 objective marks) while fresh. **Attempt every one** — no negative marking; a guess beats a blank.
-2. Then **Case Study 1** (usually 4 MCQ sub-parts — objective). *Case Study 2 is mostly descriptive — don't assume it's free marks.*
-3. **Use the internal OR choices** in Sections B, C, E — prepare only the side you know.
-4. **Always write the formula and substitute the numbers**, even if the arithmetic fails — CBSE awards step marks.
-5. **Draw the labelled diagram** wherever one is asked — it carries independent marks (V–I curves, ray diagrams, circuits, waveforms).
-6. Don't burn time on a 5-marker you don't know; bank the sure marks first.
+1. **Read the whole paper first**; choose your LAQ *OR*-options (prepare only the side you know).
+2. **Answer LAQs with headed sub-sections** (Defn / Aetiopath / CF / Ix / Mx) — examiners mark by block.
+3. **Always draw the table / flowchart / labelled diagram** — independent marks.
+4. **Attempt every short note** — partial credit is real; never leave one blank.
+5. **Don't overrun one LAQ and starve a paper** — budget time by marks; protect the 40% floor in every paper.
+6. Write legibly — content is marked separately from presentation, but an illegible answer earns nothing.
 
 ## Reality checks (what a theory-only kit misses)
 
-- **Two separate gates.** Clear the **practical / internal (~10 / 30)** too — labs, record, viva.
-- **50% of the paper is competency-based** (application / case / source). Practise *applying* these
-  standard ideas to unseen situations, not only reproducing derivations — the predictable-question
-  pool is enough to pass, but it isn't the whole paper.
+- **The practical / clinical + viva gate (≥50%) is separate** — long & short cases, spotters, ECG/X-ray,
+  instruments, viva. Not covered here.
+- **Medicine cannot be fully "spotted."** This pool raises your floor on the predictable topics; a few
+  unseen questions appear in every paper. Read the cited sources, don't only mug the frames.
 
 ---
 
-## Part 2 — Chapter-by-chapter important questions
+## Part 2 — System-by-system important questions
 
-> Every item links to its full marking-scheme answer in the chapter's question bank.
-> Chapters are ordered by syllabus number, not priority — for the priority order, see Part 1.
+> Every item links to its full marking-scheme answer in the system's question bank. Systems are ordered by
+> Mitsu's priority (Neurology first), not by exam-paper number. Systems marked *(scheduled)* are stubs to be
+> authored in a later phase.
 
+### Sys 1 · Neurology  (Paper II · ≈45 marks · 11 questions in bank) ✅
+[Content map](systems/01-neurology/CLAUDE.md) · [Question bank](systems/01-neurology/question-bank/)
 
-### Ch 1 · Electric Charges and Fields  (≈5 marks · 72 questions in bank)
-[Content map](chapters/01-electric-charges-and-fields/CLAUDE.md) · [Question bank](chapters/01-electric-charges-and-fields/question-bank/)
+- [Acute ischaemic stroke — aetiopathogenesis, clinical features, investigations & management](systems/01-neurology/question-bank/01-laq.md#q1-acute-ischaemic-stroke--aetiopathogenesis-clinical-features-investigations-and-management-15m) — *15m · laq*
+- [Epilepsy — classification & approach to seizures incl. status epilepticus](systems/01-neurology/question-bank/01-laq.md#q2-epilepsy--classification-and-approach-to-a-patient-with-seizures-including-status-epilepticus-15m) — *15m · laq*
+- [Myasthenia gravis — aetiopathogenesis, clinical features, investigations & management](systems/01-neurology/question-bank/01-laq.md#q3-myasthenia-gravis--aetiopathogenesis-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Guillain-Barré syndrome — aetiopathogenesis, clinical features, investigations & management](systems/01-neurology/question-bank/01-laq.md#q4-guillain-barré-syndrome--aetiopathogenesis-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Parkinson's disease — aetiopathogenesis, clinical features & management](systems/01-neurology/question-bank/01-laq.md#q5-parkinsons-disease--aetiopathogenesis-clinical-features-and-management-10m) — *10m · laq*
+- [Short note: Multiple sclerosis](systems/01-neurology/question-bank/02-saq.md#q1-short-note-multiple-sclerosis-5m) — *5m · saq*
+- [Short note: Dementia](systems/01-neurology/question-bank/02-saq.md#q2-short-note-dementia-5m) — *5m · saq*
+- [Short note: CNS tuberculosis / tuberculous meningitis](systems/01-neurology/question-bank/02-saq.md#q3-short-note-cns-tuberculosis--tuberculous-meningitis-5m) — *5m · saq*
+- [Short note: Status epilepticus — definition & management](systems/01-neurology/question-bank/02-saq.md#q4-short-note-status-epilepticus--definition-and-management-5m) — *5m · saq*
+- [McDonald criteria for multiple sclerosis — principle & components](systems/01-neurology/question-bank/03-criteria.md#q1-mcdonald-criteria-for-multiple-sclerosis--principle-and-components-5m) — *5m · crit*
+- [Glasgow Coma Scale — components & scoring](systems/01-neurology/question-bank/03-criteria.md#q2-glasgow-coma-scale--components-and-scoring-5m) — *5m · crit*
 
-- [Gauss's law — field of a uniformly charged spherical shell (outside/surface/inside) + E-r graph](chapters/01-electric-charges-and-fields/question-bank/03-derivations.md#q7-gausss-law--field-due-to-a-uniformly-charged-thin-spherical-shell-5m) — *5m · derivation*
-- [Gauss's law — field of an infinitely long line charge, E = λ/2πε₀r](chapters/01-electric-charges-and-fields/question-bank/03-derivations.md#q5-gausss-law--field-due-to-an-infinitely-long-straight-line-charge-5m) — *5m · derivation*
-- [Gauss's law — field of an infinite charged plane sheet, E = σ/2ε₀](chapters/01-electric-charges-and-fields/question-bank/03-derivations.md#q6-gausss-law--field-due-to-an-infinite-charged-plane-sheet-5m) — *5m · derivation*
-- [Electric field on the axial line of a dipole, E = 2kp/r³](chapters/01-electric-charges-and-fields/question-bank/03-derivations.md#q1-electric-field-on-the-axial-line-of-a-dipole-3m) — *3m · derivation*
-- [Electric field on the equatorial line of a dipole, E = kp/r³](chapters/01-electric-charges-and-fields/question-bank/03-derivations.md#q2-electric-field-on-the-equatorial-line-of-a-dipole-3m) — *3m · derivation*
-- [Torque on a dipole in a uniform field, τ = pE sinθ](chapters/01-electric-charges-and-fields/question-bank/03-derivations.md#q3-torque-on-a-dipole-in-a-uniform-field-expression-for-τ-3m) — *3m · derivation*
-- [Potential energy of a dipole U = −pE cosθ; work to flip = 2pE](chapters/01-electric-charges-and-fields/question-bank/03-derivations.md#q4-potential-energy-of-a-dipole-in-a-uniform-field-work-to-rotate-it-3m) — *3m · derivation*
-- [Coulomb's law vector form and the superposition principle](chapters/01-electric-charges-and-fields/question-bank/03-derivations.md#q8-coulombs-law-in-vector-form-and-the-superposition-principle-3m) — *3m · derivation*
-- [State Gauss's law in electrostatics](chapters/01-electric-charges-and-fields/question-bank/02-short-answer.md#q7-state-gausss-law-in-electrostatics-2m) — *2m · short-answer*
-- [Net flux through a surface enclosing a dipole (= 0)](chapters/01-electric-charges-and-fields/question-bank/02-short-answer.md#q14-what-is-the-net-flux-through-a-surface-enclosing-a-dipole-explain-2m) — *2m · short-answer*
-- [Field in three regions of two parallel plates +σ / −σ](chapters/01-electric-charges-and-fields/question-bank/02-short-answer.md#q16-two-large-parallel-plates-with-charges-σ-and-σ-find-the-field-in-the-three-regions-3m) — *3m · short-answer*
-- [Coulomb force between two point charges (NCERT 1.1)](chapters/01-electric-charges-and-fields/question-bank/04-numericals.md#q1-force-between-two-point-charges-2m) — *2m · numerical*
-- [Flux through a square at 0° and 60° (NCERT 1.15)](chapters/01-electric-charges-and-fields/question-bank/04-numericals.md#q7-flux-through-a-square--field-parallel-and-at-an-angle-3m) — *3m · numerical*
-- [Charge and flux from surface charge density of a conducting sphere (NCERT 1.22)](chapters/01-electric-charges-and-fields/question-bank/04-numericals.md#q11-charge-and-flux-from-surface-charge-density-3m) — *3m · numerical*
-- [Null point between +q and +9q (→ 2.5a)](chapters/01-electric-charges-and-fields/question-bank/04-numericals.md#q12-null-point-between-two-like-charges-3m) — *3m · numerical*
-- [Torque on a dipole in a uniform field (NCERT 1.10)](chapters/01-electric-charges-and-fields/question-bank/04-numericals.md#q5-torque-on-a-dipole-in-a-uniform-field-2m) — *2m · numerical*
-- [Case study — Gauss's law and the spherical shell](chapters/01-electric-charges-and-fields/question-bank/05-case-study.md#q1-case-study--gausss-law-and-the-spherical-shell-4m) — *4m · case-study*
-- [Case study — Electric dipole in a uniform field](chapters/01-electric-charges-and-fields/question-bank/05-case-study.md#q2-case-study--electric-dipole-in-a-uniform-field-4m) — *4m · case-study*
+### Sys 2 · Cardiology  (Paper III · ≈20 marks · 12 questions in bank) ✅
+[Content map](systems/02-cardiology/CLAUDE.md) · [Question bank](systems/02-cardiology/question-bank/)
 
-### Ch 2 · Electrostatic Potential and Capacitance  (≈5 marks · 55 questions in bank)
-[Content map](chapters/02-electrostatic-potential-and-capacitance/CLAUDE.md) · [Question bank](chapters/02-electrostatic-potential-and-capacitance/question-bank/)
+- [Acute coronary syndrome / myocardial infarction](systems/02-cardiology/question-bank/01-laq.md#q1-acute-coronary-syndrome--myocardial-infarction--aetiopathogenesis-clinical-features-investigations-and-management-15m) — *15m · laq*
+- [Congestive heart failure](systems/02-cardiology/question-bank/01-laq.md#q2-congestive-heart-failure--aetiopathogenesis-clinical-features-investigations-and-management-15m) — *15m · laq*
+- [Infective endocarditis](systems/02-cardiology/question-bank/01-laq.md#q3-infective-endocarditis--aetiopathogenesis-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Systemic hypertension including hypertensive emergencies](systems/02-cardiology/question-bank/01-laq.md#q4-systemic-hypertension-including-hypertensive-emergencies--aetiopathogenesis-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Pulmonary hypertension](systems/02-cardiology/question-bank/01-laq.md#q5-pulmonary-hypertension--aetiopathogenesis-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Atrial fibrillation and approach to arrhythmia](systems/02-cardiology/question-bank/02-saq.md#q1-short-note-atrial-fibrillation-and-approach-to-arrhythmia-5m) — *5m · saq*
+- [Rheumatic fever and rheumatic heart disease](systems/02-cardiology/question-bank/02-saq.md#q2-short-note-rheumatic-fever-and-rheumatic-heart-disease-5m) — *5m · saq*
+- [Cardiomyopathies](systems/02-cardiology/question-bank/02-saq.md#q3-short-note-cardiomyopathies-5m) — *5m · saq*
+- [Cardiogenic shock](systems/02-cardiology/question-bank/02-saq.md#q4-short-note-cardiogenic-shock-5m) — *5m · saq*
+- [Modified Duke criteria for infective endocarditis](systems/02-cardiology/question-bank/03-criteria.md#q1-modified-duke-criteria-for-infective-endocarditis-5m) — *5m · crit*
+- [CHA2DS2-VASc and HAS-BLED scores](systems/02-cardiology/question-bank/03-criteria.md#q2-chads-vasc-and-has-bled-scores-in-atrial-fibrillation-5m) — *5m · crit*
+- [Modified Jones criteria for rheumatic fever](systems/02-cardiology/question-bank/03-criteria.md#q3-modified-jones-criteria-for-rheumatic-fever-5m) — *5m · crit*
 
-- [Potential due to an electric dipole (axial, equatorial, general)](chapters/02-electrostatic-potential-and-capacitance/question-bank/03-derivations.md#q2-potential-due-to-an-electric-dipole-5m) — *5m · derivation*
-- [Capacitance of a parallel-plate capacitor with and without dielectric](chapters/02-electrostatic-potential-and-capacitance/question-bank/03-derivations.md#q4-capacitance-of-a-parallel-plate-capacitor-with-and-without-dielectric-5m) — *5m · derivation*
-- [Equivalent capacitance — series and parallel combinations](chapters/02-electrostatic-potential-and-capacitance/question-bank/03-derivations.md#q7-equivalent-capacitance--series-and-parallel-combinations-5m) — *5m · derivation*
-- [Energy stored in a charged capacitor](chapters/02-electrostatic-potential-and-capacitance/question-bank/03-derivations.md#q5-energy-stored-in-a-charged-capacitor-3m) — *3m · derivation*
-- [Potential energy of a dipole in a uniform field](chapters/02-electrostatic-potential-and-capacitance/question-bank/03-derivations.md#q3-potential-energy-of-a-dipole-in-a-uniform-external-field-3m) — *3m · derivation*
-- [Dielectric effect — battery connected vs disconnected](chapters/02-electrostatic-potential-and-capacitance/question-bank/02-short-answer.md#q7-effect-of-dielectric--battery-connected-vs-disconnected-3m) — *3m · short-answer*
-- [Equipotential surface — definition and properties](chapters/02-electrostatic-potential-and-capacitance/question-bank/02-short-answer.md#q2-what-is-an-equipotential-surface-state-its-properties-2m) — *2m · short-answer*
-- [Point of zero potential between two charges](chapters/02-electrostatic-potential-and-capacitance/question-bank/04-numericals.md#q4-point-of-zero-potential-between-two-charges-3m) — *3m · numerical*
-- [Three 9 pF capacitors in series across 120 V](chapters/02-electrostatic-potential-and-capacitance/question-bank/04-numericals.md#q2-three-9-pf-capacitors-in-series-across-120-v-3m) — *3m · numerical*
-- [Energy stored in a 12 pF capacitor](chapters/02-electrostatic-potential-and-capacitance/question-bank/04-numericals.md#q1-energy-stored-in-a-12-pf-capacitor-2m) — *2m · numerical*
-- [Case study — parallel-plate capacitor and dielectric](chapters/02-electrostatic-potential-and-capacitance/question-bank/05-case-study.md#q1-case-study--parallel-plate-capacitor-and-dielectric-4m) — *4m · case-study*
-- [Energy stored in a capacitor (1 mark MCQ)](chapters/02-electrostatic-potential-and-capacitance/question-bank/01-mcq-assertion-reason.md#q8-energy-stored-in-a-capacitor-1m) — *1m · mcq*
+### Sys 3 · Endocrinology  (Paper III · ≈16 marks · 12 questions in bank) ✅
+[Content map](systems/03-endocrinology/CLAUDE.md) · [Question bank](systems/03-endocrinology/question-bank/)
 
-### Ch 3 · Current Electricity  (≈6 marks · 65 questions in bank)
-[Content map](chapters/03-current-electricity/CLAUDE.md) · [Question bank](chapters/03-current-electricity/question-bank/)
+- [Diabetes mellitus — classification, complications and management](systems/03-endocrinology/question-bank/01-laq.md#q1-diabetes-mellitus--classification-complications-and-management-15m) — *15m · laq*
+- [Diabetic ketoacidosis (DKA) and hyperosmolar hyperglycaemic state (HHS)](systems/03-endocrinology/question-bank/01-laq.md#q2-diabetic-ketoacidosis-dka-and-hyperosmolar-hyperglycaemic-state-hhs-10m) — *10m · laq*
+- [Thyroid disorders — hypothyroidism, hyperthyroidism and thyroid storm](systems/03-endocrinology/question-bank/01-laq.md#q3-thyroid-disorders--hypothyroidism-hyperthyroidism-and-thyroid-storm-15m) — *15m · laq*
+- [Cushing's syndrome — aetiology, clinical features, investigations and management](systems/03-endocrinology/question-bank/01-laq.md#q4-cushings-syndrome--aetiology-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Adrenal insufficiency / Addison's disease and adrenal crisis](systems/03-endocrinology/question-bank/01-laq.md#q5-adrenal-insufficiency--addisons-disease-and-adrenal-crisis-10m) — *10m · laq*
+- [Short note: Pheochromocytoma](systems/03-endocrinology/question-bank/02-saq.md#q1-short-note-pheochromocytoma-5m) — *5m · saq*
+- [Short note: Graves' disease](systems/03-endocrinology/question-bank/02-saq.md#q2-short-note-graves-disease-5m) — *5m · saq*
+- [Short note: Hypocalcaemia and hypercalcaemia](systems/03-endocrinology/question-bank/02-saq.md#q3-short-note-hypocalcaemia-and-hypercalcaemia-5m) — *5m · saq*
+- [Short note: SIADH (Syndrome of Inappropriate ADH secretion)](systems/03-endocrinology/question-bank/02-saq.md#q4-short-note-siadh-syndrome-of-inappropriate-adh-secretion-5m) — *5m · saq*
+- [Diagnostic criteria for diabetes mellitus (ADA)](systems/03-endocrinology/question-bank/03-criteria.md#q1-diagnostic-criteria-for-diabetes-mellitus-ada-5m) — *5m · crit*
+- [Anion gap in diabetic ketoacidosis](systems/03-endocrinology/question-bank/04-numericals.md#q1-anion-gap-in-diabetic-ketoacidosis-5m) — *5m · num*
+- [Serum/effective osmolality and corrected sodium](systems/03-endocrinology/question-bank/04-numericals.md#q2-serumeffective-osmolality-and-corrected-sodium-5m) — *5m · num*
 
-- [Relation between current and drift velocity I = neAv_d](chapters/03-current-electricity/question-bank/03-derivations.md#q1-relation-between-current-and-drift-velocity-i--neav_d-3m) — *3m · derivation*
-- [Ohm's law from electron theory; expression for resistivity](chapters/03-current-electricity/question-bank/03-derivations.md#q3-ohms-law-from-electron-theory-expression-for-resistivity-5m) — *5m · derivation*
-- [Wheatstone bridge balance condition (P/Q = R/S)](chapters/03-current-electricity/question-bank/03-derivations.md#q7-wheatstone-bridge-balance-condition-pq--rs-5m) — *5m · derivation*
-- [Potentiometer — comparison of EMFs of two cells](chapters/03-current-electricity/question-bank/03-derivations.md#q8-potentiometer--comparison-of-emfs-of-two-cells-3m) — *3m · derivation*
-- [Potentiometer — internal resistance of a cell](chapters/03-current-electricity/question-bank/03-derivations.md#q9-potentiometer--internal-resistance-of-a-cell-5m) — *5m · derivation*
-- [Cells in series — equivalent EMF and internal resistance](chapters/03-current-electricity/question-bank/03-derivations.md#q5-cells-in-series--equivalent-emf-and-internal-resistance-3m) — *3m · derivation*
-- [Kirchhoff's laws — two-loop network](chapters/03-current-electricity/question-bank/04-numericals.md#q10-kirchhoffs-laws--two-loop-network-5m) — *5m · numerical*
-- [Potentiometer — internal resistance of a cell (numerical)](chapters/03-current-electricity/question-bank/04-numericals.md#q8-potentiometer--internal-resistance-of-a-cell-3m) — *3m · numerical*
-- [Potentiometer — comparing EMFs (numerical)](chapters/03-current-electricity/question-bank/04-numericals.md#q7-potentiometer--comparing-emfs-3m) — *3m · numerical*
-- [Meter bridge — unknown resistance](chapters/03-current-electricity/question-bank/04-numericals.md#q9-meter-bridge--unknown-resistance-3m) — *3m · numerical*
-- [Drift speed and time of travel in a copper wire](chapters/03-current-electricity/question-bank/04-numericals.md#q5-drift-speed-and-time-of-travel-in-a-copper-wire-3m) — *3m · numerical*
-- [Distinguish EMF and terminal voltage](chapters/03-current-electricity/question-bank/02-short-answer.md#q4-distinguish-emf-and-terminal-voltage-2m) — *2m · short-answer*
-- [Temperature dependence of resistance](chapters/03-current-electricity/question-bank/03-derivations.md#q4-temperature-dependence-of-resistance-3m) — *3m · derivation*
-- [Cell, terminal voltage and internal resistance (case study)](chapters/03-current-electricity/question-bank/05-case-study.md#q2-cell-terminal-voltage-and-internal-resistance-case-2--2--1--1m) — *4m · case-study*
+### Sys 4 · Nephrology  (Paper III · ≈14 marks · 11 questions in bank) ✅
+[Content map](systems/04-nephrology/CLAUDE.md) · [Question bank](systems/04-nephrology/question-bank/)
 
-### Ch 4 · Moving Charges and Magnetism  (≈6 marks · 54 questions in bank)
-[Content map](chapters/04-moving-charges-and-magnetism/CLAUDE.md) · [Question bank](chapters/04-moving-charges-and-magnetism/question-bank/)
+- [Acute kidney injury — causes, evaluation and management](systems/04-nephrology/question-bank/01-laq.md#q1-acute-kidney-injury--causes-evaluation-and-management-15m) — *15m · laq*
+- [Chronic kidney disease and renal replacement therapy](systems/04-nephrology/question-bank/01-laq.md#q2-chronic-kidney-disease-and-renal-replacement-therapy-15m) — *15m · laq*
+- [Nephrotic syndrome](systems/04-nephrology/question-bank/01-laq.md#q3-nephrotic-syndrome-10m) — *10m · laq*
+- [Nephritic syndrome / acute glomerulonephritis](systems/04-nephrology/question-bank/01-laq.md#q4-nephritic-syndrome--acute-glomerulonephritis-10m) — *10m · laq*
+- [Short note: Haemodialysis vs peritoneal dialysis (CAPD)](systems/04-nephrology/question-bank/02-saq.md#q1-short-note-haemodialysis-vs-peritoneal-dialysis-capd-5m) — *5m · saq*
+- [Short note: Hyperkalaemia — recognition and management](systems/04-nephrology/question-bank/02-saq.md#q2-short-note-hyperkalaemia--recognition-and-management-5m) — *5m · saq*
+- [Short note: Renal tubular acidosis](systems/04-nephrology/question-bank/02-saq.md#q3-short-note-renal-tubular-acidosis-5m) — *5m · saq*
+- [Short note: Approach to haematuria](systems/04-nephrology/question-bank/02-saq.md#q4-short-note-approach-to-haematuria-5m) — *5m · saq*
+- [KDIGO / AKIN staging of AKI and CKD](systems/04-nephrology/question-bank/03-criteria.md#q1-kdigo--akin-staging-of-aki-and-ckd-5m) — *5m · crit*
+- [Estimating GFR — Cockcroft-Gault / CKD-EPI](systems/04-nephrology/question-bank/04-numericals.md#q1-estimating-gfr--cockcroft-gault--ckd-epi-5m) — *5m · num*
+- [Fractional excretion of sodium (FENa)](systems/04-nephrology/question-bank/04-numericals.md#q2-fractional-excretion-of-sodium-fena-5m) — *5m · num*
 
-- [Field on the axis of a circular current loop (Biot-Savart)](chapters/04-moving-charges-and-magnetism/question-bank/03-derivations.md#q1-field-on-the-axis-of-a-circular-current-loop-5m) — *5m · derivation*
-- [Ampere's circuital law and field of a long straight wire](chapters/04-moving-charges-and-magnetism/question-bank/03-derivations.md#q2-amperes-circuital-law-and-field-of-a-long-straight-wire-5m) — *5m · derivation*
-- [Magnetic field of a long solenoid using Ampere's law](chapters/04-moving-charges-and-magnetism/question-bank/03-derivations.md#q3-magnetic-field-of-a-long-solenoid-using-amperes-law-3m) — *3m · derivation*
-- [Force per unit length between two parallel currents (ampere definition)](chapters/04-moving-charges-and-magnetism/question-bank/03-derivations.md#q5-force-per-unit-length-between-two-parallel-currents-3m) — *3m · derivation*
-- [Torque on a current loop in a uniform field](chapters/04-moving-charges-and-magnetism/question-bank/03-derivations.md#q6-torque-on-a-current-loop-in-a-uniform-field-5m) — *5m · derivation*
-- [Moving-coil galvanometer full derivation with diagram](chapters/04-moving-charges-and-magnetism/question-bank/03-derivations.md#q7-moving-coil-galvanometer--full-derivation-with-diagram-5m) — *5m · derivation*
-- [Radius of circular motion of a charge in a magnetic field](chapters/04-moving-charges-and-magnetism/question-bank/03-derivations.md#q4-radius-of-circular-motion-of-a-charge-in-a-magnetic-field-3m) — *3m · derivation*
-- [Conversion of galvanometer to ammeter (shunt)](chapters/04-moving-charges-and-magnetism/question-bank/02-short-answer.md#q10-conversion-of-galvanometer-to-ammeter-3m) — *3m · short-answer*
-- [Conversion of galvanometer to voltmeter (series R)](chapters/04-moving-charges-and-magnetism/question-bank/02-short-answer.md#q11-conversion-of-galvanometer-to-voltmeter-3m) — *3m · short-answer*
-- [Current sensitivity vs voltage sensitivity](chapters/04-moving-charges-and-magnetism/question-bank/02-short-answer.md#q9-current-sensitivity-vs-voltage-sensitivity-3m) — *3m · short-answer*
-- [Galvanometer to ammeter shunt numerical](chapters/04-moving-charges-and-magnetism/question-bank/04-numericals.md#q12-galvanometer--ammeter-shunt-3m) — *3m · numerical*
-- [Current-balanced suspended wire](chapters/04-moving-charges-and-magnetism/question-bank/04-numericals.md#q8-current-balanced-suspended-wire-3m) — *3m · numerical*
-- [Force on a rectangular loop near a long wire](chapters/04-moving-charges-and-magnetism/question-bank/04-numericals.md#q14-force-on-a-rectangular-loop-near-a-long-wire-3m) — *3m · numerical*
-- [Field on the axis of a coil (NCERT 200 turns, 5A)](chapters/04-moving-charges-and-magnetism/question-bank/04-numericals.md#q3-field-on-the-axis-of-a-coil-3m) — *3m · numerical*
-- [Case study - charged particle in a magnetic field](chapters/04-moving-charges-and-magnetism/question-bank/05-case-study.md#q2-case-study--charged-particle-in-a-magnetic-field-4m) — *4m · case-study*
-- [Case study - moving-coil galvanometer and its conversion](chapters/04-moving-charges-and-magnetism/question-bank/05-case-study.md#q1-case-study--moving-coil-galvanometer-and-its-conversion-4m) — *4m · case-study*
+### Sys 5 · Respiratory  (Paper III · ≈16 marks · 11 questions in bank) ✅
+[Content map](systems/05-respiratory/CLAUDE.md) · [Question bank](systems/05-respiratory/question-bank/)
 
-### Ch 5 · Magnetism and Matter  (≈5 marks · 26 questions in bank)
-[Content map](chapters/05-magnetism-and-matter/CLAUDE.md) · [Question bank](chapters/05-magnetism-and-matter/question-bank.md)
+- [COPD — aetiopathogenesis, clinical features, investigations and management](systems/05-respiratory/question-bank/01-laq.md#q1-copd--aetiopathogenesis-clinical-features-investigations-and-management-15m) — *15m · laq*
+- [Bronchial asthma including acute severe asthma — aetiopathogenesis, clinical features, investigations and management](systems/05-respiratory/question-bank/01-laq.md#q2-bronchial-asthma-including-acute-severe-asthma--aetiopathogenesis-clinical-features-investigations-and-management-15m) — *15m · laq*
+- [Acute respiratory distress syndrome (ARDS) — aetiopathogenesis, clinical features, investigations and management](systems/05-respiratory/question-bank/01-laq.md#q3-acute-respiratory-distress-syndrome-ards--aetiopathogenesis-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Pulmonary tuberculosis — diagnosis and treatment (NTEP)](systems/05-respiratory/question-bank/01-laq.md#q4-pulmonary-tuberculosis--diagnosis-and-treatment-ntep-15m) — *15m · laq*
+- [Community-acquired pneumonia — aetiopathogenesis, clinical features, investigations and management](systems/05-respiratory/question-bank/01-laq.md#q5-community-acquired-pneumonia--aetiopathogenesis-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Short note: Interstitial lung disease](systems/05-respiratory/question-bank/02-saq.md#q1-short-note-interstitial-lung-disease-5m) — *5m · saq*
+- [Short note: Approach to pleural effusion](systems/05-respiratory/question-bank/02-saq.md#q2-short-note-approach-to-pleural-effusion-5m) — *5m · saq*
+- [Short note: Bronchiectasis](systems/05-respiratory/question-bank/02-saq.md#q3-short-note-bronchiectasis-5m) — *5m · saq*
+- [Short note: Respiratory failure and oxygen therapy](systems/05-respiratory/question-bank/02-saq.md#q4-short-note-respiratory-failure-and-oxygen-therapy-5m) — *5m · saq*
+- [CURB-65 score for community-acquired pneumonia](systems/05-respiratory/question-bank/03-criteria.md#q1-curb-65-score-for-community-acquired-pneumonia-5m) — *5m · crit*
+- [Light's criteria — exudate vs transudate in pleural effusion](systems/05-respiratory/question-bank/03-criteria.md#q2-lights-criteria--exudate-vs-transudate-in-pleural-effusion-5m) — *5m · crit*
 
-- [Distinguish dia-, para- and ferromagnetism](chapters/05-magnetism-and-matter/question-bank.md#q7-distinguish-dia--para--and-ferromagnetism-3m) — *3m · Short Answer*
-- [Curie's law statement and graph](chapters/05-magnetism-and-matter/question-bank.md#q8-curies-law-statement-and-graph-2m) — *2m · Short Answer*
-- [Permanent magnet vs electromagnet material](chapters/05-magnetism-and-matter/question-bank.md#q9-permanent-magnet-vs-electromagnet-material-3m) — *3m · Short Answer*
-- [Three elements of Earth's magnetism](chapters/05-magnetism-and-matter/question-bank.md#q11-three-elements-of-earths-magnetism-3m) — *3m · Short Answer*
-- [Bar magnet as an equivalent solenoid - axial field](chapters/05-magnetism-and-matter/question-bank.md#q14-bar-magnet-as-an-equivalent-solenoid--axial-field-5m) — *5m · Derivation*
-- [Torque on a magnetic dipole in a uniform field](chapters/05-magnetism-and-matter/question-bank.md#q15-torque-on-a-magnetic-dipole-in-a-uniform-field-3m) — *3m · Derivation*
-- [Potential energy of a dipole in a magnetic field](chapters/05-magnetism-and-matter/question-bank.md#q16-potential-energy-of-a-dipole-in-a-magnetic-field-3m) — *3m · Derivation*
-- [Magnetic moment of a solenoid (m = NIA)](chapters/05-magnetism-and-matter/question-bank.md#q18-magnetic-moment-of-a-solenoid-2m) — *2m · Numerical*
-- [Magnetic moment from torque](chapters/05-magnetism-and-matter/question-bank.md#q19-magnetic-moment-from-torque-2m) — *2m · Numerical*
-- [Earth's total field from Bh and dip](chapters/05-magnetism-and-matter/question-bank.md#q21-earths-total-field-from-bₕ-and-dip-2m) — *2m · Numerical*
-- [Curie's law - magnetisation at a new B and T](chapters/05-magnetism-and-matter/question-bank.md#q23-curies-law--magnetisation-at-a-new-b-and-t-3m) — *3m · Numerical*
-- [Case study - Earth's magnetism](chapters/05-magnetism-and-matter/question-bank.md#q26-case-study--earths-magnetism-4m) — *4m · Case-Study*
+### Sys 6 · Gastroenterology / Hepatology  (Paper III · ≈16 marks · 12 questions in bank) ✅
+[Content map](systems/06-gastroenterology/CLAUDE.md) · [Question bank](systems/06-gastroenterology/question-bank/)
 
-### Ch 6 · Electromagnetic Induction  (≈4 marks · 26 questions in bank)
-[Content map](chapters/06-electromagnetic-induction/CLAUDE.md) · [Question bank](chapters/06-electromagnetic-induction/question-bank.md)
+- [Cirrhosis of liver & portal hypertension — aetiopathogenesis, clinical features, investigations, complications and management](systems/06-gastroenterology/question-bank/01-laq.md#q1-cirrhosis-of-liver--portal-hypertension--aetiopathogenesis-clinical-features-investigations-complications-and-management-15m) — *15m · laq*
+- [Acute pancreatitis — aetiopathogenesis, clinical features, investigations and management](systems/06-gastroenterology/question-bank/01-laq.md#q2-acute-pancreatitis--aetiopathogenesis-clinical-features-investigations-and-management-15m) — *15m · laq*
+- [Viral hepatitis — types, clinical features, investigations and management](systems/06-gastroenterology/question-bank/01-laq.md#q3-viral-hepatitis--types-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Acute liver failure — definition, causes, clinical features, investigations and management](systems/06-gastroenterology/question-bank/01-laq.md#q4-acute-liver-failure--definition-causes-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Inflammatory bowel disease — Crohn's disease & ulcerative colitis](systems/06-gastroenterology/question-bank/01-laq.md#q5-inflammatory-bowel-disease--crohns-disease--ulcerative-colitis-10m) — *10m · laq*
+- [Short note: Irritable bowel syndrome](systems/06-gastroenterology/question-bank/02-saq.md#q1-short-note-irritable-bowel-syndrome-5m) — *5m · saq*
+- [Short note: Approach to upper gastrointestinal bleeding](systems/06-gastroenterology/question-bank/02-saq.md#q2-short-note-approach-to-upper-gastrointestinal-bleeding-5m) — *5m · saq*
+- [Short note: Hepatic encephalopathy](systems/06-gastroenterology/question-bank/02-saq.md#q3-short-note-hepatic-encephalopathy-5m) — *5m · saq*
+- [Short note: Alcoholic liver disease](systems/06-gastroenterology/question-bank/02-saq.md#q4-short-note-alcoholic-liver-disease-5m) — *5m · saq*
+- [Child-Pugh score — components, grading and use](systems/06-gastroenterology/question-bank/03-criteria.md#q1-child-pugh-score--components-grading-and-use-5m) — *5m · crit*
+- [MELD score — components, formula and use](systems/06-gastroenterology/question-bank/03-criteria.md#q2-meld-score--components-formula-and-use-5m) — *5m · crit*
+- [Ranson's & modified Glasgow criteria for acute pancreatitis severity](systems/06-gastroenterology/question-bank/03-criteria.md#q3-ransons--modified-glasgow-criteria-for-acute-pancreatitis-severity-5m) — *5m · crit*
 
-- [Lenz's law and conservation of energy](chapters/06-electromagnetic-induction/question-bank.md#q8-lenzs-law-and-conservation-of-energy-2-3m) — *2-3m · Short Answer*
-- [Motional EMF of a rod moving in a magnetic field](chapters/06-electromagnetic-induction/question-bank.md#q13-motional-emf-of-a-rod-moving-in-a-magnetic-field-3m) — *3m · Derivation*
-- [EMF of a rod rotating about one end](chapters/06-electromagnetic-induction/question-bank.md#q14-emf-of-a-rod-rotating-about-one-end-3m) — *3m · Derivation*
-- [Self-inductance of a long solenoid](chapters/06-electromagnetic-induction/question-bank.md#q15-self-inductance-of-a-long-solenoid-3m) — *3m · Derivation*
-- [Mutual inductance of two coaxial solenoids](chapters/06-electromagnetic-induction/question-bank.md#q16-mutual-inductance-of-two-coaxial-solenoids-3-5m) — *3-5m · Derivation*
-- [Energy stored in an inductor, U = 1/2 LI^2](chapters/06-electromagnetic-induction/question-bank.md#q17-energy-stored-in-an-inductor-u--½li²-3m) — *3m · Derivation*
-- [AC generator principle and EMF expression](chapters/06-electromagnetic-induction/question-bank.md#q18-ac-generator--principle-and-emf-expression-5m) — *5m · Derivation/Long Answer*
-- [Rectangular loop leaving a magnetic field (NCERT)](chapters/06-electromagnetic-induction/question-bank.md#q19-rectangular-loop-leaving-a-magnetic-field-3m--ncert) — *3m · Numerical*
-- [EMF of a rod rotating at 400 rad/s (NCERT)](chapters/06-electromagnetic-induction/question-bank.md#q20-emf-of-a-rod-rotating-at-400-rads-2m--ncert) — *2m · Numerical*
-- [Jet plane wing EMF (NCERT)](chapters/06-electromagnetic-induction/question-bank.md#q22-jet-plane-wing-emf-2-3m--ncert) — *2-3m · Numerical*
-- [Rotating circular coil peak EMF, current, power (NCERT)](chapters/06-electromagnetic-induction/question-bank.md#q23-rotating-circular-coil--peak-emf-current-power-3m--ncert) — *3m · Numerical*
-- [Eddy currents and applications](chapters/06-electromagnetic-induction/question-bank.md#q10-eddy-currents-and-four-applications-2-3m) — *2-3m · Short Answer*
-- [Eddy-current electromagnetic braking (case study)](chapters/06-electromagnetic-induction/question-bank.md#q26-case-study--eddy-current-electromagnetic-braking-4m) — *4m · Case-Study*
+### Sys 7 · Infectious & Tropical Disease  (Paper II · ≈35 marks · 12 questions in bank) ✅
+[Content map](systems/07-infectious-disease/CLAUDE.md) · [Question bank](systems/07-infectious-disease/question-bank/)
 
-### Ch 7 · Alternating Current  (≈2 marks · 28 questions in bank)
-[Content map](chapters/07-alternating-current/CLAUDE.md) · [Question bank](chapters/07-alternating-current/question-bank.md)
+- [Malaria — life cycle, clinical features, complications and treatment including cerebral malaria](systems/07-infectious-disease/question-bank/01-laq.md#q1-malaria--life-cycle-clinical-features-complications-and-treatment-including-cerebral-malaria-15m) — *15m · laq*
+- [Dengue — classification, warning signs and management](systems/07-infectious-disease/question-bank/01-laq.md#q2-dengue--classification-warning-signs-and-management-15m) — *15m · laq*
+- [Enteric fever (typhoid) — aetiopathogenesis, clinical features, investigations and management](systems/07-infectious-disease/question-bank/01-laq.md#q3-enteric-fever-typhoid--aetiopathogenesis-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Leptospirosis — aetiopathogenesis, clinical features, investigations and management](systems/07-infectious-disease/question-bank/01-laq.md#q4-leptospirosis--aetiopathogenesis-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Approach to a patient with fever and thrombocytopenia](systems/07-infectious-disease/question-bank/01-laq.md#q5-approach-to-a-patient-with-fever-and-thrombocytopenia-10m) — *10m · laq*
+- [Short note: Scrub typhus](systems/07-infectious-disease/question-bank/02-saq.md#q1-short-note-scrub-typhus-5m) — *5m · saq*
+- [Short note: Extrapulmonary tuberculosis](systems/07-infectious-disease/question-bank/02-saq.md#q2-short-note-extrapulmonary-tuberculosis-5m) — *5m · saq*
+- [Short note: HIV/AIDS and antiretroviral therapy (ART) overview](systems/07-infectious-disease/question-bank/02-saq.md#q3-short-note-hivaids-and-antiretroviral-therapy-art-overview-5m) — *5m · saq*
+- [Short note: Recognition of sepsis](systems/07-infectious-disease/question-bank/02-saq.md#q4-short-note-recognition-of-sepsis-5m) — *5m · saq*
+- [Short note: Rational antibiotic use and antimicrobial resistance](systems/07-infectious-disease/question-bank/02-saq.md#q5-short-note-rational-antibiotic-use-and-antimicrobial-resistance-5m) — *5m · saq*
+- [WHO dengue severity classification](systems/07-infectious-disease/question-bank/03-criteria.md#q1-who-dengue-severity-classification-5m) — *5m · crit*
+- [SIRS criteria and qSOFA for sepsis](systems/07-infectious-disease/question-bank/03-criteria.md#q2-sirs-criteria-and-qsofa-for-sepsis-5m) — *5m · crit*
 
-- [Series LCR circuit — impedance and phase by phasors](chapters/07-alternating-current/question-bank.md#q17-series-lcr-circuit--impedance-and-phase-by-phasors-5m) — *5m · Derivation*
-- [Resonance in series LCR; resonant frequency and Q-factor](chapters/07-alternating-current/question-bank.md#q18-resonance-in-series-lcr-resonant-frequency-and-q-factor-5m) — *5m · Derivation*
-- [Average power in an AC circuit; power factor](chapters/07-alternating-current/question-bank.md#q16-average-power-in-an-ac-circuit-power-factor-3m) — *3m · Derivation*
-- [Power factor and wattless current](chapters/07-alternating-current/question-bank.md#q12-power-factor-and-wattless-current-2-3m) — *2-3m · Short Answer*
-- [Working principle of a transformer](chapters/07-alternating-current/question-bank.md#q14-working-principle-of-a-transformer-2-3m) — *2-3m · Short Answer*
-- [Sources of energy loss in a real transformer](chapters/07-alternating-current/question-bank.md#q15-sources-of-energy-loss-in-a-real-transformer-2-3m) — *2-3m · Short Answer*
-- [Reactance of L and C; behaviour at DC and high frequency](chapters/07-alternating-current/question-bank.md#q11-reactance-of-l-and-c-behaviour-at-dc-and-high-frequency-2-3m) — *2-3m · Short Answer*
-- [Define rms and average value of AC](chapters/07-alternating-current/question-bank.md#q9-define-rms-and-average-value-of-ac-2m) — *2m · Short Answer*
-- [Series LCR — resonant frequency and Q-factor (NCERT 7.6)](chapters/07-alternating-current/question-bank.md#q23-series-lcr--resonant-frequency-and-q-factor-3m-ncert-76) — *3m · Numerical*
-- [Full LCR resonance numerical (NCERT 7.20)](chapters/07-alternating-current/question-bank.md#q24-full-lcr-resonance-numerical-3m-ncert-720) — *3m · Numerical*
-- [Ideal transformer turns ratio (NCERT 7.23)](chapters/07-alternating-current/question-bank.md#q26-ideal-transformer-turns-ratio-2m-ncert-723-style) — *2m · Numerical*
-- [Power factor of a series RL circuit](chapters/07-alternating-current/question-bank.md#q25-power-factor-of-a-series-rl-circuit-2-3m) — *2-3m · Numerical*
-- [RMS current and power in a pure resistor (NCERT 7.1)](chapters/07-alternating-current/question-bank.md#q20-rms-current-and-power-in-a-pure-resistor-2m-ncert-71) — *2m · Numerical*
-- [Case study — transmission of electrical power](chapters/07-alternating-current/question-bank.md#q28-case-study--transmission-of-electrical-power-4m) — *4m · Case-Study*
+### Sys 8 · Diagnostic Criteria & Scores  (Paper — · cross-cutting · 8 questions in bank) ✅
+[Content map](systems/08-criteria-scores/CLAUDE.md) · [Question bank](systems/08-criteria-scores/question-bank.md)
 
-### Ch 8 · Electromagnetic Waves  (≈4 marks · 24 questions in bank)
-[Content map](chapters/08-electromagnetic-waves/CLAUDE.md) · [Question bank](chapters/08-electromagnetic-waves/question-bank.md)
+- [Modified Wells score for pulmonary embolism](systems/08-criteria-scores/question-bank.md#q1-modified-wells-score-for-pulmonary-embolism-5m) — *5m · crit*
+- [Wells score for deep vein thrombosis](systems/08-criteria-scores/question-bank.md#q2-wells-score-for-deep-vein-thrombosis-5m) — *5m · crit*
+- [Glasgow-Blatchford score for upper GI bleeding](systems/08-criteria-scores/question-bank.md#q3-glasgow-blatchford-score-for-upper-gi-bleeding-5m) — *5m · crit*
+- [Alvarado score for acute appendicitis](systems/08-criteria-scores/question-bank.md#q4-alvarado-score-for-acute-appendicitis-5m) — *5m · crit*
+- [APACHE II score — overview](systems/08-criteria-scores/question-bank.md#q5-apache-ii-score--overview-5m) — *5m · crit*
+- [NYHA and CCS functional classifications](systems/08-criteria-scores/question-bank.md#q6-nyha-and-ccs-functional-classifications-5m) — *5m · crit*
+- [Centor / McIsaac score for streptococcal pharyngitis](systems/08-criteria-scores/question-bank.md#q7-centor--mcisaac-score-for-streptococcal-pharyngitis-5m) — *5m · crit*
+- [MMSE and MoCA cognitive screening tools](systems/08-criteria-scores/question-bank.md#q8-mmse-and-moca-cognitive-screening-tools-5m) — *5m · crit*
 
-- [Displacement current and its need (Maxwell's correction)](chapters/08-electromagnetic-waves/question-bank.md#q9-displacement-current-and-its-need-2m) — *2m · Short Answer*
-- [Modified Ampere's law; show Id = Ic for a charging capacitor](chapters/08-electromagnetic-waves/question-bank.md#q16-modified-amperes-law-ampere-maxwell--derive-id-for-a-capacitor-3m) — *3m · Derivation*
-- [Four properties of EM waves](chapters/08-electromagnetic-waves/question-bank.md#q10-four-properties-of-em-waves-2-3m) — *2-3m · Short Answer*
-- [EM spectrum order and one use each](chapters/08-electromagnetic-waves/question-bank.md#q12-em-spectrum-order-and-one-use-each-3m) — *3m · Short Answer*
-- [Energy density of an EM wave (uE = uB)](chapters/08-electromagnetic-waves/question-bank.md#q14-energy-density-of-an-em-wave-2-3m) — *2-3m · Short Answer / Derivation*
-- [Radiation pressure and momentum](chapters/08-electromagnetic-waves/question-bank.md#q15-radiation-pressure-and-momentum-2m) — *2m · Short Answer*
-- [Show c = 1/sqrt(mu0 e0) and E0 = c B0](chapters/08-electromagnetic-waves/question-bank.md#q17-show-c--1--sqrtmu0-e0-and-e0--c-b0-3m) — *3m · Derivation*
-- [Read off parameters from a given wave equation](chapters/08-electromagnetic-waves/question-bank.md#q20-read-off-parameters-from-a-given-wave-equation-3m) — *3m · Numerical*
-- [Displacement current from rate of change of voltage](chapters/08-electromagnetic-waves/question-bank.md#q21-displacement-current-from-rate-of-change-of-voltage-3m) — *3m · Numerical*
-- [Case study - displacement current and the EM spectrum](chapters/08-electromagnetic-waves/question-bank.md#q24-case-study--maxwells-displacement-current-and-the-em-spectrum-4m) — *4m · Case-Study*
+### Sys 9 · Haematology / Oncology  (Paper II · ≈20 marks · 9 questions in bank) ✅
+[Content map](systems/09-hematology-oncology/CLAUDE.md) · [Question bank](systems/09-hematology-oncology/question-bank.md)
 
-### Ch 9 · Ray Optics and Optical Instruments  (≈10 marks · 56 questions in bank)
-[Content map](chapters/09-ray-optics-and-optical-instruments/CLAUDE.md) · [Question bank](chapters/09-ray-optics-and-optical-instruments/question-bank/)
+- [Approach to a patient with anaemia](systems/09-hematology-oncology/question-bank.md#q1-approach-to-a-patient-with-anaemia--classification-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Acute leukaemias](systems/09-hematology-oncology/question-bank.md#q2-acute-leukaemias--classification-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Lymphoma — Hodgkin vs non-Hodgkin](systems/09-hematology-oncology/question-bank.md#q3-lymphoma--hodgkin-vs-non-hodgkin-classification-clinical-features-investigations-and-management-10m) — *10m · laq*
+- [Tumour markers](systems/09-hematology-oncology/question-bank.md#q4-short-note-tumour-markers-5m) — *5m · saq*
+- [Tumour lysis syndrome](systems/09-hematology-oncology/question-bank.md#q5-short-note-tumour-lysis-syndrome-5m) — *5m · saq*
+- [Paraneoplastic syndromes](systems/09-hematology-oncology/question-bank.md#q6-short-note-paraneoplastic-syndromes-5m) — *5m · saq*
+- [Vitamin B12 / folate deficiency](systems/09-hematology-oncology/question-bank.md#q7-short-note-vitamin-b12-and-folate-deficiency-5m) — *5m · saq*
+- [Bleeding disorders — haemophilia & ITP](systems/09-hematology-oncology/question-bank.md#q8-short-note-bleeding-disorders--haemophilia-and-immune-thrombocytopenia-itp-5m) — *5m · saq*
+- [Multiple myeloma](systems/09-hematology-oncology/question-bank.md#q9-short-note-multiple-myeloma-5m) — *5m · saq*
 
-- [Mirror formula for a concave mirror](chapters/09-ray-optics-and-optical-instruments/question-bank/03-derivations.md#q1-mirror-formula-for-a-concave-mirror-5m) — *5m · Derivation*
-- [Refraction at a single spherical surface](chapters/09-ray-optics-and-optical-instruments/question-bank/03-derivations.md#q2-refraction-at-a-single-spherical-surface-5m) — *5m · Derivation*
-- [Lens-maker's formula](chapters/09-ray-optics-and-optical-instruments/question-bank/03-derivations.md#q3-lens-makers-formula-5m) — *5m · Derivation*
-- [Refractive index of a prism, n = sin[(A+Dm)/2] / sin(A/2)](chapters/09-ray-optics-and-optical-instruments/question-bank/03-derivations.md#q4-refractive-index-of-a-prism-n--sinadm2--sina2-5m) — *5m · Derivation*
-- [Compound microscope — ray diagram and magnifying power](chapters/09-ray-optics-and-optical-instruments/question-bank/03-derivations.md#q5-compound-microscope--ray-diagram-and-magnifying-power-5m) — *5m · Derivation/Long Answer*
-- [Astronomical telescope — ray diagram and magnifying power](chapters/09-ray-optics-and-optical-instruments/question-bank/03-derivations.md#q6-astronomical-telescope--ray-diagram-and-magnifying-power-5m) — *5m · Derivation/Long Answer*
-- [Total internal reflection and critical angle relation](chapters/09-ray-optics-and-optical-instruments/question-bank/03-derivations.md#q7-total-internal-reflection-and-critical-angle-relation-3m) — *3m · Derivation*
-- [Conditions for total internal reflection](chapters/09-ray-optics-and-optical-instruments/question-bank/02-short-answer.md#q2-conditions-for-total-internal-reflection-2m) — *2m · Short Answer*
-- [Optical fibre and its working](chapters/09-ray-optics-and-optical-instruments/question-bank/02-short-answer.md#q3-optical-fibre-and-its-working-3m) — *3m · Short Answer*
-- [Lens immersed in a liquid](chapters/09-ray-optics-and-optical-instruments/question-bank/02-short-answer.md#q6-lens-immersed-in-a-liquid-2m) — *2m · Short Answer*
-- [Prism: refractive index from minimum deviation](chapters/09-ray-optics-and-optical-instruments/question-bank/04-numericals.md#q8-prism-refractive-index-from-minimum-deviation-3m) — *3m · Numerical*
-- [Compound microscope magnifying power](chapters/09-ray-optics-and-optical-instruments/question-bank/04-numericals.md#q10-compound-microscope-magnifying-power-3m) — *3m · Numerical*
-- [Astronomical telescope: magnifying power and length](chapters/09-ray-optics-and-optical-instruments/question-bank/04-numericals.md#q11-astronomical-telescope-magnifying-power-and-length-3m) — *3m · Numerical*
-- [Lens-maker's formula: find R](chapters/09-ray-optics-and-optical-instruments/question-bank/04-numericals.md#q5-lens-makers-formula-find-r-3m) — *3m · Numerical*
-- [Lenses in contact](chapters/09-ray-optics-and-optical-instruments/question-bank/04-numericals.md#q6-lenses-in-contact-2m) — *2m · Numerical*
-- [Total internal reflection and the optical fibre (case study)](chapters/09-ray-optics-and-optical-instruments/question-bank/05-case-study.md#q1-total-internal-reflection-and-the-optical-fibre-4m) — *4m · Case-Based*
+### Sys 10 · Rheumatology  (Paper III · ≈9 marks · 7 questions in bank) ✅
+[Content map](systems/10-rheumatology/CLAUDE.md) · [Question bank](systems/10-rheumatology/question-bank.md)
 
-### Ch 10 · Wave Optics  (≈4 marks · 30 questions in bank)
-[Content map](chapters/10-wave-optics/CLAUDE.md) · [Question bank](chapters/10-wave-optics/question-bank.md)
+- [Systemic lupus erythematosus — features, complications and management](systems/10-rheumatology/question-bank.md#q1-systemic-lupus-erythematosus--features-complications-and-management-10m) — *10m · laq*
+- [Rheumatoid arthritis — clinical features, extra-articular manifestations, investigations and management including DMARDs/biologics](systems/10-rheumatology/question-bank.md#q2-rheumatoid-arthritis--clinical-features-extra-articular-manifestations-investigations-and-management-including-dmarcsbiologics-10m) — *10m · laq*
+- [Short note: Seronegative spondyloarthropathies](systems/10-rheumatology/question-bank.md#q3-short-note-seronegative-spondyloarthropathies-5m) — *5m · saq*
+- [Short note: Systemic sclerosis](systems/10-rheumatology/question-bank.md#q4-short-note-systemic-sclerosis-5m) — *5m · saq*
+- [Short note: Vasculitis — overview and classification](systems/10-rheumatology/question-bank.md#q5-short-note-vasculitis--overview-and-classification-5m) — *5m · saq*
+- [Short note: Gout](systems/10-rheumatology/question-bank.md#q6-short-note-gout-5m) — *5m · saq*
+- [Short note: Approach to polyarthritis](systems/10-rheumatology/question-bank.md#q7-short-note-approach-to-polyarthritis-5m) — *5m · saq*
 
-- [YDSE fringe-width derivation β = λD/d (+ bright/dark conditions)](chapters/10-wave-optics/question-bank.md#q18-youngs-double-slit-experiment-fringe-width-derivation-5m) — *5m · Derivation*
-- [Single-slit diffraction and width of central maximum 2λD/a](chapters/10-wave-optics/question-bank.md#q19-single-slit-diffraction-and-width-of-central-maximum-5m) — *5m · Derivation*
-- [Huygens' principle: laws of reflection](chapters/10-wave-optics/question-bank.md#q16-huygens-principle-laws-of-reflection-3m) — *3m · Derivation*
-- [Huygens' principle: laws of refraction (Snell's law)](chapters/10-wave-optics/question-bank.md#q17-huygens-principle-laws-of-refraction-snells-law-3m) — *3m · Derivation*
-- [Polarisation by reflection; Brewster's law and perpendicularity proof](chapters/10-wave-optics/question-bank.md#q20-polarisation-by-reflection-brewsters-angle-long-5m) — *5m · Long Answer*
-- [Brewster's law and the polarising angle (statement + proof)](chapters/10-wave-optics/question-bank.md#q14-brewsters-law-and-the-polarising-angle-2m) — *2m · Short Answer*
-- [Coherent sources: definition and conditions](chapters/10-wave-optics/question-bank.md#q10-coherent-sources--definition-and-conditions-2m) — *2m · Short Answer*
-- [YDSE two wavelengths 650 nm & 520 nm coincidence (NCERT)](chapters/10-wave-optics/question-bank.md#q23-ydse--two-wavelengths-overlapping-ncert-3m) — *3m · Numerical*
-- [Single-slit diffraction: width of central maximum numerical](chapters/10-wave-optics/question-bank.md#q25-single-slit-diffraction--width-of-central-maximum-3m) — *3m · Numerical*
-- [Brewster's angle for glass μ = 1.5 (NCERT)](chapters/10-wave-optics/question-bank.md#q26-brewsters-angle-for-glass-2m) — *2m · Numerical*
-- [Malus's law: intensity through two polaroids at 30°](chapters/10-wave-optics/question-bank.md#q27-maluss-law--intensity-through-two-polaroids-2m) — *2m · Numerical*
+### Sys 11 · Critical Care / Sepsis  (Paper III · ≈9 marks · 8 questions in bank) ✅
+[Content map](systems/11-critical-care-sepsis/CLAUDE.md) · [Question bank](systems/11-critical-care-sepsis/question-bank.md)
 
-### Ch 11 · Dual Nature of Radiation and Matter  (≈4 marks · 26 questions in bank)
-[Content map](chapters/11-dual-nature-of-radiation-and-matter/CLAUDE.md) · [Question bank](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md)
+- [Sepsis and septic shock — definition, pathogenesis and Surviving Sepsis management](systems/11-critical-care-sepsis/question-bank.md#q1-sepsis-and-septic-shock--definition-pathogenesis-and-surviving-sepsis-management-10m) — *10m · laq*
+- [Shock — definition, classification and clinical approach](systems/11-critical-care-sepsis/question-bank.md#q2-shock--definition-classification-and-clinical-approach-10m) — *10m · laq*
+- [Short note: Arterial blood gas (ABG) / acid-base interpretation](systems/11-critical-care-sepsis/question-bank.md#q3-short-note-arterial-blood-gas-abg--acid-base-interpretation-5m) — *5m · saq*
+- [Short note: Organophosphate (OP) poisoning](systems/11-critical-care-sepsis/question-bank.md#q4-short-note-organophosphate-op-poisoning-5m) — *5m · saq*
+- [Short note: Paracetamol (acetaminophen) poisoning](systems/11-critical-care-sepsis/question-bank.md#q5-short-note-paracetamol-acetaminophen-poisoning-5m) — *5m · saq*
+- [Short note: Snake bite envenomation](systems/11-critical-care-sepsis/question-bank.md#q6-short-note-snake-bite-envenomation-5m) — *5m · saq*
+- [Short note: Acute respiratory failure and basics of mechanical ventilation](systems/11-critical-care-sepsis/question-bank.md#q7-short-note-acute-respiratory-failure-and-basics-of-mechanical-ventilation-5m) — *5m · saq*
+- [Short note: Cardiopulmonary resuscitation (CPR) / ACLS overview](systems/11-critical-care-sepsis/question-bank.md#q8-short-note-cardiopulmonary-resuscitation-cpr--acls-overview-5m) — *5m · saq*
 
-- [Define work function, threshold frequency and stopping potential](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md#q7-define-work-function-threshold-frequency-and-stopping-potential-3m) — *3m · Short Answer*
-- [Three experimental laws of the photoelectric effect](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md#q8-three-experimental-laws-of-the-photoelectric-effect-2-3m) — *2-3m · Short Answer*
-- [Why wave theory fails to explain the photoelectric effect](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md#q9-why-wave-theory-fails-to-explain-the-photoelectric-effect-2m) — *2m · Short Answer*
-- [Einstein's photoelectric equation](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md#q12-einsteins-photoelectric-equation-3m) — *3m · Derivation*
-- [Stopping potential vs frequency graph; find h, phi0, nu0](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md#q13-stopping-potential-vs-frequency-graph-find-h-φ₀-ν₀-3-4m) — *3-4m · Derivation/Graph*
-- [Photocurrent vs collector voltage and vs intensity graphs](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md#q14-photocurrent-vs-collector-voltage-and-vs-intensity-graphs-3m) — *3m · Graph/Long Answer*
-- [de Broglie wavelength of an accelerated charged particle](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md#q15-de-broglie-wavelength-of-an-accelerated-charged-particle-3m) — *3m · Derivation*
-- [Davisson-Germer experiment](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md#q16-davissongermer-experiment-3-4m) — *3-4m · Long Answer*
-- [Energy and momentum of a He-Ne laser photon](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md#q18-energy-and-momentum-of-a-hene-laser-photon-2-3m) — *2-3m · Numerical*
-- [de Broglie wavelength of an electron through 56 V](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md#q20-de-broglie-wavelength-of-an-electron-through-56-v-2m) — *2m · Numerical*
-- [Maximum frequency and minimum wavelength of X-rays](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md#q23-maximum-frequency-and-minimum-wavelength-of-x-rays-2-3m) — *2-3m · Numerical*
-- [Threshold frequency from incident frequency and electron speed](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md#q24-threshold-frequency-from-incident-frequency-and-electron-speed-3m) — *3m · Numerical*
-- [Photoelectric effect case study - frequency vs intensity](chapters/11-dual-nature-of-radiation-and-matter/question-bank.md#q26-photoelectric-effect--frequency-vs-intensity-4m) — *4m · Case-Study*
+### Sys 12 · Basic Sciences  (Paper I · ≈100 marks · 10 questions in bank) ✅
+[Content map](systems/12-basic-sciences/CLAUDE.md) · [Question bank](systems/12-basic-sciences/question-bank.md)
 
-### Ch 12 · Atoms  (≈4 marks · 33 questions in bank)
-[Content map](chapters/12-atoms/CLAUDE.md) · [Question bank](chapters/12-atoms/question-bank.md)
+- [Bilirubin metabolism](systems/12-basic-sciences/question-bank.md#q1-short-note-bilirubin-metabolism-5m) — *5m · saq*
+- [Fat-soluble vitamins and their deficiencies](systems/12-basic-sciences/question-bank.md#q2-short-note-fat-soluble-vitamins-and-their-deficiencies-5m) — *5m · saq*
+- [Mechanism and classes of antihypertensive drugs](systems/12-basic-sciences/question-bank.md#q3-short-note-mechanism-and-classes-of-antihypertensive-drugs-5m) — *5m · saq*
+- [Insulin preparations and pharmacology](systems/12-basic-sciences/question-bank.md#q4-short-note-insulin-preparations-and-pharmacology-5m) — *5m · saq*
+- [Acid-base physiology](systems/12-basic-sciences/question-bank.md#q5-short-note-acid-base-physiology-5m) — *5m · saq*
+- [Body-fluid compartments and IV fluid therapy](systems/12-basic-sciences/question-bank.md#q6-short-note-body-fluid-compartments-and-iv-fluid-therapy-5m) — *5m · saq*
+- [Inheritance patterns and single-gene disorders](systems/12-basic-sciences/question-bank.md#q7-short-note-inheritance-patterns-and-single-gene-disorders-5m) — *5m · saq*
+- [Oncogenes and tumour-suppressor genes](systems/12-basic-sciences/question-bank.md#q8-short-note-oncogenes-and-tumour-suppressor-genes-5m) — *5m · saq*
+- [The complement system](systems/12-basic-sciences/question-bank.md#q9-short-note-the-complement-system-5m) — *5m · saq*
+- [Pharmacokinetics basics — half-life, clearance and first-pass metabolism](systems/12-basic-sciences/question-bank.md#q10-short-note-pharmacokinetics-basics--half-life-clearance-and-first-pass-metabolism-5m) — *5m · saq*
 
-- [State Bohr's postulates](chapters/12-atoms/question-bank.md#q9-state-bohrs-postulates-3m) — *3m · Short Answer*
-- [Derive total energy E_n = -13.6/n^2 eV](chapters/12-atoms/question-bank.md#q19-total-energy-of-electron-e_n---136n2-ev-5m) — *5m · Derivation*
-- [Derive radius of nth orbit (r proportional to n^2)](chapters/12-atoms/question-bank.md#q18-radius-of-nth-orbit-r-proportional-to-n2-3m) — *3m · Derivation*
-- [Rutherford alpha-particle scattering experiment](chapters/12-atoms/question-bank.md#q22-rutherford-alpha-scattering-experiment-5m) — *5m · Long Answer + Diagram*
-- [Rydberg formula and spectral series](chapters/12-atoms/question-bank.md#q21-rydberg-formula-for-the-spectral-series-3m) — *3m · Derivation*
-- [Bohr quantisation from de Broglie hypothesis](chapters/12-atoms/question-bank.md#q20-bohr-quantisation-from-de-broglie-3m) — *3m · Derivation + Diagram*
-- [Distance of closest approach - 5.5 MeV alpha on gold](chapters/12-atoms/question-bank.md#q25-distance-of-closest-approach--55-mev-alpha-on-gold-3m) — *3m · Numerical*
-- [Effect of doubling K on distance of closest approach](chapters/12-atoms/question-bank.md#q16-effect-of-doubling-k-on-closest-approach-2m) — *2m · Short Answer*
-- [Identify spectral series and region for given transitions](chapters/12-atoms/question-bank.md#q13-identify-the-series-and-the-region-2-3m) — *2-3m · Short Answer*
-- [Energy-level diagram of hydrogen with Lyman/Balmer series](chapters/12-atoms/question-bank.md#q23-energy-level-diagram-and-series-of-hydrogen-3m) — *3m · Long Answer + Diagram*
-- [Ground-state KE and PE of hydrogen](chapters/12-atoms/question-bank.md#q12-ground-state-ke-and-pe-of-hydrogen-2m) — *2m · Numerical*
-- [Energy/wavelength to excite hydrogen n=1 to n=4](chapters/12-atoms/question-bank.md#q32-energy-and-frequency-to-excite-n--1---n--4-2-3m) — *2-3m · Numerical*
-- [Energy-level transitions of hydrogen (case study)](chapters/12-atoms/question-bank.md#q33-energy-level-transitions-of-hydrogen-4m) — *4m · Case-Study*
+### Sys 13 · Recent Advances  (Paper IV · ≈100 marks · 9 questions in bank) ✅
+[Content map](systems/13-recent-advances/CLAUDE.md) · [Question bank](systems/13-recent-advances/question-bank.md)
 
-### Ch 13 · Nuclei  (≈4 marks · 29 questions in bank)
-[Content map](chapters/13-nuclei/CLAUDE.md) · [Question bank](chapters/13-nuclei/question-bank.md)
-
-- [Why fission and fusion both release energy (BE/A curve)](chapters/13-nuclei/question-bank.md#q11-why-fission-and-fusion-both-release-energy-2-3m) — *2-3m · Short Answer + diagram*
-- [Nuclear density is independent of mass number](chapters/13-nuclei/question-bank.md#q17-nuclear-density-is-independent-of-mass-number-3m) — *3m · Derivation*
-- [Radioactive decay law N = N0 e^(-lambda t)](chapters/13-nuclei/question-bank.md#q18-radioactive-decay-law-3-5m) — *3-5m · Derivation*
-- [Mass defect and binding energy (definitions)](chapters/13-nuclei/question-bank.md#q9-mass-defect-and-binding-energy-2m) — *2m · Short Answer*
-- [Half-life and mean life](chapters/13-nuclei/question-bank.md#q14-half-life-and-mean-life-2m) — *2m · Short Answer*
-- [Three types of radioactive decay (alpha/beta/gamma equations)](chapters/13-nuclei/question-bank.md#q13-three-types-of-radioactive-decay-3m) — *3m · Short Answer*
-- [Binding energy of nitrogen-14](chapters/13-nuclei/question-bank.md#q20-binding-energy-of-nitrogen-14-3m) — *3m · Numerical*
-- [Binding energy per nucleon of iron-56](chapters/13-nuclei/question-bank.md#q21-binding-energy-per-nucleon-of-iron-56-3m) — *3m · Numerical*
-- [Energy released per fission of U-235; energy from 1 kg](chapters/13-nuclei/question-bank.md#q22-energy-released-per-fission-of-u-235-energy-from-1-kg-3m) — *3m · Numerical*
-- [Activity / disintegration rate of strontium-90](chapters/13-nuclei/question-bank.md#q24-activity--disintegration-rate-of-strontium-90-3m) — *3m · Numerical*
-- [Ratio of nuclear radii (Au/Ag)](chapters/13-nuclei/question-bank.md#q25-ratio-of-nuclear-radii-2m) — *2m · Numerical*
-- [Q-value of alpha decay of radium-226](chapters/13-nuclei/question-bank.md#q26-q-value-of-alpha-decay-of-radium-226-3m) — *3m · Numerical*
-- [Energy released in D-T fusion](chapters/13-nuclei/question-bank.md#q27-energy-released-in-d-t-fusion-2m) — *2m · Numerical*
-- [Carbon-14 radioactive dating](chapters/13-nuclei/question-bank.md#q28-carbon-14-radioactive-dating-3m) — *3m · Numerical*
-- [Case study — nuclear fission and the reactor](chapters/13-nuclei/question-bank.md#q29-case-study--nuclear-fission-and-the-reactor-4m) — *4m · Case-Study*
-
-### Ch 14 · Semiconductor Electronics: Materials, Devices and Simple Circuits  (≈7 marks · 56 questions in bank)
-[Content map](chapters/14-semiconductor-electronics/CLAUDE.md) · [Question bank](chapters/14-semiconductor-electronics/question-bank/)
-
-- [Formation of the depletion region and barrier potential](chapters/14-semiconductor-electronics/question-bank/02-short-answer.md#q4-formation-of-the-depletion-region-3m) — *3m · Short Answer*
-- [Effect of biasing on depletion width and barrier height](chapters/14-semiconductor-electronics/question-bank/02-short-answer.md#q5-effect-of-biasing-on-depletion-width-2m) — *2m · Short Answer*
-- [Forward bias vs reverse bias (table + circuits)](chapters/14-semiconductor-electronics/question-bank/02-short-answer.md#q6-forward-bias-vs-reverse-bias-3m) — *3m · Short Answer*
-- [V-I characteristics of a p-n junction diode](chapters/14-semiconductor-electronics/question-bank/03-derivations.md#q1-v-i-characteristics-of-a-p-n-junction-diode-5m) — *5m · Long Answer*
-- [Half-wave rectifier (circuit + waveforms)](chapters/14-semiconductor-electronics/question-bank/03-derivations.md#q2-half-wave-rectifier-3m) — *3m · Long Answer*
-- [Full-wave rectifier (centre-tapped, circuit + waveforms + efficiency)](chapters/14-semiconductor-electronics/question-bank/03-derivations.md#q3-full-wave-rectifier-centre-tapped-5m) — *5m · Long Answer*
-- [Zener diode as a voltage regulator](chapters/14-semiconductor-electronics/question-bank/02-short-answer.md#q8-zener-diode-as-a-voltage-regulator-3m) — *3m · Short Answer*
-- [Photodiode - working and why reverse-biased](chapters/14-semiconductor-electronics/question-bank/02-short-answer.md#q9-photodiode--working-and-why-reverse-biased-3m) — *3m · Short Answer*
-- [LED - working and advantages](chapters/14-semiconductor-electronics/question-bank/02-short-answer.md#q10-led--working-and-advantages-3m) — *3m · Short Answer*
-- [Solar cell - principle and material criteria](chapters/14-semiconductor-electronics/question-bank/02-short-answer.md#q11-solar-cell--principle-and-material-criteria-3m) — *3m · Short Answer*
-- [Intrinsic vs extrinsic semiconductor](chapters/14-semiconductor-electronics/question-bank/02-short-answer.md#q1-intrinsic-vs-extrinsic-semiconductor-2m) — *2m · Short Answer*
-- [n-type vs p-type semiconductor](chapters/14-semiconductor-electronics/question-bank/02-short-answer.md#q2-n-type-vs-p-type-semiconductor-2m) — *2m · Short Answer*
-- [Carrier concentration in doped germanium (law of mass action)](chapters/14-semiconductor-electronics/question-bank/04-numericals.md#q1-carrier-concentration-in-doped-germanium-3m) — *3m · Numerical*
-- [Silicon doped with arsenic and indium (carrier type)](chapters/14-semiconductor-electronics/question-bank/04-numericals.md#q2-silicon-doped-with-arsenic-and-indium-3m) — *3m · Numerical*
-- [Can a 2.8 eV photodiode detect 6000 nm light](chapters/14-semiconductor-electronics/question-bank/04-numericals.md#q3-can-a-28-ev-photodiode-detect-6000-nm-light-3m) — *3m · Numerical*
-- [Conductivity ratio at two temperatures](chapters/14-semiconductor-electronics/question-bank/04-numericals.md#q7-conductivity-ratio-at-two-temperatures-3m) — *3m · Numerical*
-- [Junction diode and rectification (case study)](chapters/14-semiconductor-electronics/question-bank/05-case-study.md#q1-junction-diode-and-rectification-4m) — *4m · Case-Based*
-- [Special-purpose diodes (case study)](chapters/14-semiconductor-electronics/question-bank/05-case-study.md#q2-special-purpose-diodes-4m) — *4m · Case-Based*
-
+- [Short note: SGLT2 inhibitors](systems/13-recent-advances/question-bank.md#q1-short-note-sglt2-inhibitors-5m) — *5m · saq*
+- [Short note: GLP-1 receptor agonists](systems/13-recent-advances/question-bank.md#q2-short-note-glp-1-receptor-agonists-5m) — *5m · saq*
+- [Short note: Direct oral anticoagulants (DOACs)](systems/13-recent-advances/question-bank.md#q3-short-note-direct-oral-anticoagulants-doacs-5m) — *5m · saq*
+- [Short note: Biologics & targeted DMARDs](systems/13-recent-advances/question-bank.md#q4-short-note-biologics--targeted-dmards-5m) — *5m · saq*
+- [Short note: Monoclonal antibodies & immunotherapy basics](systems/13-recent-advances/question-bank.md#q5-short-note-monoclonal-antibodies--immunotherapy-basics-5m) — *5m · saq*
+- [Short note: Newer & MDR-TB drugs](systems/13-recent-advances/question-bank.md#q6-short-note-newer--mdr-tb-drugs-5m) — *5m · saq*
+- [Short note: PCSK9 inhibitors](systems/13-recent-advances/question-bank.md#q7-short-note-pcsk9-inhibitors-5m) — *5m · saq*
+- [Short note: mRNA vaccines & COVID-19 update](systems/13-recent-advances/question-bank.md#q8-short-note-mrna-vaccines--covid-19-update-5m) — *5m · saq*
+- [Short note: Recent evidence in heart-failure / diabetes therapy](systems/13-recent-advances/question-bank.md#q9-short-note-recent-evidence-in-heart-failure--diabetes-therapy-5m) — *5m · saq*
 
 ---
 
-*Every answer in the question banks was authored in CBSE marking-scheme style and independently
-physics-checked (formulas, numerical values, units, derivations) — 580 questions across 14 chapters.
-Sources (NCERT exercises, important-question/PYQ compilations, CBSE marking schemes) were used to
-identify which questions repeat and to verify values; answers and diagram checklists are original.*
+*Answers are authored in CBSE-style marking-scheme form (mark-carrying blocks + "what to draw / tabulate" checklists) with per-answer source citations. **All 13 systems have been adversarially fact-checked** against current sources (Neurology + Systems 2–13, 2026-06-24); the checks caught and fixed several dose/criterion errors, including **3 CRITICAL** across the two passes — status-epilepticus dosing, the malaria severity threshold, and a GI-bleed score. All systems still require **Mitsu's per-system sign-off** (flip the `Verification` line) before mugging — the fact-check raises correctness, her sign-off is the final human gate.*

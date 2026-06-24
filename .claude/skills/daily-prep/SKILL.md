@@ -5,104 +5,116 @@ description: Use to start one study day — read tracker.json, select today's qu
 
 # daily-prep
 
-Pick today's ~6-new + due + spot-check set, **record it in the tracker**, and write a self-contained
-`learning.md`. The recorded set is the contract `daily-test` reads — prep is the *only* selector.
+Pick today's set (~2 new LAQs + ~3 short notes + due/recall ≈ **5 new**), **record it in the tracker**, and
+write a self-contained `learning.md`. The recorded set is the contract `daily-test` reads — prep is the *only* selector.
 
-Schema and IDs: see [`seed-tracker`](../seed-tracker/SKILL.md). Read the whole `tracker.json` each run —
-it is the accumulated memory of every test, so selection spans all history, not just yesterday.
+Schema and IDs: see [`seed-tracker`](../seed-tracker/SKILL.md). Read the whole `tracker.json` each run — it is
+the accumulated memory of every test, so selection spans all history, not just yesterday.
 
 ## Resolve the day (push back — never guess)
 
-`daily/NN-YYYY-MM-DD/`. **NN = (date − 22 Jun 2026) + 1.** Calendar:
+`daily/NN-YYYY-MM-DD/`. **NN = (date − 24 Jun 2026) + 1** (Day 1 = 24 Jun 2026). Two milestones: **PRELIM
+(full 4-paper mock) 27 Jul = Day 34**, **FINAL 17 Aug = Day 55.** Calendar:
 
-| Day | Date | Mode | New Tier-1? |
-|--|--|--|--|
-| 01–06 | Mon 22 Jun – Sat 27 Jun | `mini` (~12–18m) | yes |
-| **07** | **Sun 28 Jun** | `mock` gentle (~20m) | **no** |
-| 08–13 | Mon 29 Jun – Sat 4 Jul | `mini` | yes |
-| **14** | **Sun 5 Jul** | `mock` half (~35m) | **no** |
-| 15–20 | Mon 6 Jul – Sat 11 Jul | `mini` | yes (**11 Jul = last new-Tier-1 day**) |
-| **21** | **Sun 12 Jul** | `mock` full (70m, dress rehearsal) | **no** |
-| 22–23 | Mon 13 – Tue 14 Jul | `mini` revision | **no new Qs at all** |
-| — | Wed 15 Jul | EXAM | — |
+| Day | Date | Phase | Mode | New Tier-1? |
+|--|--|--|--|--|
+| 01–13 | 24 Jun – 6 Jul | Build A | weekday `laq-set`; **Sun = `paper-mock`** (gentle → 1 paper) | yes — Neurology → Cardiology |
+| 14–26 | 7 Jul – 19 Jul | Build B | `laq-set`; **Sun = `paper-mock`** (1 → 2 papers) | yes — Endo, Nephro, Resp, GI |
+| 27–32 | 20 Jul – 25 Jul | Build C | `laq-set` + sprinkle Tier-2 | yes — **ID; last new-Tier-1 = Fri 25 Jul (Day 32)** |
+| 33 | 26 Jul | Pre-prelim | `revision` (light) | no |
+| **34** | **27 Jul** | **PRELIM** | **`prelim` — full 4×100 = 400** | **no** |
+| 35 | 28 Jul | Diagnostic | `revision` — ingest prelim results, re-rank weak systems | no |
+| 36–49 | 29 Jul – 11 Aug | Targeted push | `laq-set` driven by prelim-weak systems; **Sun = weak-paper `paper-mock`** | no new — strengthen only |
+| 50–54 | 12 Aug – 16 Aug | Final taper | `revision` only — all due/weak, **no new questions** | no |
+| — | 17 Aug | **FINAL THEORY** | — | — |
 
-- If `/prep` was given no date → infer (last `activity` date + 1 study day, else day 01), **state the
-  inferred date, then ask the user to confirm before doing anything.**
-- **Never build more than one day.** If today is >1 study day past the last activity, surface the gap
-  and ask which single day to run (graceful degradation: proceed off last-known tracker state, backfill later).
+- If `/prep` was given no date → infer (last `activity` date + 1 study day, else day 01), **state the inferred
+  date, then ask the user to confirm before doing anything.**
+- **Never build more than one day.** If today is >1 study day past the last activity, surface the gap and ask
+  which single day to run (graceful degradation: proceed off last-known tracker state, backfill later).
 
 ## Spacing policy (resurface after)
 
-Read **physics_score_history only** (never presentation). For `times_seen ≥ 1`, an item is **due** when
-`today − last_seen ≥` its interval: **Weak 2d · Shaky 3–4d · Solid 6d · Mastered 10d** (Mastered otherwise
-only in mocks). **Eligible-new** = `must_introduce` rows with `label:"unseen"`.
+Read **content_score_history only** (never presentation). For `times_seen ≥ 1`, an item is **due** when
+`today − last_seen ≥` its interval: **Weak 2d · Shaky 3–4d · Solid 6d · Mastered 10d** (Mastered otherwise only
+in mocks). **Eligible-new** = `must_introduce` rows with `label:"unseen"`.
 
 ## Select today's set
 
-- **`mini` (weekday):** ~**6 new + 3–5 due + 1–2 spot-checks** (spot-check = a random Solid/Mastered, anti-decay).
-- **`mock` (Sunday):** **no new Tier-1.** Compose mostly from due + already-covered to fill the day's target
-  marks; the size ramps (gentle → half → full) per the table. Lighter learning file (it's a review/test day).
-- **Days 22–23:** revision only — all due/weak items, **no new questions**.
+A medicine LAQ is a heavy writing unit, so cap by **answer load**, not question count:
 
-**Ranking eligible-new:** tier 1 before tier 2; within a tier by chapter `exam_marks` (desc); then by the
-README sequencing skeleton — honour her current electrostatics→current cluster (Ch 1→2→3), then the big
-earners **Ch 14 → Ch 9**, then modern physics **Ch 11 → 12 → 13**, sprinkling Tier-2 (5,6,7,8,10) and parking
-lighter items on Sundays. **All new Tier-1 must be banked by Sat 11 Jul (day 20).**
+- **`laq-set` (weekday):** ~**2 new LAQs + ~3 short notes (SAQ/crit) — about 5 new — + 2–3 due/spot-check
+  recalls**; `target_marks` ≈ **35–45**. **Cap 2 LAQs/day** (an LAQ is the heavy item — the analogue of
+  physics's derivation cap). **~5 new/day is the load-bearing pace:** it covers the full ~130-question bank
+  across the ~28 new-content days before the prelim; dropping to ~4 leaves a ~20-question tail. Spot-check =
+  a random Solid/Mastered, anti-decay.
+- **`paper-mock` (Sunday):** **no new Tier-1.** Compose from due + already-covered to fill the day's target;
+  size ramps (1 paper = 100 → 2 papers) per the table. Lighter learning file (it's a review/test day).
+- **`prelim` (Day 35):** **no new.** All four papers; every covered system represented (see daily-test).
+- **`revision` days:** all due/weak items, **no new questions**.
 
-**Effort balance:** cap **2–3 derivations** in a day's set; mix in numericals / short-answers / MCQ. A `cs`
-or 5m `deriv` counts as heavy.
+**Ranking eligible-new:** Tier 1 before Tier 2; within a tier by system `exam_marks` (desc); then honour her
+priority skeleton **Neurology (all) → Cardiology → Endocrinology → Nephrology → Respiratory → Gastroenterology
+→ Infectious Disease**, parking **Tier-2 (Haem/Onc, Rheumatology, Critical Care)** on later weekdays/Sundays.
+Weave a little of the **floor systems (Basic Sciences, Recent Advances)** into Build B/C so Papers I and IV are
+not left at zero. **All new Tier-1 banked by Fri 25 Jul (Day 32).**
 
-**Re-teach:** for any item that came back **weak** in yesterday's `results.md`, add it to `reteach[]` (it
-also appears in `due`) and fold a short re-teach block into today's `learning.md`.
+**Effort balance:** the 2-LAQ cap is firm; mix in short notes / criteria / a numerical. A full 15m LAQ counts
+as heavy.
 
-**Confidence ramp:** week 1 ≈ mostly-covered + confidence-building; mid-window introduces 1–2 application
-stretches; days 21–23 go fully realistic (competency / unseen-application framing).
+**Re-teach:** for any item that came back **weak** in yesterday's `results.md`, add it to `reteach[]` (it also
+appears in `due`) and fold a short re-teach block into today's `learning.md`. After the prelim (Day 36+),
+re-teach is driven by the **weakest systems/papers** the prelim exposed.
+
+**Confidence ramp:** Build A = mostly model-answer mugging + confidence; Build B/C add applied/"discuss" framing;
+post-prelim is targeted at exposed weak spots; the taper is pure consolidation.
 
 ## Write `current_selection` (the prep→test contract)
 
 ```jsonc
 "current_selection": {
-  "date": "2026-06-22", "day_index": 1, "mode": "mini", "target_marks": 15,
-  "new": ["ch03-deriv-q1", "..."], "due": ["ch01-sa-q7"], "spot_check": ["ch02-num-q1"], "reteach": []
+  "date": "2026-06-23", "day_index": 1, "mode": "laq-set", "target_marks": 30,
+  "new": ["sys01-laq-q1", "..."], "due": ["sys01-saq-q2"], "spot_check": ["sys01-crit-q2"], "reteach": []
 }
 ```
-Overwrite any existing `current_selection`. Assert every chosen ID exists in `questions`.
+`mode` ∈ `laq-set | paper-mock | prelim | revision`. Overwrite any existing `current_selection`. Assert every
+chosen ID exists in `questions`.
 
 ## Write `daily/NN-YYYY-MM-DD/learning.md`
 
 Self-contained — she reads it top-to-bottom and is done. Front-matter for the website:
 ```yaml
 ---
-date: 2026-06-22
+date: 2026-06-23
 dayIndex: 1
-title: "Coulomb's law & the electric field"   # TOPIC only — the site adds "Day N" itself
-chapters: ["Ch 1", "Ch 3"]
+title: "Stroke & the acute neurology essays"   # TOPIC only — the site adds "Day N" itself
+systems: ["Neurology"]
 ---
 ```
-**Don't repeat "Day N" in `title` or in the body's H1** — the site renders the day number and date as
-page chrome, so a "Day 1 —" prefix would show twice. Keep the body H1 a short encouraging line.
+**Don't repeat "Day N" in `title` or in the body's H1** — the site renders the day number and date as page
+chrome. Keep the body H1 a short encouraging line.
 
-Then, for each **new** item, **do NOT author lessons or derivations yourself** — external explainers do
-the teaching. Give, **in this order**, five things:
-1. **The question** — **always show the actual exam question first**, as a callout (e.g. `> **Q (Xm).** …`),
-   pulled faithfully from the question bank (with its marks). She needs to *see what she's answering* — it
-   builds confidence and mirrors the test. Never replace it with just a topic label.
-2. **Answer to memorise (muggable)** — the CBSE marking-scheme model answer **copied from the question bank**
-   (`chapters/NN-*/question-bank*`), paired right under the question so she reads Q → A together. Format it as
-   **clearly numbered, scannable steps** — one bold-labelled step per short block (`**Step N — <name>** *(½m)*`),
-   keep the bank's step names, show the marks on each step, and put each key formula on its **own line** as
-   display math (`$$…$$`). No dense prose paragraphs — every step should be muggable on its own. The bank stays
-   the source of truth; `learning.md` is a daily read-from snapshot.
-3. **Formula(s) to remember.**
-4. **What to draw** — the label checklist that scores marks.
-5. **Learn it** — **1–2 reliable external references** for the concept (Khan Academy / Learnohub / a
-   reputable one-shot). Prefer a specific chapter/topic page over a channel homepage; verify the link resolves.
+Then, for each **new** item, **do NOT author lessons yourself** — the cited sources do the teaching. Give,
+**in this order**, five things:
+1. **The question** — **always show the actual exam question first**, as a callout (`> **Q (Xm).** …`), pulled
+   faithfully from the question bank (with its marks). She must *see what she's answering*.
+2. **Answer to memorise (muggable)** — the marking-scheme model answer **copied from the system's question
+   bank** (`systems/NN-*/question-bank*`), paired right under the question. Format it as **clearly labelled,
+   scannable mark-blocks** — one per line (`**Definition** *(1m)*`, `**Aetiopathogenesis** *(2m)*`, …), keep the
+   bank's block names and per-block marks. No dense prose. The bank stays the source of truth; `learning.md` is
+   a daily read-from snapshot.
+3. **What to draw / tabulate** — the checklist that scores independent marks (tables, flowcharts, labelled diagrams).
+4. **Key facts / doses to remember** — the high-value examiner-favourite points.
+5. **Learn it** — **1–2 reliable references** for the topic (Harrison's / Davidson's / API by chapter, or a
+   reputable source). Pointers to read, not copied.
+6. **⚠ Verify-before-mugging flag** — if the item's system `CLAUDE.md` still shows `Verification: ☐ unverified`,
+   add a one-line "⚠ verify this against your source before memorising — not yet signed off" note.
 
 For any `reteach[]` item, repeat its muggable answer + a one-line note on the mistake that lost marks + one
-targeted reference (still no authored lesson). Keep due/spot-check items to a one-line "revise: …" pointer
-(she already learned them). Math in `$…$`/`$$…$$` (KaTeX renders it on the site).
+targeted reference. Keep due/spot-check items to a one-line "revise: …" pointer. Math in `$…$`/`$$…$$`.
 
 ## Self-check before finishing
-- mode + new-Tier-1 rule match the calendar; derivation cap respected; every selected ID exists.
+- mode + new-Tier-1 rule match the calendar; **≈5 new items on a `laq-set` day, LAQ cap (≤2) respected**; every selected ID exists.
 - `current_selection.date` == the resolved day; `learning.md` written with valid front-matter.
+- unverified-system items carry the verify-before-mugging flag.
 - Do **not** create `test.md`/`rubric.md` — that's `daily-test`.

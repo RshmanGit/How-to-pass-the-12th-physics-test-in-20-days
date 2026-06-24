@@ -1,6 +1,6 @@
 ---
 description: Build today's study plan — select questions and write the day's learning file.
-argument-hint: [date e.g. 2026-06-22]
+argument-hint: [date e.g. 2026-06-23]
 ---
 
 Use the `daily-prep` skill to build the study day: $ARGUMENTS
