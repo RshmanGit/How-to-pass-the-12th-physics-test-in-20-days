@@ -1,5 +1,5 @@
 ---
-date: 2026-07-25
+date: 2026-06-25
 dayIndex: 2
 title: "Myasthenia, dementia, CNS TB & status epilepticus"
 systems: ["Neurology"]

@@ -1,5 +1,5 @@
 ---
-date: 2026-07-24
+date: 2026-06-24
 dayIndex: 1
 title: "Stroke, MS & the neuro scoring systems"
 systems: ["Neurology"]

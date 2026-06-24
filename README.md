@@ -24,18 +24,18 @@
   high-yield, repeatedly-examined topics with muggable mark-frames + cited sources — it raises the floor; it is
   not a guarantee. Preparation stays **general**, not over-fit to one university's past papers.
 
-## The calendar (Day 1 = 23 Jun 2026)
+## The calendar (Day 1 = 24 Jun 2026)
 
 Two milestones: a full-format **prelim** (internal 4-paper mock) and the **final theory**.
 
 | Phase | Days / dates | Notes |
 |---|---|---|
-| Build A/B/C — new Tier-1 systems | **Day 1–33 · 23 Jun → 25 Jul** | weekday `laq-set`; **Sundays = `paper-mock`** (gentle → 1 paper → 2 papers) |
-| Last new-Tier-1 day | **Fri 25 Jul (Day 33)** | all new high-yield systems banked by here |
-| **PRELIM** — full 4×100 mock | **Mon 27 Jul (Day 35)** | graded like any mock; its results re-rank the weak systems |
-| Targeted push (prelim-weak) | **Day 37–50 · 29 Jul → 11 Aug** | no new content — strengthen exposed weak spots; Sunday weak-paper mocks |
-| Final taper — revision only | **Day 51–55 · 12 → 16 Aug** | all due/weak, no new questions; dress-rehearsal pass-by-paper check |
-| **FINAL THEORY** | **Sun 17 Aug (Day 56)** | |
+| Build A/B/C — new Tier-1 systems | **Day 1–32 · 24 Jun → 25 Jul** | weekday `laq-set`; **Sundays = `paper-mock`** (gentle → 1 paper → 2 papers) |
+| Last new-Tier-1 day | **Fri 25 Jul (Day 32)** | all new high-yield systems banked by here |
+| **PRELIM** — full 4×100 mock | **Mon 27 Jul (Day 34)** | graded like any mock; its results re-rank the weak systems |
+| Targeted push (prelim-weak) | **Day 36–49 · 29 Jul → 11 Aug** | no new content — strengthen exposed weak spots; Sunday weak-paper mocks |
+| Final taper — revision only | **Day 50–54 · 12 → 16 Aug** | all due/weak, no new questions; dress-rehearsal pass-by-paper check |
+| **FINAL THEORY** | **Sun 17 Aug (Day 55)** | |
 
 ## Sequencing
 

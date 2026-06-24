@@ -13,20 +13,20 @@ the accumulated memory of every test, so selection spans all history, not just y
 
 ## Resolve the day (push back — never guess)
 
-`daily/NN-YYYY-MM-DD/`. **NN = (date − 23 Jun 2026) + 1.** Two milestones: **PRELIM (full 4-paper mock) Mon
-27 Jul = Day 35**, **FINAL Mon 17 Aug = Day 56.** Calendar:
+`daily/NN-YYYY-MM-DD/`. **NN = (date − 24 Jun 2026) + 1** (Day 1 = 24 Jun 2026). Two milestones: **PRELIM
+(full 4-paper mock) 27 Jul = Day 34**, **FINAL 17 Aug = Day 55.** Calendar:
 
 | Day | Date | Phase | Mode | New Tier-1? |
 |--|--|--|--|--|
-| 01–13 | Tue 23 Jun – Sun 5 Jul | Build A | weekday `laq-set`; **Sun = `paper-mock`** (gentle → 1 paper) | yes — Neurology → Cardiology |
-| 14–27 | Mon 6 Jul – Sun 19 Jul | Build B | `laq-set`; **Sun = `paper-mock`** (1 → 2 papers) | yes — Endo, Nephro, Resp, GI |
-| 28–33 | Mon 20 Jul – Fri 25 Jul | Build C | `laq-set` + sprinkle Tier-2 | yes — **ID; last new-Tier-1 = Fri 25 Jul** |
-| 34 | Sat 26 Jul | Pre-prelim | `revision` (light) | no |
-| **35** | **Mon 27 Jul** | **PRELIM** | **`prelim` — full 4×100 = 400** | **no** |
-| 36 | Tue 28 Jul | Diagnostic | `revision` — ingest prelim results, re-rank weak systems | no |
-| 37–50 | Wed 29 Jul – Tue 11 Aug | Targeted push | `laq-set` driven by prelim-weak systems; **Sun = weak-paper `paper-mock`** | no new — strengthen only |
-| 51–55 | Wed 12 Aug – Sat 16 Aug | Final taper | `revision` only — all due/weak, **no new questions** | no |
-| — | Sun 17 Aug | **FINAL THEORY** | — | — |
+| 01–13 | 24 Jun – 6 Jul | Build A | weekday `laq-set`; **Sun = `paper-mock`** (gentle → 1 paper) | yes — Neurology → Cardiology |
+| 14–26 | 7 Jul – 19 Jul | Build B | `laq-set`; **Sun = `paper-mock`** (1 → 2 papers) | yes — Endo, Nephro, Resp, GI |
+| 27–32 | 20 Jul – 25 Jul | Build C | `laq-set` + sprinkle Tier-2 | yes — **ID; last new-Tier-1 = Fri 25 Jul (Day 32)** |
+| 33 | 26 Jul | Pre-prelim | `revision` (light) | no |
+| **34** | **27 Jul** | **PRELIM** | **`prelim` — full 4×100 = 400** | **no** |
+| 35 | 28 Jul | Diagnostic | `revision` — ingest prelim results, re-rank weak systems | no |
+| 36–49 | 29 Jul – 11 Aug | Targeted push | `laq-set` driven by prelim-weak systems; **Sun = weak-paper `paper-mock`** | no new — strengthen only |
+| 50–54 | 12 Aug – 16 Aug | Final taper | `revision` only — all due/weak, **no new questions** | no |
+| — | 17 Aug | **FINAL THEORY** | — | — |
 
 - If `/prep` was given no date → infer (last `activity` date + 1 study day, else day 01), **state the inferred
   date, then ask the user to confirm before doing anything.**
@@ -55,7 +55,7 @@ A medicine LAQ is a heavy writing unit, so cap by **answer load**, not question 
 priority skeleton **Neurology (all) → Cardiology → Endocrinology → Nephrology → Respiratory → Gastroenterology
 → Infectious Disease**, parking **Tier-2 (Haem/Onc, Rheumatology, Critical Care)** on later weekdays/Sundays.
 Weave a little of the **floor systems (Basic Sciences, Recent Advances)** into Build B/C so Papers I and IV are
-not left at zero. **All new Tier-1 banked by Fri 25 Jul (Day 33).**
+not left at zero. **All new Tier-1 banked by Fri 25 Jul (Day 32).**
 
 **Effort balance:** the 2-LAQ cap is firm; mix in short notes / criteria / a numerical. A full 15m LAQ counts
 as heavy.
