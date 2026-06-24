@@ -20,6 +20,16 @@ const hasProjection = projections.aggregate.best_pct !== null;
     <p class="eyebrow">Hi Mitsu 👋</p>
     <h1>Here's where you stand.</h1>
 
+    <section class="how card">
+      <p class="how-goal">🎯 <b>Goal:</b> clear all 4 theory papers — <b>≥40% each + ≥50% overall</b>.</p>
+      <ol class="how-steps">
+        <li><span class="ic">📖</span><b>Learn</b><span>A few high-yield questions a day, each with a ready-to-mug model answer.</span></li>
+        <li><span class="ic">✍️</span><b>Test</b><span>Write them by hand, exam-style.</span></li>
+        <li><span class="ic">✅</span><b>Grade</b><span>Snap a photo → marks + what to fix. Weak topics come back on their own.</span></li>
+      </ol>
+      <p class="how-foot">The dial below fills in once you've taken a test — one gauge per paper, so a weak paper can't hide.</p>
+    </section>
+
     {hasProjection ? (
       <ProjectionGauge
         papers={papers}
@@ -64,6 +74,24 @@ const hasProjection = projections.aggregate.best_pct !== null;
 </Base>
 
 <style>
+  .how { display: flex; flex-direction: column; gap: .9rem; }
+  .how-goal { margin: 0; font-size: 1rem; color: var(--ink); }
+  .how-goal b { color: var(--amber); }
+  .how-steps {
+    list-style: none; margin: 0; padding: 0;
+    display: grid; grid-template-columns: 1fr; gap: .8rem;
+  }
+  .how-steps li {
+    display: grid; grid-template-columns: 2rem 1fr; gap: .2rem .7rem; align-items: start;
+  }
+  .how-steps .ic { grid-row: span 2; font-size: 1.5rem; line-height: 1; }
+  .how-steps b { font-family: var(--font-display); color: var(--teal); }
+  .how-steps span:last-child { font-size: .9rem; color: var(--text-soft); }
+  .how-foot { margin: 0; font-size: .82rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: .7rem; }
+  @media (min-width: 560px) {
+    .how-steps { grid-template-columns: repeat(3, 1fr); }
+    .how-steps li { grid-template-columns: 2rem 1fr; }
+  }
   .empty { text-align: center; padding: 2rem 1.2rem; }
   .empty .big { font-family: var(--font-display); font-size: 3.4rem; font-weight: 700; color: var(--amber); margin: 0; line-height: 1; }
   .empty b { color: var(--ink); }

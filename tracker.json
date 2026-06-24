@@ -109,7 +109,11 @@
       "exam_marks": 100
     }
   },
-  "current_selection": null,
+  "current_selection": {
+    "date": "2026-07-24", "day_index": 1, "mode": "laq-set", "target_marks": 30,
+    "new": ["sys01-laq-q1", "sys01-saq-q1", "sys01-crit-q1", "sys01-crit-q2"],
+    "due": [], "spot_check": [], "reteach": []
+  },
   "questions": {
     "sys01-laq-q1": {
       "display": "systems/01-neurology/question-bank/01-laq.md#q1-acute-ischaemic-stroke--aetiopathogenesis-clinical-features-investigations-and-management-15m",
