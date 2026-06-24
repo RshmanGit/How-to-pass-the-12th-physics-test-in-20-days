@@ -11,7 +11,7 @@ const learnings = defineCollection({
     date: z.coerce.date(),
     dayIndex: z.number(),
     title: z.string(),
-    chapters: z.array(z.string()).default([]),
+    systems: z.array(z.string()).default([]),
   }),
 });
 

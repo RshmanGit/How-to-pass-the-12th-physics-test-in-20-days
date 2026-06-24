@@ -1,6 +1,6 @@
 ---
-description: Build today's CBSE test paper + frozen marking rubric from the prep selection.
-argument-hint: [date e.g. 2026-06-22]
+description: Build today's MD-theory test paper + frozen marking rubric from the prep selection.
+argument-hint: [date e.g. 2026-06-23]
 ---
 
 Use the `daily-test` skill to build the test for: $ARGUMENTS

@@ -4,33 +4,36 @@ import Base from '../layouts/Base.astro';
 import ProjectionGauge from '../components/ProjectionGauge.astro';
 import ActivityHeatmap from '../components/ActivityHeatmap.astro';
 import DayCard from '../components/DayCard.astro';
-import { meta, projections, daysToExam } from '../data/tracker';
+import { meta, projections, daysToPrelim, daysToFinal, papersWithProjection } from '../data/tracker';
 
 const learnings = (await getCollection('learnings')).sort((a, b) => b.data.dayIndex - a.data.dayIndex);
 const results = await getCollection('results');
 const marksByDay = new Map(results.map((r) => [r.data.dayIndex, r.data.totalMarks]));
 const latest = learnings.slice(0, 3);
 
-const hasProjection = projections.worst !== null && projections.best !== null;
+const papers = papersWithProjection();
+const hasProjection = projections.aggregate.best_pct !== null;
 ---
 
-<Base title="Physics.Daily — Today">
+<Base title="Medicine.Daily — Today">
   <div class="wrap">
-    <p class="eyebrow">Hi Dhruvi 👋</p>
+    <p class="eyebrow">Hi Mitsu 👋</p>
     <h1>Here's where you stand.</h1>
 
     {hasProjection ? (
       <ProjectionGauge
-        worst={projections.worst!}
-        best={projections.best!}
-        passMark={meta.pass_mark}
-        total={meta.total_marks}
-        days={daysToExam}
+        papers={papers}
+        aggregate={projections.aggregate}
+        verdict={projections.verdict}
+        floorPct={meta.pass_rule.per_paper_floor_pct}
+        aggregatePct={meta.pass_rule.aggregate_pct}
+        daysToPrelim={daysToPrelim}
+        daysToFinal={daysToFinal}
       />
     ) : (
       <section class="card empty">
-        <p class="big num">{daysToExam}</p>
-        <p>days to the exam. Your projected score appears here after your first graded test — let's begin. 💪</p>
+        <p class="big num">{daysToPrelim}</p>
+        <p>days to your prelim · <b class="num">{daysToFinal}</b> to finals. Your per-paper projection appears here after your first graded test — let's begin. 💪</p>
       </section>
     )}
 
@@ -51,7 +54,7 @@ const hasProjection = projections.worst !== null && projections.best !== null;
             dayIndex={e.data.dayIndex}
             date={e.data.date}
             title={e.data.title}
-            chapters={e.data.chapters}
+            systems={e.data.systems}
             totalMarks={marksByDay.get(e.data.dayIndex) ?? null}
           />
         ))}
@@ -63,6 +66,7 @@ const hasProjection = projections.worst !== null && projections.best !== null;
 <style>
   .empty { text-align: center; padding: 2rem 1.2rem; }
   .empty .big { font-family: var(--font-display); font-size: 3.4rem; font-weight: 700; color: var(--amber); margin: 0; line-height: 1; }
+  .empty b { color: var(--ink); }
   .latest-head { display: flex; align-items: baseline; justify-content: space-between; }
   .see-all { font-size: .82rem; font-weight: 600; color: var(--teal); text-decoration: none; }
   .stack { display: flex; flex-direction: column; gap: .9rem; }

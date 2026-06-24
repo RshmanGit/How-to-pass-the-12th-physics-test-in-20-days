@@ -1,85 +1,106 @@
 ---
-// Signature element: the "climb to the pass line". A vertical 0→70 track with the
-// projection band (worst→best) rising toward the amber pass-line at 23.
-interface Props { worst: number; best: number; passMark: number; total: number; days: number; }
-const { worst, best, passMark, total, days } = Astro.props;
-const pct = (v: number) => `${Math.max(0, Math.min(100, (v / total) * 100))}%`;
-const reaches = best >= passMark;
-const bandH = `${Math.max(2, ((best - worst) / total) * 100)}%`;
+// The pass model has TWO binding constraints: ≥40% in EACH of four papers AND ≥50% aggregate.
+// So we show four mini-gauges (each with its own 40% floor line) + one aggregate strip (50% line),
+// and a verdict that names the binding constraint — never a single average that hides a failing paper.
+interface PaperItem { key: string; name: string; marks: number; proj: { worst: number; best: number } | null; atRisk: boolean; }
+interface Props {
+  papers: PaperItem[];
+  aggregate: { worst_pct: number | null; best_pct: number | null };
+  verdict: { binding: string | null; at_risk_papers: string[]; passProjectedBest: boolean | null };
+  floorPct: number; aggregatePct: number;
+  daysToPrelim: number; daysToFinal: number;
+}
+const { papers, aggregate, verdict, floorPct, aggregatePct, daysToPrelim, daysToFinal } = Astro.props;
+const clamp = (v: number) => Math.max(0, Math.min(100, v));
+const aggBest = aggregate.best_pct;
+const aggWorst = aggregate.worst_pct;
+
+const verdictText = (() => {
+  if (!verdict.binding) return 'Projection fills in after your first graded test.';
+  if (verdict.binding === 'clear') return '✓ On track — clearing all four papers and the 50% aggregate.';
+  if (verdict.binding === 'aggregate') return 'Every paper clears the 40% floor, but you’re short of the 50% aggregate — lift your weakest papers.';
+  const at = verdict.at_risk_papers.join(', ');
+  return `⚠ ${at} below the 40% floor — fix this first; one paper under 40% fails the whole theory head.`;
+})();
+const verdictClass = !verdict.binding ? 'soon' : verdict.binding === 'clear' ? 'ok' : 'risk';
 ---
 
 <section class="gauge card">
-  <div
-    class="track"
-    role="img"
-    aria-label={`Projected ${worst} to ${best} out of ${total}. Pass line is ${passMark}.`}
-  >
-    <div class="band" style={`bottom:${pct(worst)}; height:${bandH}`}>
-      <span class="cap cap-best num">{best}</span>
-      {best - worst >= 6 && <span class="cap cap-worst num">{worst}</span>}
-    </div>
-    <div class={`passline ${reaches ? 'reached' : ''}`} style={`bottom:${pct(passMark)}`}>
-      <span class="flag num">pass {passMark}</span>
-    </div>
-    <span class="tick tick-top num">{total}</span>
-    <span class="tick tick-zero num">0</span>
+  <div class="papers">
+    {papers.map((p) => (
+      <div class={`mini ${p.atRisk ? 'risk' : ''}`} title={`${p.name} — ${p.proj ? `${p.proj.worst}–${p.proj.best} / 100` : 'not started'}`}>
+        <div class="track">
+          {p.proj ? (
+            <div class="band" style={`bottom:${clamp(p.proj.worst)}%; height:${Math.max(2, clamp(p.proj.best) - clamp(p.proj.worst))}%`}>
+              <span class="cap num">{p.proj.best}</span>
+            </div>
+          ) : (
+            <span class="empty">—</span>
+          )}
+          <div class="floor" style={`bottom:${floorPct}%`}><span class="floor-flag num">40</span></div>
+        </div>
+        <span class="plabel">{p.key}</span>
+      </div>
+    ))}
   </div>
 
-  <div class="readout">
-    <p class="eyebrow">Projected at current pace</p>
-    <p class="big num">{best}<span class="den">/{total}</span></p>
-    <p class="range">Best case <b class="num">{best}</b> · floor <b class="num">{worst}</b></p>
-    <p class={`verdict ${reaches ? 'ok' : 'soon'}`}>
-      {reaches ? '✓ on track to cross the pass line' : `climbing toward ${passMark}`}
+  <div class="aggregate">
+    <p class="agg-label">Aggregate <span class="den">(pass ≥ {aggregatePct}%)</span></p>
+    <div class="agg-bar">
+      {aggBest !== null && <span class="agg-fill" style={`width:${clamp(aggBest)}%`}></span>}
+      <span class="agg-pass" style={`left:${aggregatePct}%`}></span>
+    </div>
+    <p class="agg-read">
+      {aggBest !== null
+        ? <span><b class="num">{aggBest}%</b> best · floor <b class="num">{aggWorst}%</b></span>
+        : <span class="muted">no graded tests yet</span>}
     </p>
-    <p class="days"><b class="num">{days}</b> days to the exam</p>
   </div>
+
+  <p class={`verdict ${verdictClass}`}>{verdictText}</p>
+
+  <p class="days">
+    <b class="num">{daysToPrelim}</b> days to prelim · <b class="num">{daysToFinal}</b> to final
+  </p>
 </section>
 
 <style>
-  .gauge { display: flex; gap: 1.4rem; align-items: stretch; padding-left: 3.4rem; }
-
+  .gauge { display: flex; flex-direction: column; gap: 1.1rem; }
+  .papers { display: grid; grid-template-columns: repeat(4, 1fr); gap: .7rem; }
+  .mini { display: flex; flex-direction: column; align-items: center; gap: .4rem; }
   .track {
-    position: relative;
-    flex: 0 0 56px;
-    border-radius: 10px;
-    background:
-      repeating-linear-gradient(to top, var(--line) 0 1px, transparent 1px 20%);
+    position: relative; width: 100%; max-width: 60px; height: 150px; border-radius: 8px;
+    background: repeating-linear-gradient(to top, var(--line) 0 1px, transparent 1px 25%);
     border: 1px solid var(--line);
-    min-height: 260px;
   }
   .band {
-    position: absolute; left: 8px; right: 8px;
-    border-radius: 7px;
+    position: absolute; left: 6px; right: 6px; border-radius: 5px;
     background: linear-gradient(to top, var(--teal), var(--amber));
-    box-shadow: 0 0 18px -2px var(--amber-glow);
-    transform-origin: bottom;
-    animation: rise .9s cubic-bezier(.2, .8, .2, 1) both;
+    transform-origin: bottom; animation: rise .8s cubic-bezier(.2,.8,.2,1) both;
   }
+  .mini.risk .band { background: linear-gradient(to top, #b4451f, #e2682f); }
   @keyframes rise { from { transform: scaleY(0); opacity: .4; } to { transform: scaleY(1); opacity: 1; } }
-  .cap { position: absolute; left: 50%; transform: translateX(-50%); font-size: .72rem; font-weight: 700; }
-  .cap-best { top: -1.25rem; color: var(--amber); }
-  .cap-worst { bottom: -1.25rem; color: var(--teal); }
+  .cap { position: absolute; left: 50%; top: -1.15rem; transform: translateX(-50%); font-size: .72rem; font-weight: 700; color: var(--ink); }
+  .empty { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); color: var(--muted); }
+  .floor { position: absolute; left: -1px; right: -1px; border-top: 2px dashed var(--amber); }
+  .mini.risk .floor { border-top-color: #e2682f; border-top-style: solid; }
+  .floor-flag { position: absolute; right: calc(100% + 4px); top: -.6rem; font-size: .6rem; color: var(--muted); }
+  .plabel { font-family: var(--font-display); font-weight: 700; font-size: .82rem; color: var(--text-soft); }
+  .mini.risk .plabel { color: #e2682f; }
 
-  .passline { position: absolute; left: -1px; right: -1px; border-top: 2px dashed var(--amber); }
-  .passline .flag {
-    position: absolute; right: calc(100% + 8px); top: -.7rem; white-space: nowrap;
-    font-size: .66rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
-    color: var(--amber);
-  }
-  .passline.reached { border-top-style: solid; }
+  .aggregate { display: flex; flex-direction: column; gap: .35rem; }
+  .agg-label { margin: 0; font-family: var(--font-display); font-size: .8rem; color: var(--text-soft); }
+  .agg-label .den { color: var(--muted); font-weight: 400; }
+  .agg-bar { position: relative; height: 12px; border-radius: 999px; background: var(--line); overflow: visible; }
+  .agg-fill { display: block; height: 100%; border-radius: 999px; background: linear-gradient(to right, var(--teal), var(--amber)); }
+  .agg-pass { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--amber); }
+  .agg-read { margin: 0; font-size: .9rem; color: var(--text-soft); }
 
-  .tick { position: absolute; right: calc(100% + 8px); font-size: .68rem; color: var(--muted); }
-  .tick-top { top: -.55rem; }
-  .tick-zero { bottom: -.55rem; }
-
-  .readout { display: flex; flex-direction: column; justify-content: center; }
-  .big { font-size: 3.2rem; font-weight: 700; color: var(--ink); line-height: 1; margin: .1rem 0 .3rem; }
-  .big .den { font-size: 1.1rem; color: var(--muted); font-weight: 500; }
-  .range { margin: 0 0 .5rem; color: var(--text-soft); font-size: .95rem; }
-  .verdict { margin: 0 0 1rem; font-family: var(--font-display); font-weight: 600; font-size: .92rem; }
+  .verdict { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: .95rem; line-height: 1.4; }
   .verdict.ok { color: var(--good); }
-  .verdict.soon { color: var(--amber); }
+  .verdict.risk { color: var(--amber); }
+  .verdict.soon { color: var(--muted); }
   .days { margin: 0; color: var(--text-soft); font-size: .95rem; }
-  .days b { color: var(--ink); font-size: 1.15rem; }
+  .days b { color: var(--ink); font-size: 1.1rem; }
+  .muted { color: var(--muted); }
 </style>

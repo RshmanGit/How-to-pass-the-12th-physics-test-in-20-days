@@ -8,7 +8,7 @@ const results = await getCollection('results');
 const marksByDay = new Map(results.map((r) => [r.data.dayIndex, r.data.totalMarks]));
 ---
 
-<Base title="Physics.Daily — Days">
+<Base title="Medicine.Daily — Days">
   <div class="wrap">
     <p class="eyebrow">Study log</p>
     <h1>All study days</h1>
@@ -21,7 +21,7 @@ const marksByDay = new Map(results.map((r) => [r.data.dayIndex, r.data.totalMark
             dayIndex={e.data.dayIndex}
             date={e.data.date}
             title={e.data.title}
-            chapters={e.data.chapters}
+            systems={e.data.systems}
             totalMarks={marksByDay.get(e.data.dayIndex) ?? null}
           />
         ))}
