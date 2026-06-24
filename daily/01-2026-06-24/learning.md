@@ -1,19 +1,21 @@
 ---
 date: 2026-06-24
 dayIndex: 1
-title: "Stroke, myasthenia & the neuro scoring systems"
-systems: ["Neurology"]
+title: "Stroke, then AF, tumour lysis & SGLT2"
+systems: ["Neurology", "Cardiology", "Haematology / Oncology", "Recent Advances"]
 ---
 
-# Day 1 — two flagship neuro essays + the cheap-mark scores 💪
+# Day 1 — one flagship neuro essay, then four quick wins across four systems 💪
 
-> 🧪 **Demo day.** This shows a realistic daily load. **⚠ Verify before mugging** — Neurology is authored
-> and fact-checked but not yet signed off by you. Today ≈ **40 marks**: 2 long answers + 1 short note + 2
-> scoring systems (the ~5-item daily pace that covers the whole bank before the prelim).
+> 🧪 **Demo day. ⚠ Verify before mugging.** Today ≈ **35 marks** across **4 systems** — **2 Neurology
+> (the day's anchor) + 3 interleaved** from Cardiology, Haematology and Recent Advances. This is the new
+> daily shape: **2 from the lead system + 3 mixed from others**, never a whole day of one subject. Every
+> answer is authored and fact-checked but **not yet signed off by you** — confirm each against its source
+> first.
 
 ---
 
-## 1. Acute ischaemic stroke
+## 1. Acute ischaemic stroke · *Neurology (anchor)*
 
 > **Q (15m).** Discuss the aetiopathogenesis, clinical features, investigations and management of acute
 > ischaemic stroke (cerebrovascular accident).
@@ -28,8 +30,8 @@ HTN/diabetes) · less common: dissection, vasculitis, prothrombotic states. **Ri
 important modifiable), diabetes, smoking, dyslipidaemia, AF, age. **Mechanism:** occlusion → irreversible
 **core** + salvageable **penumbra** → rationale for time-critical reperfusion.
 
-**Clinical features *(3m)*** — Sudden focal deficit by territory: **MCA** (contralateral hemiparesis face+arm
-> leg, aphasia/neglect, gaze deviation toward lesion) · **ACA** (leg > arm) · **PCA** (homonymous
+**Clinical features *(3m)*** — Sudden focal deficit by territory: **MCA** (contralateral hemiparesis,
+face/arm > leg, aphasia/neglect, gaze deviation toward lesion) · **ACA** (leg > arm) · **PCA** (homonymous
 hemianopia) · **posterior/brainstem** (vertigo, diplopia, ataxia, crossed signs). Quantify with **NIHSS**;
 note swallow, GCS, **time of onset (last-seen-well)**.
 
@@ -52,65 +54,7 @@ lysis ±4.5 h / thrombectomy → stroke unit)
 
 ---
 
-## 2. Myasthenia gravis
-
-> **Q (10m).** Discuss the aetiopathogenesis, clinical features, investigations and management of myasthenia
-> gravis, including myasthenic crisis.
-
-**Definition *(1m)*** — Autoimmune disorder of the **neuromuscular junction** → **fatigable** skeletal-muscle
-weakness (worse with activity, better with rest).
-**Aetiopathogenesis *(2m)*** — **Anti-AChR antibodies (~85%)** (subset **anti-MuSK**) → receptor blockade +
-complement destruction → transmission failure. Strong **thymic association** (hyperplasia common; **thymoma
-~10–15%**).
-**Clinical features *(2m)*** — Fatigable weakness worsening through the day; **ocular onset** (ptosis,
-diplopia); **bulbar** (dysarthria, dysphagia); facial/neck/proximal limb. **Reflexes & sensation normal**.
-**Myasthenic crisis** = respiratory-muscle weakness → respiratory failure.
-**Investigations *(2m)*** — **Anti-AChR** (specific), anti-MuSK if negative; **repetitive nerve stimulation →
-decremental response**, single-fibre EMG most sensitive; ice-pack test; **CT/MRI thorax for thymoma**; TFTs.
-**Management *(3m)*** — **Pyridostigmine** (symptomatic, first-line) · **corticosteroids + steroid-sparing**
-(azathioprine/mycophenolate), rituximab for refractory/MuSK · **thymectomy** · **crisis:** ICU, monitor
-**FVC**, ventilate if failing, **IVIG or plasma exchange**, avoid aminoglycosides.
-
-**✏️ Draw / tabulate** — [ ] neuromuscular-junction diagram (anti-AChR site) · [ ] MG vs Lambert-Eaton table
-**📚 Learn it:** Harrison's *Myasthenia Gravis & NMJ Diseases* · Davidson's *NMJ disorders* · API.
-
----
-
-## 3. Multiple sclerosis
-
-> **Q (5m).** Write a short note on multiple sclerosis (MS).
-
-**Definition *(1m)*** — Chronic **immune-mediated demyelinating** CNS disease, lesions **disseminated in
-space and time**; commonest in young adult women.
-**Clinical features *(1½m)*** — Relapsing-remitting (commonest); optic neuritis, internuclear
-ophthalmoplegia, sensory/motor + cerebellar signs, bladder dysfunction; **Uhthoff's** (heat) & **Lhermitte's**.
-**Investigations *(1½m)*** — **MRI brain+spine** (periventricular/juxtacortical/infratentorial/cord plaques);
-**CSF oligoclonal bands**; VEP. Diagnosed by **McDonald criteria** (below).
-**Management *(1m)*** — Acute relapse: **IV methylprednisolone**; **DMTs** (interferon-β, glatiramer, dimethyl
-fumarate, natalizumab, ocrelizumab); symptomatic care + rehab.
-
-**✏️ Tabulate** — [ ] Course types (RRMS / SPMS / PPMS)
-
----
-
-## 4. McDonald criteria (MS) — cheap, dense marks
-
-> **Q (5m).** Outline the McDonald criteria for diagnosing multiple sclerosis.
-
-**Principle *(2m)*** — Diagnose MS by showing **dissemination in space (DIS)** + **dissemination in time
-(DIT)**, after excluding better explanations; combines clinical attacks with MRI (± CSF) for early diagnosis.
-**DIS *(1m)*** — ≥1 T2 lesion in ≥2 typical regions: **periventricular, (juxta)cortical, infratentorial,
-spinal cord** (the 2017 four regions).
-**DIT *(1m)*** — a new T2/enhancing lesion on follow-up, **or** simultaneous enhancing + non-enhancing
-lesions, **or** a second clinical attack.
-**CSF substitution *(1m)*** — in a typical CIS with DIS, **CSF-specific oligoclonal bands** substitute for DIT.
-
-> ⚠ **Edition note:** this is the **2017** revision (widely examined in India). The **2024** revision adds the
-> **optic nerve as a 5th region** — confirm which your examiners use.
-
----
-
-## 5. Glasgow Coma Scale — pure recall
+## 2. Glasgow Coma Scale — pure recall · *Neurology (anchor)*
 
 > **Q (5m).** Describe the Glasgow Coma Scale (GCS) and its use.
 
@@ -129,5 +73,72 @@ lesions, **or** a second clinical attack.
 
 ---
 
-*Tomorrow (Day 2): Epilepsy & GBS essays + dementia, CNS-TB and the status-epilepticus algorithm. Weak topics
-from today would automatically resurface once a test is graded.*
+## 3. Atrial fibrillation & the approach to arrhythmia · *Cardiology (interleave)*
+
+> **Q (5m).** Write a short note on atrial fibrillation (AF) and the general approach to a cardiac arrhythmia.
+
+**Definition *(1m)*** — A **supraventricular tachyarrhythmia** with **uncoordinated atrial activation** →
+irregularly irregular ventricular response and loss of organised atrial contraction; ECG = **absent P waves,
+irregular R-R, fibrillatory baseline**.
+**Causes / approach *(1m)*** — Ischaemic/hypertensive/valvular (mitral) disease, **thyrotoxicosis**, alcohol,
+sepsis, PE. General rule — **assess haemodynamic stability first** (unstable → emergency **synchronised DC
+cardioversion**), 12-lead ECG, treat the precipitant.
+**Management — "rate, rhythm, anticoagulate" *(2m)*** —
+- **Rate:** β-blocker or rate-limiting CCB (diltiazem/verapamil); digoxin if sedentary/HF.
+- **Rhythm:** DC or pharmacological cardioversion (flecainide if no structural disease; amiodarone), ablation.
+- **Stroke prevention:** score with **CHA₂DS₂-VASc** (bleeding risk **HAS-BLED**) → **DOAC** (warfarin if valvular).
+
+**Key pearl *(1m)*** — AF → **stasis in the left atrial appendage → embolic stroke**; risk is independent of
+paroxysmal vs persistent — **anticoagulate on the score, not the rhythm.**
+
+**✏️ Tabulate** — [ ] rate- vs rhythm-control drug list
+**📚 Learn it:** Harrison's *The Tachyarrhythmias / Atrial Fibrillation* · Davidson's *Cardiac arrhythmias*.
+
+---
+
+## 4. Tumour lysis syndrome · *Haematology / Oncology (interleave)*
+
+> **Q (5m).** Write a short note on tumour lysis syndrome (TLS).
+
+**Definition *(1m)*** — An **oncological emergency** from massive tumour-cell breakdown (spontaneous or
+post-chemo) → the metabolic tetrad of **hyperkalaemia, hyperphosphataemia, hyperuricaemia and hypocalcaemia**
+(the last secondary to phosphate).
+**At-risk / pathogenesis *(1m)*** — Bulky, rapidly proliferating, chemosensitive tumours — **Burkitt lymphoma,
+ALL, high-grade NHL, high-WCC leukaemias**; urate + calcium-phosphate crystals deposit in tubules → **AKI**.
+**Clinical features *(1m)*** — Nausea/vomiting, lethargy, **arrhythmias** (hyperkalaemia), tetany/seizures
+(hypocalcaemia), oliguric AKI; usually **12–72 h** after treatment.
+**Management *(2m)*** — **Prevention is key:** **aggressive IV hydration** + **allopurinol** (low/intermediate
+risk) or **rasburicase** (high risk/established); treat **hyperkalaemia** (calcium gluconate, insulin-dextrose);
+**avoid calcium** unless symptomatic; **haemodialysis** for refractory hyperkalaemia/AKI; monitor electrolytes
+6–8 hourly.
+
+**✏️ Tabulate** — [ ] Cairo-Bishop metabolic tetrad (K⁺↑, PO₄↑, urate↑, Ca²⁺↓) with thresholds
+**📚 Learn it:** Harrison's *Oncologic Emergencies → Tumor Lysis Syndrome* · Davidson's *Complications of cancer*.
+
+---
+
+## 5. SGLT2 inhibitors (the "-flozins") · *Recent Advances — Paper IV floor (interleave)*
+
+> **Q (5m).** Write a short note on SGLT2 inhibitors (gliflozins).
+
+> ⚠ **Paper IV / time-sensitive** — refresh against the latest guidelines close to the exam before mugging.
+
+**Definition / mechanism *(1½m)*** — **Sodium–glucose co-transporter-2 inhibitors** (empagliflozin,
+dapagliflozin, canagliflozin) block glucose reabsorption in the **proximal tubule** → glycosuria → lower
+glucose **independent of insulin**; plus natriuretic/cardiorenal benefit.
+**Indications / benefits *(2m)*** — T2DM (HbA1c, weight, mild BP fall); **proven cardiovascular & renal
+protection** — cut **heart-failure** hospitalisation (HFrEF **and** HFpEF, even non-diabetics) and slow **CKD**
+progression. Now first-line in diabetics with CV/renal disease or HF.
+**Adverse effects / cautions *(1m)*** — **Genital mycotic infections / UTI**, volume depletion; **euglycaemic
+DKA** (withhold in acute illness/surgery — "sick-day rule"); rare Fournier's gangrene.
+**Pearl *(½m)*** — The **cardiorenal** benefit (not just glucose) is why they've entered **heart-failure and
+CKD** guidelines independent of diabetes.
+
+**✏️ Tabulate** — [ ] the "-flozins": indications (DM / HF / CKD) + key adverse effects
+**📚 Learn it:** Harrison's *Diabetes Mellitus: Management* · current ADA/ESC heart-failure & CKD updates.
+
+---
+
+*Tomorrow (Day 2): the epilepsy & status-epilepticus essay + dementia (still Neurology-anchored), then
+respiratory failure, gout and acid-base interleaved from three more systems. Weak topics from today would
+resurface automatically once a test is graded.*

@@ -1,18 +1,20 @@
 ---
 date: 2026-06-25
 dayIndex: 2
-title: "Epilepsy, GBS & the can't-miss neuro emergencies"
-systems: ["Neurology"]
+title: "Epilepsy, dementia & three more systems"
+systems: ["Neurology", "Respiratory", "Rheumatology", "Basic Sciences"]
 ---
 
-# Day 2 — two more essays + the emergency algorithms ⚡
+# Day 2 — the epilepsy essay, dementia, then three systems in one sitting ⚡
 
-> 🧪 **Demo day. ⚠ Verify before mugging.** Today ≈ **40 marks**: 2 long answers + 3 short notes. In a real
-> run, anything you slipped on yesterday would also reappear here automatically.
+> 🧪 **Demo day. ⚠ Verify before mugging.** Today ≈ **35 marks** across **4 systems** — **2 Neurology
+> (anchor) + 3 interleaved**: respiratory failure, gout and acid-base. Same shape as Day 1 — 2 from the lead
+> system + 3 mixed. In a real run, anything you slipped on yesterday would also reappear here automatically.
+> All answers are authored and fact-checked but **awaiting your sign-off**.
 
 ---
 
-## 1. Epilepsy & status epilepticus
+## 1. Epilepsy & status epilepticus · *Neurology (anchor)*
 
 > **Q (15m).** Classify seizure disorders. Discuss the approach to a patient with seizures and outline the
 > management of status epilepticus.
@@ -42,30 +44,7 @@ structural cause · bloods (glucose, Na/Ca/Mg, renal/liver, toxicology); LP if C
 
 ---
 
-## 2. Guillain-Barré syndrome
-
-> **Q (10m).** Discuss the aetiopathogenesis, clinical features, investigations and management of GBS.
-
-**Definition *(1m)*** — Acute, immune-mediated **inflammatory demyelinating polyradiculoneuropathy** →
-**ascending, areflexic, symmetrical flaccid paralysis**, monophasic, nadir <4 weeks.
-**Aetiopathogenesis *(2m)*** — **Post-infectious autoimmune** (antecedent infection ~⅔ — classically
-*Campylobacter jejuni*; also CMV, EBV, Mycoplasma, Zika); **molecular mimicry** (anti-GM1; anti-GQ1b in
-Miller-Fisher) → demyelination ± axonal damage. Subtypes: **AIDP** (commonest), AMAN/AMSAN, Miller-Fisher.
-**Clinical features *(2m)*** — Ascending symmetrical weakness (legs→arms) + **areflexia**, mild sensory,
-back/limb pain; cranial/bulbar; **Miller-Fisher triad** (ophthalmoplegia + ataxia + areflexia). **Dangerous:**
-respiratory failure + **autonomic dysfunction** — leading causes of death.
-**Investigations *(2m)*** — **CSF albuminocytological dissociation** (high protein, normal cells); **NCS**
-demyelinating; **serial FVC**; anti-ganglioside antibodies.
-**Management *(3m)*** — **Monitoring/supportive (life-saving):** admit, **serial FVC — ventilate if
-<15 mL/kg**, cardiac monitoring, VTE prophylaxis · **IVIG 0.4 g/kg/day × 5 days OR plasma exchange** (equally
-effective, **don't combine**; **steroids NOT effective**) · prognosis: most recover over weeks–months.
-
-**✏️ Draw / tabulate** — [ ] GBS subtypes table · [ ] acute-management flowchart (admit → FVC → IVIG/PLEX → ICU)
-**📚 Learn it:** Harrison's *GBS & Immune-Mediated Neuropathies* · Davidson's *Peripheral nerve disorders* · API.
-
----
-
-## 3. Dementia
+## 2. Dementia · *Neurology (anchor)*
 
 > **Q (5m).** Write a short note on dementia.
 
@@ -82,39 +61,71 @@ Alzheimer's, **memantine** in moderate-severe; behavioural management + caregive
 
 ---
 
-## 4. CNS tuberculosis (tuberculous meningitis)
+## 3. Respiratory failure & oxygen therapy · *Respiratory (interleave)*
 
-> **Q (5m).** Write a short note on tuberculous meningitis (CNS TB).
+> **Q (5m).** Write a short note on respiratory failure and oxygen therapy.
 
-**Definition *(1m)*** — Subacute meningitis from haematogenous spread of *M. tuberculosis* to the meninges
-(± tuberculoma); leading cause of chronic meningitis in endemic areas.
-**Clinical features *(1m)*** — Subacute fever, headache, vomiting, neck stiffness; **cranial nerve palsies
-(esp. VI)**, altered sensorium; complications — **hydrocephalus**, vasculitic infarcts, SIADH.
-**Investigations *(1½m)*** — **CSF:** high protein, **low glucose**, lymphocytic pleocytosis, high ADA;
-**CBNAAT/GeneXpert** + AFB culture; **CT/MRI** — basal meningeal enhancement, hydrocephalus, infarcts.
-**Management *(1½m)*** — **ATT (RIPE**, extended continuation, ~9–12 months total) **+ adjunctive
-dexamethasone (tapered over 6–8 weeks)**; manage hydrocephalus.
+**Definition *(1m)*** — Failure of gas exchange — **PaO₂ < 60 mmHg** (8 kPa) on room air, **± PaCO₂ > 50 mmHg**
+(6.7 kPa).
+**Types *(1½m)*** — **Type I (hypoxaemic)** — low PaO₂, normal/low PaCO₂ (V/Q mismatch — pneumonia, ARDS, PE,
+oedema); **Type II (hypercapnic/ventilatory)** — low PaO₂ **with high PaCO₂** (alveolar hypoventilation —
+COPD, neuromuscular, chest-wall disease, opioids).
+**Clinical features *(1m)*** — **Hypoxia** — dyspnoea, cyanosis, restlessness, tachycardia; **hypercapnia** —
+drowsiness, **asterixis**, warm peripheries, bounding pulse, headache, confusion.
+**Oxygen therapy *(1m)*** — Treat the cause; **Type I — high-flow O₂ to SpO₂ 94–98%**; **Type II / COPD at risk
+of CO₂ retention — controlled O₂ to SpO₂ 88–92%** (Venturi mask); **NIV (BiPAP)** for persistent hypercapnic
+acidosis, invasive ventilation if it fails.
+**Pearl *(½m)*** — Uncontrolled high-flow O₂ in chronic type-II failure can cause **CO₂ narcosis** — titrate to
+target saturation and recheck ABG.
 
-**✏️ Tabulate** — [ ] CSF in **TB vs bacterial vs viral** meningitis
-
----
-
-## 5. Status epilepticus — the standalone short-note version
-
-> **Q (5m).** Write a short note on the management of status epilepticus.
-> *(Same algorithm as the Epilepsy essay's emergency block — it recurs as its own short note, so drill it
-> until it's automatic.)*
-
-**Definition *(1m)*** — Seizure ≥ **5 min**, or ≥2 seizures without recovery between them — an emergency.
-**Immediate *(1m)*** — **ABC**, oxygen, IV access, monitor; **check glucose** (+ thiamine if low); bloods.
-**Stepwise drugs *(2m)*** — **Step 1** IV **lorazepam 0.1 mg/kg (≈4 mg)**, repeat once → **Step 2 (ESETT
-doses differ):** **levetiracetam 60 mg/kg** / **valproate 40 mg/kg** / **(fos)phenytoin 20 mg/kg PE** →
-**Step 3 refractory:** intubate + GA + ICU/EEG.
-**Always treat the precipitant *(1m)*** — infection, withdrawal, metabolic, non-adherence.
-
-**✏️ Tabulate** — [ ] Timeline flowchart (0–5 min → benzo → 2nd agent → anaesthesia)
+**✏️ Tabulate** — [ ] Type I vs Type II respiratory failure (PaO₂, PaCO₂, O₂ target, causes)
+**📚 Learn it:** Harrison's *Respiratory Failure* · Davidson's *Respiratory failure & oxygen therapy*.
 
 ---
 
-*That's 10 of Neurology's 11 questions covered in two days (Parkinson's is Day 3). Next systems by priority:
-Cardiology → Endocrinology → Nephrology …*
+## 4. Gout · *Rheumatology (interleave)*
+
+> **Q (5m).** Write a short note on gout.
+
+**Definition *(1m)*** — A crystal arthropathy from deposition of **monosodium urate (MSU) crystals** due to
+**hyperuricaemia** → recurrent acute inflammatory arthritis and, untreated, chronic tophaceous disease.
+**Pathogenesis / precipitants *(1m)*** — Hyperuricaemia from **underexcretion** (renal disease, diuretics —
+commonest) or **overproduction** (purine/alcohol/fructose, myeloproliferative disease, tumour lysis); triggers
+— trauma, surgery, dehydration, starting urate-lowering therapy.
+**Clinical features *(1½m)*** — Sudden, severe **painful monoarthritis**, classically the **first MTP joint
+(podagra)**; red, hot, swollen; chronic → **tophi**, urate stones. **Synovial fluid: negatively birefringent,
+needle-shaped MSU crystals** (definitive).
+**Management *(1½m)*** — **Acute:** **NSAID** OR **colchicine** (ACR: **1.2 mg once, then 0.6 mg 1 h later**)
+OR **corticosteroid**. **Long-term urate-lowering** (recurrent attacks/tophi/stones): **allopurinol** (titrate
+to **urate <6 mg/dL**) or febuxostat — **don't start/stop during an acute attack without cover**; co-prescribe
+NSAID/colchicine prophylaxis on initiation. Reduce alcohol, lose weight, hydrate.
+
+**✏️ Tabulate** — [ ] gout vs pseudogout (CPPD): crystal shape, birefringence, joint, X-ray
+**📚 Learn it:** Harrison's *Gout and Other Crystal-Associated Arthropathies* · Davidson's *Crystal arthropathies*.
+
+---
+
+## 5. Acid-base physiology · *Basic Sciences — Paper I floor (interleave)*
+
+> **Q (5m).** Write a short note on acid-base balance and the classification of its disorders.
+
+**Normal values *(1m)*** — Arterial **pH 7.35–7.45**, **PaCO₂ 35–45 mmHg**, **HCO₃⁻ 22–26 mmol/L**; acidaemia
+<7.35, alkalaemia >7.45.
+**Buffering / regulation *(1m)*** — Main buffer **bicarbonate–carbonic acid** (CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ +
+HCO₃⁻); **lungs** adjust CO₂ (fast), **kidneys** adjust HCO₃⁻ / excrete H⁺ (slow).
+**Four primary disorders *(1½m)*** — **Metabolic acidosis** (↓HCO₃⁻ — DKA, lactic, renal failure, diarrhoea) ·
+**metabolic alkalosis** (↑HCO₃⁻ — vomiting, diuretics) · **respiratory acidosis** (↑CO₂ — hypoventilation/COPD)
+· **respiratory alkalosis** (↓CO₂ — hyperventilation).
+**Anion gap *(1m)*** — **AG = Na⁺ − (Cl⁻ + HCO₃⁻)**, normal **8–12**; **high-AG** = added acid ("MUDPILES");
+**normal-AG** = HCO₃⁻ loss (diarrhoea, RTA).
+**Compensation pearl *(½m)*** — The body **partially** compensates (lungs for metabolic, kidneys for
+respiratory) but **never overcorrects** past normal pH.
+
+**✏️ Tabulate** — [ ] disorder · primary change · expected compensation
+**📚 Learn it:** Ganong's *Regulation of ECF pH* · Harrison's *Acidosis & Alkalosis*.
+
+---
+
+*That's the epilepsy essay + four short notes spanning Neurology, Respiratory, Rheumatology and Basic Sciences
+— four papers touched in one day. Next anchor days roll Neurology → Cardiology while these systems resurface
+for spaced recall.*

@@ -30,7 +30,7 @@ Two milestones: a full-format **prelim** (internal 4-paper mock) and the **final
 
 | Phase | Days / dates | Notes |
 |---|---|---|
-| Build A/B/C — new Tier-1 systems | **Day 1–32 · 24 Jun → 25 Jul** | weekday `laq-set`; **Sundays = `paper-mock`** (gentle → 1 paper → 2 papers) |
+| Build A/B/C — new content (interleaved) | **Day 1–32 · 24 Jun → 25 Jul** | weekday `laq-set` = **2 anchor + 3 interleave** (rotating anchor: Neuro → … → ID); **Sundays = `paper-mock`** (gentle → 1 paper → 2 papers) |
 | Last new-Tier-1 day | **Fri 25 Jul (Day 32)** | all new high-yield systems banked by here |
 | **PRELIM** — full 4×100 mock | **Mon 27 Jul (Day 34)** | graded like any mock; its results re-rank the weak systems |
 | Targeted push (prelim-weak) | **Day 36–49 · 29 Jul → 11 Aug** | no new content — strengthen exposed weak spots; Sunday weak-paper mocks |
@@ -39,11 +39,13 @@ Two milestones: a full-format **prelim** (internal 4-paper mock) and the **final
 
 ## Sequencing
 
-Honour Mitsu's priority — **Neurology first** (her #1) — then by weightage:
-**Neuro → Cardio → Endo → Nephro → Resp → GI → Infectious Disease** (Tier 1), sprinkling **Tier 2**
-(Haem/Onc, Rheumatology, Critical care) and weaving in the **Paper I (Basic Sciences) and Paper IV (Recent
-Advances) floor sets** so no paper is left at zero. A loose day-by-day skeleton is planned for runway safety,
-but each day's files are **built day-of** so they adapt to yesterday's results.
+Days are **interleaved, never single-system**: each weekday = **2 from the day's anchor + 3 from a rotating
+mix of other systems**. The anchor follows Mitsu's priority — **Neurology first** (her #1), then rotating by
+weightage **Cardio → Endo → Nephro → Resp → GI → Infectious Disease** (Tier 1) as each is introduced — while
+the 3 interleaved slots keep high-yield Tier-1 dominant, **sprinkle Tier 2** (Haem/Onc, Rheumatology, Critical
+care) and **weave in the Paper I (Basic Sciences) and Paper IV (Recent Advances) floor sets** so no paper is
+left at zero. A loose day-by-day skeleton is planned for runway safety, but each day's files are **built
+day-of** so they adapt to yesterday's results.
 
 ## The daily loop
 
@@ -57,7 +59,7 @@ but each day's files are **built day-of** so they adapt to yesterday's results.
    Clinical features → Investigations → Management), a "what to draw / tabulate" checklist, and cited sources —
    plus a **⚠ verify-before-mugging** flag while the system is unverified. **It never authors lessons.**
 2. **Test file** (`test.md`) + a **frozen per-question rubric** (`rubric.md`), generated together. `laq-set`
-   on weekdays (~1–2 LAQs + short notes, ~25–35 marks); `paper-mock` Sundays; the `prelim` is the full 4×100.
+   on weekdays (**2 anchor + 3 interleave across ≥3 systems**, ~35–45 marks); `paper-mock` Sundays; the `prelim` is the full 4×100.
 3. She studies, then writes the test **by hand on paper** (real exam conditions).
 4. She photographs the answer sheets → images into `daily/NN-YYYY-MM-DD/submission/`.
 5. **Evaluation** grades the images against the **frozen rubric** (block step-marking) → writes `results.md`
@@ -73,7 +75,7 @@ but each day's files are **built day-of** so they adapt to yesterday's results.
 - **Mastery labels:** Weak < 40% · Shaky 40–65% · Solid 65–85% · Mastered > 85% (recency-smoothed over the last
   two attempts).
 - **Selection = agentic within a written spacing policy** (in the skill): Weak resurfaces ≤ 2 days · Shaky 3–4 ·
-  Solid ~6 · Mastered ~10 / in mocks. A weekday set ≈ 1–2 new LAQs + 3–5 short notes + 2–3 due/spot-checks.
+  Solid ~6 · Mastered ~10 / in mocks. A weekday set ≈ **2 anchor + 3 interleave** (≥3 systems, ≤2 LAQs) + 2–3 due/spot-checks.
 - **Projection = per paper, then a two-constraint gate:** roll per-system mastery into each paper (out of 100),
   then require **aggregate ≥ 50% AND every paper ≥ 40%**. The dashboard names the binding constraint (e.g.
   "Paper III below the 40% floor") rather than hiding a failing paper inside an average.
