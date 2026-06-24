@@ -5,8 +5,8 @@ description: Use to start one study day — read tracker.json, select today's qu
 
 # daily-prep
 
-Pick today's set (1–2 new LAQs + short notes + due/recall), **record it in the tracker**, and write a
-self-contained `learning.md`. The recorded set is the contract `daily-test` reads — prep is the *only* selector.
+Pick today's set (~2 new LAQs + ~3 short notes + due/recall ≈ **5 new**), **record it in the tracker**, and
+write a self-contained `learning.md`. The recorded set is the contract `daily-test` reads — prep is the *only* selector.
 
 Schema and IDs: see [`seed-tracker`](../seed-tracker/SKILL.md). Read the whole `tracker.json` each run — it is
 the accumulated memory of every test, so selection spans all history, not just yesterday.
@@ -43,9 +43,11 @@ in mocks). **Eligible-new** = `must_introduce` rows with `label:"unseen"`.
 
 A medicine LAQ is a heavy writing unit, so cap by **answer load**, not question count:
 
-- **`laq-set` (weekday):** ~**1–2 new LAQs + 3–5 short notes (SAQ/crit) + 2–3 due/spot-check recalls**;
-  `target_marks` ≈ **25–35**. **Cap 2 LAQs/day** (an LAQ is the heavy item — the analogue of physics's
-  derivation cap). Spot-check = a random Solid/Mastered, anti-decay.
+- **`laq-set` (weekday):** ~**2 new LAQs + ~3 short notes (SAQ/crit) — about 5 new — + 2–3 due/spot-check
+  recalls**; `target_marks` ≈ **35–45**. **Cap 2 LAQs/day** (an LAQ is the heavy item — the analogue of
+  physics's derivation cap). **~5 new/day is the load-bearing pace:** it covers the full ~130-question bank
+  across the ~28 new-content days before the prelim; dropping to ~4 leaves a ~20-question tail. Spot-check =
+  a random Solid/Mastered, anti-decay.
 - **`paper-mock` (Sunday):** **no new Tier-1.** Compose from due + already-covered to fill the day's target;
   size ramps (1 paper = 100 → 2 papers) per the table. Lighter learning file (it's a review/test day).
 - **`prelim` (Day 35):** **no new.** All four papers; every covered system represented (see daily-test).
@@ -112,7 +114,7 @@ For any `reteach[]` item, repeat its muggable answer + a one-line note on the mi
 targeted reference. Keep due/spot-check items to a one-line "revise: …" pointer. Math in `$…$`/`$$…$$`.
 
 ## Self-check before finishing
-- mode + new-Tier-1 rule match the calendar; **LAQ cap (≤2) respected**; every selected ID exists.
+- mode + new-Tier-1 rule match the calendar; **≈5 new items on a `laq-set` day, LAQ cap (≤2) respected**; every selected ID exists.
 - `current_selection.date` == the resolved day; `learning.md` written with valid front-matter.
 - unverified-system items carry the verify-before-mugging flag.
 - Do **not** create `test.md`/`rubric.md` — that's `daily-test`.

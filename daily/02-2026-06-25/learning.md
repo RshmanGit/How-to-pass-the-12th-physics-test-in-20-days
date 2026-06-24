@@ -1,46 +1,71 @@
 ---
 date: 2026-06-25
 dayIndex: 2
-title: "Myasthenia, dementia, CNS TB & status epilepticus"
+title: "Epilepsy, GBS & the can't-miss neuro emergencies"
 systems: ["Neurology"]
 ---
 
-# Day 2 — neuromuscular + the can't-miss emergencies ⚡
+# Day 2 — two more essays + the emergency algorithms ⚡
 
-> 🧪 **Demo day. ⚠ Verify before mugging.** Today ≈ **25 marks**: 1 long answer + 3 short notes. In a real
-> run, anything you got wrong on Day 1 would also reappear here automatically.
-
----
-
-## 1. Myasthenia gravis
-
-> **Q (10m).** Discuss the aetiopathogenesis, clinical features, investigations and management of myasthenia
-> gravis, including myasthenic crisis.
-
-**Definition *(1m)*** — Autoimmune disorder of the **neuromuscular junction** → **fatigable** skeletal-muscle
-weakness (worse with activity, better with rest).
-**Aetiopathogenesis *(2m)*** — **Anti-AChR antibodies (~85%)** (subset **anti-MuSK**) → receptor blockade +
-complement-mediated destruction → transmission failure. Strong **thymic association** (hyperplasia common;
-**thymoma ~10–15%**).
-**Clinical features *(2m)*** — Fatigable weakness worsening through the day; **ocular onset** (ptosis,
-diplopia); **bulbar** (dysarthria, dysphagia); facial/neck/proximal limb. **Reflexes & sensation normal**,
-no autonomic involvement. **Myasthenic crisis** = respiratory-muscle weakness → respiratory failure.
-**Investigations *(2m)*** — **Anti-AChR** (specific), anti-MuSK if negative; **repetitive nerve stimulation →
-decremental response**, single-fibre EMG most sensitive; ice-pack test; **CT/MRI thorax for thymoma**; TFTs.
-**Management *(3m)*** — **Pyridostigmine** (symptomatic, first-line) · **corticosteroids + steroid-sparing**
-(azathioprine/mycophenolate), rituximab for refractory/MuSK · **thymectomy** (thymoma; selected AChR+) ·
-**crisis:** ICU, monitor **FVC**, ventilate if failing, **IVIG or plasma exchange**, treat trigger (avoid
-aminoglycosides).
-
-**✏️ What to draw / tabulate**
-- [ ] Diagram — **neuromuscular junction** with anti-AChR site of action
-- [ ] Table — **MG vs Lambert-Eaton** (antibody, fatigue vs facilitation, association)
-
-**📚 Learn it:** Harrison's — *Myasthenia Gravis & NMJ Diseases* · Davidson's — *NMJ disorders* · API.
+> 🧪 **Demo day. ⚠ Verify before mugging.** Today ≈ **40 marks**: 2 long answers + 3 short notes. In a real
+> run, anything you slipped on yesterday would also reappear here automatically.
 
 ---
 
-## 2. Dementia
+## 1. Epilepsy & status epilepticus
+
+> **Q (15m).** Classify seizure disorders. Discuss the approach to a patient with seizures and outline the
+> management of status epilepticus.
+
+**Definition *(1m)*** — A **seizure** = transient signs/symptoms from abnormal excessive/synchronous neuronal
+activity; **epilepsy** = enduring predisposition to recurrent unprovoked seizures (≥2 unprovoked >24 h apart,
+or 1 with high recurrence risk).
+**Classification — ILAE *(3m)*** — By **onset**: **focal** (aware vs impaired awareness; motor/non-motor; ±
+evolution to bilateral tonic-clonic) · **generalised** (tonic-clonic, absence, myoclonic, tonic, atonic) ·
+**unknown**. Also by **aetiology** (structural, genetic, infectious, metabolic, immune, unknown).
+**Clinical approach *(3m)*** — **Eyewitness history** (aura, tongue-biting, incontinence, post-ictal
+confusion → favours seizure over syncope) · identify **provoked vs unprovoked** (fever, alcohol withdrawal,
+hypoglycaemia, hyponatraemia, drugs, sleep deprivation) · examine for focal deficit / raised ICP.
+**Investigations *(3m)*** — **EEG** (supports/classifies; normal EEG doesn't exclude) · **MRI brain** for a
+structural cause · bloods (glucose, Na/Ca/Mg, renal/liver, toxicology); LP if CNS infection suspected.
+**Management *(5m)*** —
+- **Chronic epilepsy:** start an AED **after a 2nd unprovoked seizure (or 1st if high-risk)**; by type —
+  focal: levetiracetam/lamotrigine/carbamazepine; generalised: valproate (avoid in women of child-bearing
+  age), lamotrigine, levetiracetam. **Monotherapy first**, titrate; counsel adherence/driving/pregnancy.
+- **Status epilepticus (mark-magnet)** — seizure ≥5 min or repeated without recovery: **ABC + glucose** →
+  **Step 1 lorazepam 0.1 mg/kg (≈4 mg)** IV, repeat once → **Step 2 (per ESETT)** levetiracetam 60 mg/kg /
+  valproate 40 mg/kg / (fos)phenytoin 20 mg/kg PE → **Step 3 refractory**: intubate + GA (midazolam/
+  propofol/thiopentone) + EEG. Treat the precipitant.
+
+**✏️ Draw / tabulate** — [ ] ILAE classification table · [ ] status-epilepticus timeline flowchart
+**📚 Learn it:** Harrison's *Seizures & Epilepsy* · Davidson's *Epilepsy* · API *Epilepsy*.
+
+---
+
+## 2. Guillain-Barré syndrome
+
+> **Q (10m).** Discuss the aetiopathogenesis, clinical features, investigations and management of GBS.
+
+**Definition *(1m)*** — Acute, immune-mediated **inflammatory demyelinating polyradiculoneuropathy** →
+**ascending, areflexic, symmetrical flaccid paralysis**, monophasic, nadir <4 weeks.
+**Aetiopathogenesis *(2m)*** — **Post-infectious autoimmune** (antecedent infection ~⅔ — classically
+*Campylobacter jejuni*; also CMV, EBV, Mycoplasma, Zika); **molecular mimicry** (anti-GM1; anti-GQ1b in
+Miller-Fisher) → demyelination ± axonal damage. Subtypes: **AIDP** (commonest), AMAN/AMSAN, Miller-Fisher.
+**Clinical features *(2m)*** — Ascending symmetrical weakness (legs→arms) + **areflexia**, mild sensory,
+back/limb pain; cranial/bulbar; **Miller-Fisher triad** (ophthalmoplegia + ataxia + areflexia). **Dangerous:**
+respiratory failure + **autonomic dysfunction** — leading causes of death.
+**Investigations *(2m)*** — **CSF albuminocytological dissociation** (high protein, normal cells); **NCS**
+demyelinating; **serial FVC**; anti-ganglioside antibodies.
+**Management *(3m)*** — **Monitoring/supportive (life-saving):** admit, **serial FVC — ventilate if
+<15 mL/kg**, cardiac monitoring, VTE prophylaxis · **IVIG 0.4 g/kg/day × 5 days OR plasma exchange** (equally
+effective, **don't combine**; **steroids NOT effective**) · prognosis: most recover over weeks–months.
+
+**✏️ Draw / tabulate** — [ ] GBS subtypes table · [ ] acute-management flowchart (admit → FVC → IVIG/PLEX → ICU)
+**📚 Learn it:** Harrison's *GBS & Immune-Mediated Neuropathies* · Davidson's *Peripheral nerve disorders* · API.
+
+---
+
+## 3. Dementia
 
 > **Q (5m).** Write a short note on dementia.
 
@@ -53,11 +78,11 @@ reversible mimics — B12 deficiency, hypothyroidism, NPH, depression ("pseudode
 **Management *(1m)*** — Treat reversible causes; **cholinesterase inhibitors** (donepezil etc.) for
 Alzheimer's, **memantine** in moderate-severe; behavioural management + caregiver support.
 
-**✏️ Tabulate:** [ ] Alzheimer's vs vascular vs Lewy-body vs frontotemporal
+**✏️ Tabulate** — [ ] Alzheimer's vs vascular vs Lewy-body vs frontotemporal
 
 ---
 
-## 3. CNS tuberculosis (tuberculous meningitis)
+## 4. CNS tuberculosis (tuberculous meningitis)
 
 > **Q (5m).** Write a short note on tuberculous meningitis (CNS TB).
 
@@ -70,27 +95,26 @@ Alzheimer's, **memantine** in moderate-severe; behavioural management + caregive
 **Management *(1½m)*** — **ATT (RIPE**, extended continuation, ~9–12 months total) **+ adjunctive
 dexamethasone (tapered over 6–8 weeks)**; manage hydrocephalus.
 
-**✏️ Tabulate:** [ ] CSF in **TB vs bacterial vs viral** meningitis (cells, protein, glucose)
+**✏️ Tabulate** — [ ] CSF in **TB vs bacterial vs viral** meningitis
 
 ---
 
-## 4. Status epilepticus — the time-critical algorithm
+## 5. Status epilepticus — the standalone short-note version
 
 > **Q (5m).** Write a short note on the management of status epilepticus.
+> *(Same algorithm as the Epilepsy essay's emergency block — it recurs as its own short note, so drill it
+> until it's automatic.)*
 
-**Definition *(1m)*** — A seizure ≥ **5 minutes**, or ≥2 seizures without recovery between them — a
-neurological emergency.
+**Definition *(1m)*** — Seizure ≥ **5 min**, or ≥2 seizures without recovery between them — an emergency.
 **Immediate *(1m)*** — **ABC**, oxygen, IV access, monitor; **check glucose** (+ thiamine if low); bloods.
-**Stepwise drugs *(2m)*** —
-- **Step 1 — benzodiazepine:** IV **lorazepam 0.1 mg/kg (≈4 mg)**, repeat once.
-- **Step 2 — second-line AED (doses differ, per ESETT):** **levetiracetam 60 mg/kg** / **valproate
-  40 mg/kg** / **(fos)phenytoin 20 mg/kg PE**.
-- **Step 3 — refractory:** intubate + **general anaesthesia** (midazolam/propofol/thiopentone), ICU + EEG.
-
+**Stepwise drugs *(2m)*** — **Step 1** IV **lorazepam 0.1 mg/kg (≈4 mg)**, repeat once → **Step 2 (ESETT
+doses differ):** **levetiracetam 60 mg/kg** / **valproate 40 mg/kg** / **(fos)phenytoin 20 mg/kg PE** →
+**Step 3 refractory:** intubate + GA + ICU/EEG.
 **Always treat the precipitant *(1m)*** — infection, withdrawal, metabolic, non-adherence.
 
-**✏️ Tabulate:** [ ] Timeline flowchart (0–5 min → benzo → 2nd agent → anaesthesia)
+**✏️ Tabulate** — [ ] Timeline flowchart (0–5 min → benzo → 2nd agent → anaesthesia)
 
 ---
 
-*That's Neurology's flagships covered. Next systems by priority: Cardiology → Endocrinology → Nephrology …*
+*That's 10 of Neurology's 11 questions covered in two days (Parkinson's is Day 3). Next systems by priority:
+Cardiology → Endocrinology → Nephrology …*

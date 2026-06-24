@@ -110,8 +110,8 @@
     }
   },
   "current_selection": {
-    "date": "2026-06-24", "day_index": 1, "mode": "laq-set", "target_marks": 30,
-    "new": ["sys01-laq-q1", "sys01-saq-q1", "sys01-crit-q1", "sys01-crit-q2"],
+    "date": "2026-06-24", "day_index": 1, "mode": "laq-set", "target_marks": 40,
+    "new": ["sys01-laq-q1", "sys01-laq-q3", "sys01-saq-q1", "sys01-crit-q1", "sys01-crit-q2"],
     "due": [], "spot_check": [], "reteach": []
   },
   "questions": {
